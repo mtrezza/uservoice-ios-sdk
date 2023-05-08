@@ -452,7 +452,7 @@
     NSArray *constraints;
 
     UIView *footer = [UIView new];
-    footer.backgroundColor = [UIColor colorWithRed:0.97f green:0.97f blue:0.97f alpha:1.0f];
+    footer.backgroundColor = [UIColor secondarySystemBackgroundColor];
     UIView *border = [UIView new];
     border.backgroundColor = [UIColor colorWithRed:0.85f green:0.85f blue:0.85f alpha:1.0f];
     UIView *bg = [UIView new];

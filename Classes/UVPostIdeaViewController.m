@@ -60,7 +60,7 @@
     sep.backgroundColor = [UIColor colorWithRed:0.85f green:0.85f blue:0.85f alpha:1.f];
 
     UIView *bg = [UIView new];
-    bg.backgroundColor = [UIColor colorWithRed:0.937f green:0.937f blue:0.957f alpha:1.f];
+    bg.backgroundColor = [UIColor secondarySystemBackgroundColor];
 
     UILabel *desc = [UILabel new];
     desc.backgroundColor = [UIColor clearColor];
