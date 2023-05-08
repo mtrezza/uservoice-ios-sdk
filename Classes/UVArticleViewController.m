@@ -29,6 +29,8 @@
 
     CGFloat footerHeight = 46;
     _webView = [WKWebView new];
+    _webView.opaque = NO;
+    _webView.backgroundColor = [UIColor clearColor];
     _webView.navigationDelegate = self;
     NSString *section = _article.topicName ? [NSString stringWithFormat:@"%@ / %@", NSLocalizedStringFromTableInBundle(@"Knowledge Base", @"UserVoice", [UserVoice bundle], nil), _article.topicName] : NSLocalizedStringFromTableInBundle(@"Knowledge base", @"UserVoice", [UserVoice bundle], nil);
     NSString *linkColor;
