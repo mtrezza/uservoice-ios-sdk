@@ -127,7 +127,6 @@
 }
 
 - (void)initCellForSuggestion:(UITableViewCell *)cell finalCondition:(BOOL)final {
-    cell.backgroundColor = [UIColor whiteColor];
     cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     if (IOS7) {
         cell.separatorInset = UIEdgeInsetsMake(0, 58, 0, 0);
@@ -183,7 +182,6 @@
 }
 
 - (void)initCellForArticle:(UITableViewCell *)cell finalCondition:(BOOL)final {
-    cell.backgroundColor = [UIColor whiteColor];
     cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     if (IOS7) {
         cell.separatorInset = UIEdgeInsetsMake(0, 58, 0, 0);

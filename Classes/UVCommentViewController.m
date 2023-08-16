@@ -97,7 +97,11 @@
     self.navigationItem.title = NSLocalizedStringFromTableInBundle(@"Add a comment", @"UserVoice", [UserVoice bundle], nil);
     UIView *view = [UIView new];
     view.frame = [self contentFrame];
-    view.backgroundColor = [UIColor whiteColor];
+    if (@available(iOS 13.0, *)) {
+        view.backgroundColor = [UIColor systemBackgroundColor];
+    } else {
+        view.backgroundColor = [UIColor whiteColor];
+    }
 
     _fieldsView = [UVTextWithFieldsView new];
     _fieldsView.textView.placeholder = NSLocalizedStringFromTableInBundle(@"Write a comment...", @"UserVoice", [UserVoice bundle], nil);

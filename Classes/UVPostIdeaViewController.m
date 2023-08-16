@@ -28,7 +28,11 @@
 
 - (void)loadView {
     UIView *view = [UIView new];
-    view.backgroundColor = [UIColor whiteColor];
+    if (@available(iOS 13.0, *)) {
+        view.backgroundColor = [UIColor systemBackgroundColor];
+    } else {
+        view.backgroundColor = [UIColor whiteColor];
+    }
     view.frame = [self contentFrame];
     _instantAnswerManager = [UVInstantAnswerManager new];
     _instantAnswerManager.delegate = self;
