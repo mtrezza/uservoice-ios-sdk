@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 48;
+	objectVersion = 53;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -1040,7 +1040,8 @@
 		0867D690FE84028FC02AAC07 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0910;
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
 				ORGANIZATIONNAME = "UserVoice Inc";
 				TargetAttributes = {
 					D36839F31C77464C0036064E = {
@@ -1050,13 +1051,9 @@
 			};
 			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "UserVoice" */;
 			compatibilityVersion = "Xcode 8.0";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 1;
 			knownRegions = (
-				English,
-				Japanese,
-				French,
-				German,
 				en,
 				fr,
 				it,
@@ -1064,6 +1061,8 @@
 				"zh-Hant",
 				de,
 				lt,
+				ja,
+				Base,
 			);
 			mainGroup = 0867D691FE84028FC02AAC07 /* UserVoice */;
 			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
@@ -1334,7 +1333,7 @@
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				HEADER_SEARCH_PATHS = Include;
 				INSTALL_PATH = /usr/local/lib;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/Vendor/HTTPRiot/Vendor/gh-unit-iphone\"",
@@ -1345,7 +1344,11 @@
 				PRODUCT_NAME = UserVoice;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				USER_HEADER_SEARCH_PATHS = "Vendor/JSON/** Vendor/HTTPRiot/** Vendor/YOAuth/**";
+				USER_HEADER_SEARCH_PATHS = (
+					"Vendor/JSON/**",
+					"Vendor/HTTPRiot/**",
+					"Vendor/YOAuth/**",
+				);
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = USERVOICE;
 			};
@@ -1395,7 +1398,7 @@
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				HEADER_SEARCH_PATHS = Include;
 				INSTALL_PATH = /usr/local/lib;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/Vendor/HTTPRiot/Vendor/gh-unit-iphone\"",
@@ -1405,7 +1408,11 @@
 				PRODUCT_NAME = UserVoice;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				USER_HEADER_SEARCH_PATHS = "Vendor/JSON/** Vendor/HTTPRiot/** Vendor/YOAuth/**";
+				USER_HEADER_SEARCH_PATHS = (
+					"Vendor/JSON/**",
+					"Vendor/HTTPRiot/**",
+					"Vendor/YOAuth/**",
+				);
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = USERVOICE;
 			};
@@ -1419,10 +1426,13 @@
 				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_OBJC_IMPLICIT_ATOMIC_PROPERTIES = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_MISSING_PROPERTY_SYNTHESIS = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
@@ -1445,7 +1455,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "";
 				SDKROOT = iphoneos;
@@ -1461,10 +1471,13 @@
 				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_OBJC_IMPLICIT_ATOMIC_PROPERTIES = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_MISSING_PROPERTY_SYNTHESIS = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
@@ -1485,7 +1498,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				OTHER_LDFLAGS = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -1508,7 +1521,7 @@
 				CLANG_WARN_OBJC_MISSING_PROPERTY_SYNTHESIS = NO;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CODE_SIGN_IDENTITY = "";
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -1516,6 +1529,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -1532,8 +1546,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = NO;
 				INFOPLIST_FILE = UserVoiceSDK/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu99 gnu++11";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.uservoice.UserVoiceSDK;
 				PRODUCT_MODULE_NAME = UserVoice;
@@ -1561,7 +1581,7 @@
 				CLANG_WARN_OBJC_MISSING_PROPERTY_SYNTHESIS = NO;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CODE_SIGN_IDENTITY = "";
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -1569,6 +1589,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -1580,8 +1601,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = NO;
 				INFOPLIST_FILE = UserVoiceSDK/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu99 gnu++11";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.uservoice.UserVoiceSDK;
 				PRODUCT_MODULE_NAME = UserVoice;
@@ -1610,7 +1637,7 @@
 				CLANG_WARN_OBJC_MISSING_PROPERTY_SYNTHESIS = NO;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CODE_SIGN_IDENTITY = "";
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -1618,6 +1645,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -1629,8 +1657,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = NO;
 				INFOPLIST_FILE = UserVoiceSDK/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu99 gnu++11";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.uservoice.UserVoiceSDK;
 				PRODUCT_MODULE_NAME = UserVoice;
@@ -1651,10 +1685,13 @@
 				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_OBJC_IMPLICIT_ATOMIC_PROPERTIES = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_MISSING_PROPERTY_SYNTHESIS = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
@@ -1675,7 +1712,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				OTHER_LDFLAGS = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -1726,7 +1763,7 @@
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				HEADER_SEARCH_PATHS = Include;
 				INSTALL_PATH = /usr/local/lib;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/Vendor/HTTPRiot/Vendor/gh-unit-iphone\"",
@@ -1736,7 +1773,11 @@
 				PRODUCT_NAME = UserVoice;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				USER_HEADER_SEARCH_PATHS = "Vendor/JSON/** Vendor/HTTPRiot/** Vendor/YOAuth/**";
+				USER_HEADER_SEARCH_PATHS = (
+					"Vendor/JSON/**",
+					"Vendor/HTTPRiot/**",
+					"Vendor/YOAuth/**",
+				);
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = USERVOICE;
 			};

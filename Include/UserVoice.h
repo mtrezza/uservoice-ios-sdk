@@ -7,10 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "UVStyleSheet.h"
-#import "UVDelegate.h"
-#import "UVConfig.h"
-#import "UVStyleSheet.h"
+#import <UserVoice/UVStyleSheet.h>
+#import <UserVoice/UVDelegate.h>
+#import <UserVoice/UVConfig.h>
+#import <UserVoice/UVStyleSheet.h>
+#import <UserVoice/UserVoiceSDK.h>
 
 @interface UserVoice : NSObject 
 

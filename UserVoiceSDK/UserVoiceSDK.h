@@ -16,4 +16,4 @@ FOUNDATION_EXPORT const unsigned char UserVoiceSDKVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <UserVoiceSDK/PublicHeader.h>
 
-#import "UserVoice.h"
+#import <UserVoice/UserVoice.h>
