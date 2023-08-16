@@ -53,7 +53,7 @@
     _webView.scrollView.scrollIndicatorInsets = UIEdgeInsetsMake(0, 0, footerHeight, 0);
 
     UIView *footer = [UIView new];
-    footer.backgroundColor = [UIColor colorWithRed:0.97f green:0.97f blue:0.97f alpha:1.0f];
+    footer.backgroundColor = [[UIColor blackColor] colorWithAlphaComponent:0.1];
     UIView *bg = [UIView new];
     bg.backgroundColor = footer.backgroundColor;
     bg.translatesAutoresizingMaskIntoConstraints = NO;
