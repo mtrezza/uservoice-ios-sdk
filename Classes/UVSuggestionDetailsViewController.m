@@ -117,7 +117,7 @@
         if (_suggestion.subscriberCount == 1) {
             _subscriberCount.text = NSLocalizedStringFromTableInBundle(@"1 person", @"UserVoice", [UserVoice bundle], nil);
         } else {
-            _subscriberCount.text = [NSString stringWithFormat:NSLocalizedStringFromTableInBundle(@"%d people", @"UserVoice", [UserVoice bundle], nil), _suggestion.subscriberCount];
+            _subscriberCount.text = [NSString stringWithFormat:NSLocalizedStringFromTableInBundle(@"%ld people", @"UserVoice", [UserVoice bundle], nil), (long)_suggestion.subscriberCount];
         }
     }
 }
