@@ -164,14 +164,12 @@ static const char encodingTable[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopq
 
 + (void)applyStylesheetToNavigationController:(UINavigationController *)navigationController {
     UVStyleSheet *styles = [UVStyleSheet instance];
-    if (IOS7) {
-        navigationController.navigationBar.tintColor = styles.navigationBarTintColor;
-        navigationController.navigationBar.barTintColor = styles.navigationBarBackgroundColor;
-    } else {
-        navigationController.navigationBar.tintColor = styles.navigationBarBackgroundColor;
-    }
+    navigationController.navigationBar.tintColor = styles.navigationBarTintColor;
+    navigationController.navigationBar.barTintColor = styles.navigationBarTintColor;
     navigationController.navigationBar.translucent = styles.navigationBarTranslucency;
+    navigationController.navigationBar.backgroundColor = styles.navigationBarBackgroundColor;
     [navigationController.navigationBar setBackgroundImage:styles.navigationBarBackgroundImage forBarMetrics:UIBarMetricsDefault];
+    
     NSMutableDictionary *navbarTitleTextAttributes = [[NSMutableDictionary alloc] initWithDictionary:navigationController.navigationBar.titleTextAttributes];
     if (styles.navigationBarTextColor) {
         [navbarTitleTextAttributes setObject:styles.navigationBarTextColor forKey:NSForegroundColorAttributeName];
