@@ -1,8 +1,9 @@
 Distribution
 ------------
 
-To build for distribution, simply run `./build.sh`. It will create a fat binary
-for i386 & armv7, copy over the necessary resources, and make a tarball.
+To build for distribution, simply run `./build.sh`. It will create an XCFramework
+of the static library for devices and the simulator, copy over the necessary
+resources, and make a tarball.
 
 Development
 -----------
