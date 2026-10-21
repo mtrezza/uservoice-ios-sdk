@@ -198,12 +198,6 @@
 - (UIView *)poweredByView {
     UIView *power = [UIView new];
     power.frame = CGRectMake(0, 0, 0, 80);
-    UILabel *uv = [UILabel new];
-    uv.text = NSLocalizedStringFromTableInBundle(@"Powered by UserVoice", @"UserVoice", [UserVoice bundle], nil);
-    uv.font = [UIFont systemFontOfSize:13];
-    uv.textColor = [UIColor grayColor];
-    uv.backgroundColor = [UIColor clearColor];
-    uv.textAlignment = NSTextAlignmentCenter;
     UILabel *version = [UILabel new];
     version.text = [NSString stringWithFormat:@"iOS SDK v%@", [UserVoice version]];
     version.font = [UIFont systemFontOfSize:13];
@@ -211,8 +205,8 @@
     version.textAlignment = NSTextAlignmentCenter;
     version.backgroundColor = [UIColor clearColor];
     [self configureView:power
-               subviews:NSDictionaryOfVariableBindings(uv, version)
-            constraints:@[@"V:|-[uv]-[version]", @"|[uv]|", @"|[version]|"]];
+               subviews:NSDictionaryOfVariableBindings(version)
+            constraints:@[@"V:|-[version]", @"|[version]|"]];
     return power;
 }
 

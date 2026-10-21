@@ -39,18 +39,9 @@
     button.titleLabel.font = [UIFont systemFontOfSize:14];
     [button setTitle:NSLocalizedStringFromTableInBundle(@"Close", @"UserVoice", [UserVoice bundle], nil) forState:UIControlStateNormal];
     [button addTarget:self action:@selector(dismiss) forControlEvents:UIControlEventTouchUpInside];
-    UILabel *power = [UILabel new];
-    power.text = NSLocalizedStringFromTableInBundle(@"Powered by UserVoice", @"UserVoice", [UserVoice bundle], nil);
-    power.textColor = [UIColor grayColor];
-    power.font = [UIFont systemFontOfSize:13];
-    power.textAlignment = NSTextAlignmentCenter;
-    power.backgroundColor = [UIColor clearColor];
-    if ([UVSession currentSession].clientConfig.whiteLabel) {
-        power.hidden = YES;
-    }
     [self configureView:self.view
-               subviews:NSDictionaryOfVariableBindings(title, text, button, power)
-            constraints:@[@"|-[title]-|", @"|-40-[text]-40-|", @"[button(>=90)]", @"|-[power]-|", @"V:|-(>=20)-[title]-16-[text]-40-[button(==28)]-(>=40)-[power]-20-|"]];
+               subviews:NSDictionaryOfVariableBindings(title, text, button)
+            constraints:@[@"|-[title]-|", @"|-40-[text]-40-|", @"[button(>=90)]", @"V:|-(>=20)-[title]-16-[text]-40-[button(==28)]-(>=40)-|"]];
     NSLayoutConstraint *constraint = [NSLayoutConstraint constraintWithItem:title attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTop multiplier:1.0 constant:160];
     constraint.priority = UILayoutPriorityDefaultLow;
     [self.view addConstraint:constraint];
