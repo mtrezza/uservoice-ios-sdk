@@ -9,10 +9,10 @@
 #import <UIKit/UIKit.h>
 
 //! Project version number for UserVoiceSDK.
-FOUNDATION_EXPORT double UserVoiceSDKVersionNumber;
+FOUNDATION_EXPORT double UserVoiceVersionNumber;
 
 //! Project version string for UserVoiceSDK.
-FOUNDATION_EXPORT const unsigned char UserVoiceSDKVersionString[];
+FOUNDATION_EXPORT const unsigned char UserVoiceVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <UserVoiceSDK/PublicHeader.h>
 
