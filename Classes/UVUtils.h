@@ -35,6 +35,12 @@
 + (UIImageView *)imageViewWithImageNamed:(NSString *)name;
 
 /**
+ *  Presents an alert from the top-most view controller of the foreground scene's key window.
+ *  For callers that aren't view controllers themselves (e.g. UVSigninManager).
+ */
++ (void)presentAlertController:(UIAlertController *)alertController;
+
+/**
  *  Method used to calculate sizeWithFont for both iOS7+later (`sizeWithAttributes:`) and iOS6+earlier(`sizeWithFont:`)
  *
  *  @param font the font for the calculus

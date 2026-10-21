@@ -129,11 +129,13 @@
 }
 
 - (void)alertError:(NSString *)message {
-    [[[UIAlertView alloc] initWithTitle:NSLocalizedStringFromTableInBundle(@"Error", @"UserVoice", [UserVoice bundle], nil)
-                                message:message
-                               delegate:nil
-                      cancelButtonTitle:NSLocalizedStringFromTableInBundle(@"OK", @"UserVoice", [UserVoice bundle], nil)
-                      otherButtonTitles:nil] show];
+    UIAlertController *alert = [UIAlertController alertControllerWithTitle:NSLocalizedStringFromTableInBundle(@"Error", @"UserVoice", [UserVoice bundle], nil)
+                                                                   message:message
+                                                            preferredStyle:UIAlertControllerStyleAlert];
+    [alert addAction:[UIAlertAction actionWithTitle:NSLocalizedStringFromTableInBundle(@"OK", @"UserVoice", [UserVoice bundle], nil)
+                                              style:UIAlertActionStyleCancel
+                                            handler:nil]];
+    [UVUtils presentAlertController:alert];
 }
 
 - (void)didReceiveError:(NSError *)error {

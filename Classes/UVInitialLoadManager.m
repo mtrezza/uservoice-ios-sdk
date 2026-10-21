@@ -24,7 +24,7 @@
 #import "YOAuthUtil.h"
 
 @implementation UVInitialLoadManager {
-    UIAlertView *_errorAlertView;
+    UIAlertController *_errorAlert;
     BOOL _complete;
 }
 
@@ -181,10 +181,6 @@
     [self checkComplete];
 }
 
-- (void)alertView:(UIAlertView *)alertView didDismissWithButtonIndex:(NSInteger)buttonIndex {
-    [_delegate performSelector:@selector(dismiss)];
-}
-
 - (void)didReceiveError:(NSError *)error context:(UVRequestContext *)requestContext {
     if (_dismissed) return;
     NSString *message = nil;
@@ -208,22 +204,20 @@
         message = NSLocalizedStringFromTableInBundle(@"Sorry, there was an error in the application.", @"UserVoice", [UserVoice bundle], nil);
     }
     
-    if (_errorAlertView) {
+    if (_errorAlert) {
         return;
     }
-    
-    _errorAlertView = [[UIAlertView alloc] initWithTitle:NSLocalizedStringFromTableInBundle(@"Error", @"UserVoice", [UserVoice bundle], nil)
-                                                 message:message
-                                                delegate:self
-                                       cancelButtonTitle:nil
-                                       otherButtonTitles:NSLocalizedStringFromTableInBundle(@"OK", @"UserVoice", [UserVoice bundle], nil), nil];
-    [_errorAlertView show];
-}
 
-- (void)dealloc {
-    if (_errorAlertView) {
-        _errorAlertView.delegate = nil;
-    }
+    _errorAlert = [UIAlertController alertControllerWithTitle:NSLocalizedStringFromTableInBundle(@"Error", @"UserVoice", [UserVoice bundle], nil)
+                                                      message:message
+                                               preferredStyle:UIAlertControllerStyleAlert];
+    UVBaseViewController *delegate = _delegate;
+    [_errorAlert addAction:[UIAlertAction actionWithTitle:NSLocalizedStringFromTableInBundle(@"OK", @"UserVoice", [UserVoice bundle], nil)
+                                                    style:UIAlertActionStyleDefault
+                                                  handler:^(UIAlertAction *action) {
+        [delegate performSelector:@selector(dismiss)];
+    }]];
+    [UVUtils presentAlertController:_errorAlert];
 }
 
 

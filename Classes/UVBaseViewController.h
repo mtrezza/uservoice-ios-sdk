@@ -17,7 +17,7 @@
 
 // Base class for UserVoice content view controllers. Will handle things like
 // the search box, help bar, etc.
-@interface UVBaseViewController : UIViewController<UIAlertViewDelegate, UITextFieldDelegate, UVSigninManagerDelegate, UVModelDelegate> {
+@interface UVBaseViewController : UIViewController<UITextFieldDelegate, UVSigninManagerDelegate, UVModelDelegate> {
     BOOL _firstController;
     UITableView *_tableView;
     NSInteger _kbHeight;

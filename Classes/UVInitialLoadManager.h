@@ -12,7 +12,7 @@
 
 @class UVBaseViewController;
 
-@interface UVInitialLoadManager : NSObject<UIAlertViewDelegate, UVModelDelegate> {
+@interface UVInitialLoadManager : NSObject<UVModelDelegate> {
     UVBaseViewController *_delegate;
     SEL _action;
     BOOL _userDone;

@@ -270,5 +270,36 @@ static const char encodingTable[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopq
     return sizeWithFont;
 }
 
++ (void)presentAlertController:(UIAlertController *)alertController {
+    UIWindow *window = nil;
+    for (UIScene *scene in [UIApplication sharedApplication].connectedScenes) {
+        if (![scene isKindOfClass:[UIWindowScene class]]) {
+            continue;
+        }
+        UIWindow *keyWindow = ((UIWindowScene *)scene).keyWindow;
+        if (scene.activationState == UISceneActivationStateForegroundActive && keyWindow) {
+            window = keyWindow;
+            break;
+        }
+        if (!window) {
+            window = keyWindow;
+        }
+    }
+
+    UIViewController *presenter = window.rootViewController;
+    while (presenter.presentedViewController && !presenter.presentedViewController.isBeingDismissed) {
+        presenter = presenter.presentedViewController;
+    }
+    // UIKit drops a presentation that starts while another one is still animating, so wait for it to finish.
+    id<UIViewControllerTransitionCoordinator> coordinator = presenter.transitionCoordinator;
+    if (coordinator) {
+        [coordinator animateAlongsideTransition:nil completion:^(id<UIViewControllerTransitionCoordinatorContext> context) {
+            [UVUtils presentAlertController:alertController];
+        }];
+        return;
+    }
+    [presenter presentViewController:alertController animated:YES completion:nil];
+}
+
 
 @end

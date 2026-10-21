@@ -17,7 +17,7 @@
 #import <Foundation/NSRegularExpression.h>
 
 @interface UVSigninManager()
-@property (nonatomic, retain) UIAlertView *alertView;
+@property (nonatomic, retain) UIAlertController *alertController;
 @end
 
 
@@ -39,82 +39,76 @@
 }
 
 - (void)showEmailAlertView {
-    [self clearAlertViewDelegate];
-    
     _state = STATE_EMAIL;
 
-    _alertView = [UIAlertView new];
-    _alertView.title = NSLocalizedStringFromTableInBundle(@"Enter your email", @"UserVoice", [UserVoice bundle], nil);
-    _alertView.delegate = self;
-    if ([_alertView respondsToSelector:@selector(setAlertViewStyle:)])
-        _alertView.alertViewStyle = UIAlertViewStylePlainTextInput;
-    [_alertView addButtonWithTitle:NSLocalizedStringFromTableInBundle(@"Cancel", @"UserVoice", [UserVoice bundle], nil)];
-    [_alertView addButtonWithTitle:NSLocalizedStringFromTableInBundle(@"Done", @"UserVoice", [UserVoice bundle], nil)];
-    UITextField *textField = [_alertView textFieldAtIndex:0];
-    textField.keyboardType = UIKeyboardTypeEmailAddress;
-    textField.returnKeyType = UIReturnKeyDone;
-    textField.delegate = self;
-    [_alertView show];
-}
-
-- (void)clearAlertViewDelegate {
-    if (_alertView) {
-        _alertView.delegate = nil;
-    }
+    UIAlertController *alert = [UIAlertController alertControllerWithTitle:NSLocalizedStringFromTableInBundle(@"Enter your email", @"UserVoice", [UserVoice bundle], nil)
+                                                                   message:nil
+                                                            preferredStyle:UIAlertControllerStyleAlert];
+    [alert addTextFieldWithConfigurationHandler:^(UITextField *textField) {
+        textField.keyboardType = UIKeyboardTypeEmailAddress;
+        textField.returnKeyType = UIReturnKeyDone;
+        textField.delegate = self;
+    }];
+    [self addButtonsWithTitles:@[NSLocalizedStringFromTableInBundle(@"Cancel", @"UserVoice", [UserVoice bundle], nil), NSLocalizedStringFromTableInBundle(@"Done", @"UserVoice", [UserVoice bundle], nil)] toAlert:alert];
+    [self showAlert:alert];
 }
 
 - (void)showPasswordAlertView {
-    [self clearAlertViewDelegate];
-    
     _state = STATE_PASSWORD;
-    
-    _alertView = [UIAlertView new];
-    _alertView.title = [NSString stringWithFormat:NSLocalizedStringFromTableInBundle(@"Enter UserVoice password for %@", @"UserVoice", [UserVoice bundle], nil), _email];
-    _alertView.delegate = self;
-    
-    if ([_alertView respondsToSelector:@selector(setAlertViewStyle:)])
-        _alertView.alertViewStyle = UIAlertViewStyleSecureTextInput;
-    
-    [_alertView addButtonWithTitle:NSLocalizedStringFromTableInBundle(@"Cancel", @"UserVoice", [UserVoice bundle], nil)];
-    [_alertView addButtonWithTitle:NSLocalizedStringFromTableInBundle(@"Sign in", @"UserVoice", [UserVoice bundle], nil)];
-    
-    UITextField *textField = [_alertView textFieldAtIndex:0];
-    textField.returnKeyType = UIReturnKeyDone;
-    textField.delegate = self;
-    
-    [_alertView show];
+
+    UIAlertController *alert = [UIAlertController alertControllerWithTitle:[NSString stringWithFormat:NSLocalizedStringFromTableInBundle(@"Enter UserVoice password for %@", @"UserVoice", [UserVoice bundle], nil), _email]
+                                                                   message:nil
+                                                            preferredStyle:UIAlertControllerStyleAlert];
+    [alert addTextFieldWithConfigurationHandler:^(UITextField *textField) {
+        textField.secureTextEntry = YES;
+        textField.returnKeyType = UIReturnKeyDone;
+        textField.delegate = self;
+    }];
+    [self addButtonsWithTitles:@[NSLocalizedStringFromTableInBundle(@"Cancel", @"UserVoice", [UserVoice bundle], nil), NSLocalizedStringFromTableInBundle(@"Sign in", @"UserVoice", [UserVoice bundle], nil)] toAlert:alert];
+    [self showAlert:alert];
 }
 
 - (void)showFailedAlertView {
-    [self clearAlertViewDelegate];
-    
     _state = STATE_FAILED;
-    
-    _alertView = [UIAlertView new];
-    _alertView.title = NSLocalizedStringFromTableInBundle(@"There was a problem logging you in.", @"UserVoice", [UserVoice bundle], nil);
-    _alertView.delegate = self;
-    [_alertView addButtonWithTitle:NSLocalizedStringFromTableInBundle(@"Try again", @"UserVoice", [UserVoice bundle], nil)];
-    [_alertView addButtonWithTitle:NSLocalizedStringFromTableInBundle(@"Forgot password", @"UserVoice", [UserVoice bundle], nil)];
-    [_alertView addButtonWithTitle:NSLocalizedStringFromTableInBundle(@"Cancel", @"UserVoice", [UserVoice bundle], nil)];
-    [_alertView show];
+
+    UIAlertController *alert = [UIAlertController alertControllerWithTitle:NSLocalizedStringFromTableInBundle(@"There was a problem logging you in.", @"UserVoice", [UserVoice bundle], nil)
+                                                                   message:nil
+                                                            preferredStyle:UIAlertControllerStyleAlert];
+    [self addButtonsWithTitles:@[NSLocalizedStringFromTableInBundle(@"Try again", @"UserVoice", [UserVoice bundle], nil), NSLocalizedStringFromTableInBundle(@"Forgot password", @"UserVoice", [UserVoice bundle], nil), NSLocalizedStringFromTableInBundle(@"Cancel", @"UserVoice", [UserVoice bundle], nil)] toAlert:alert];
+    [self showAlert:alert];
 }
 
 - (void)showUnknownError {
-    [self clearAlertViewDelegate];
-    _alertView = [UIAlertView new];
-    _alertView.title = NSLocalizedStringFromTableInBundle(@"There was a problem logging you in.", @"UserVoice", [UserVoice bundle], nil);
-    [_alertView addButtonWithTitle:NSLocalizedStringFromTableInBundle(@"Done", @"UserVoice", [UserVoice bundle], nil)];
-    [_alertView show];
+    [self showMessageAlertWithTitle:NSLocalizedStringFromTableInBundle(@"There was a problem logging you in.", @"UserVoice", [UserVoice bundle], nil) buttonTitle:NSLocalizedStringFromTableInBundle(@"Done", @"UserVoice", [UserVoice bundle], nil)];
     [self invokeDidFail];
 }
 
 - (void)showEmailFormatError {
-    [self clearAlertViewDelegate];
-    _alertView = [UIAlertView new];
-    _alertView.title = NSLocalizedStringFromTableInBundle(@"Please enter a valid email address.", @"UserVoice", [UserVoice bundle], nil);
-    [_alertView addButtonWithTitle:NSLocalizedStringFromTableInBundle(@"Done", @"UserVoice", [UserVoice bundle], nil)];
-    [_alertView show];
+    [self showMessageAlertWithTitle:NSLocalizedStringFromTableInBundle(@"Please enter a valid email address.", @"UserVoice", [UserVoice bundle], nil) buttonTitle:NSLocalizedStringFromTableInBundle(@"Done", @"UserVoice", [UserVoice bundle], nil)];
     [self invokeDidFail];
+}
+
+/// Adds one action per title. Tapping one calls alertButtonTappedAtIndex: with its position, matching
+/// the button indexes the UIAlertView-based flow used.
+- (void)addButtonsWithTitles:(NSArray *)titles toAlert:(UIAlertController *)alert {
+    __weak UVSigninManager *weakSelf = self;
+    [titles enumerateObjectsUsingBlock:^(NSString *title, NSUInteger index, BOOL *stop) {
+        [alert addAction:[UIAlertAction actionWithTitle:title style:UIAlertActionStyleDefault handler:^(UIAlertAction *action) {
+            [weakSelf alertButtonTappedAtIndex:index];
+        }]];
+    }];
+}
+
+/// A single-button alert that only informs; tapping the button does nothing else.
+- (void)showMessageAlertWithTitle:(NSString *)title buttonTitle:(NSString *)buttonTitle {
+    UIAlertController *alert = [UIAlertController alertControllerWithTitle:title message:nil preferredStyle:UIAlertControllerStyleAlert];
+    [alert addAction:[UIAlertAction actionWithTitle:buttonTitle style:UIAlertActionStyleDefault handler:nil]];
+    [self showAlert:alert];
+}
+
+- (void)showAlert:(UIAlertController *)alert {
+    _alertController = alert;
+    [UVUtils presentAlertController:alert];
 }
 
 - (void)signInWithCallback:(UVCallback *)callback {
@@ -197,20 +191,16 @@
 }
 
 - (void)didSendForgotPassword:(id)obj {
-    [self clearAlertViewDelegate];
+    [self showMessageAlertWithTitle:[NSString stringWithFormat:NSLocalizedStringFromTableInBundle(@"Password reset email sent to %@", @"UserVoice", [UserVoice bundle], nil), _email]
+                        buttonTitle:NSLocalizedStringFromTableInBundle(@"OK", @"UserVoice", [UserVoice bundle], nil)];
 
-    _alertView = [UIAlertView new];
-    _alertView.title = [NSString stringWithFormat:NSLocalizedStringFromTableInBundle(@"Password reset email sent to %@", @"UserVoice", [UserVoice bundle], nil), _email];
-    [_alertView addButtonWithTitle:NSLocalizedStringFromTableInBundle(@"OK", @"UserVoice", [UserVoice bundle], nil)];
-    [_alertView show];
-    
     [self invokeDidFail];
 }
 
-- (void)alertView:(UIAlertView *)theAlertView willDismissWithButtonIndex:(NSInteger)buttonIndex {
+- (void)alertButtonTappedAtIndex:(NSInteger)buttonIndex {
     if (_state == STATE_EMAIL) {
         if (buttonIndex == 1) {
-            NSString *text = [_alertView textFieldAtIndex:0].text;
+            NSString *text = _alertController.textFields.firstObject.text;
             if (text.length == 0)
                 return;
 
@@ -219,7 +209,7 @@
         }
     } else if (_state == STATE_PASSWORD) {
         if (buttonIndex == 1) {
-            _password = [_alertView textFieldAtIndex:0].text;
+            _password = _alertController.textFields.firstObject.text;
             if ([UVSession currentSession].requestToken == nil) {
                 [UVRequestToken getRequestTokenWithDelegate:self];
             } else {
@@ -265,12 +255,12 @@
 }
 
 - (BOOL)textFieldShouldReturn:(UITextField *)textField {
-    [_alertView dismissWithClickedButtonIndex:1 animated:YES];
+    // Return acts as the alert's second button ("Done" / "Sign in").
+    __weak UVSigninManager *weakSelf = self;
+    [_alertController dismissViewControllerAnimated:YES completion:^{
+        [weakSelf alertButtonTappedAtIndex:1];
+    }];
     return YES;
-}
-
-- (void)dealloc {
-    [self clearAlertViewDelegate];
 }
 
 @end

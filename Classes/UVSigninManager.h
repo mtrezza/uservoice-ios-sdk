@@ -16,7 +16,7 @@
 
 @protocol UVSigninManagerDelegate;
 
-@interface UVSigninManager : NSObject<UITextFieldDelegate, UIAlertViewDelegate, UVModelDelegate>
+@interface UVSigninManager : NSObject<UITextFieldDelegate, UVModelDelegate>
 
 + (UVSigninManager *)manager;
 
