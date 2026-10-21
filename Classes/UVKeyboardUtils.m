@@ -51,7 +51,9 @@ static UVKeyboardUtils *sharedInstance;
 - (void)willShow:(NSNotification *)notification {
     if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad) {
         CGFloat formSheetHeight = 576;
-        if (UIInterfaceOrientationIsLandscape([UIApplication sharedApplication].statusBarOrientation)) {
+        // statusBarOrientation is a no-op on iOS 27; the screen bounds follow the interface orientation.
+        CGSize screenSize = [UIScreen mainScreen].bounds.size;
+        if (screenSize.width > screenSize.height) {
             kbHeight = formSheetHeight - 352;
         } else {
             kbHeight = formSheetHeight - 504;
@@ -59,7 +61,8 @@ static UVKeyboardUtils *sharedInstance;
     } else {
         NSDictionary* info = [notification userInfo];
         CGRect rect = [[info objectForKey:UIKeyboardFrameBeginUserInfoKey] CGRectValue];
-        kbHeight = UIInterfaceOrientationIsPortrait([UIApplication sharedApplication].statusBarOrientation) ? rect.size.height : rect.size.width;
+        // The keyboard frame is in interface-oriented coordinates, so its height is correct in any orientation.
+        kbHeight = rect.size.height;
     }
     visible = YES;
 }
