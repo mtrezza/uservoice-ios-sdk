@@ -88,12 +88,17 @@
     [UVBabayaga track:SUBSCRIBE_IDEA id:theSuggestion.suggestionId];
     if (_deflectingType) {
         [UVDeflection trackDeflection:@"subscribed" deflectingType:_deflectingType deflector:theSuggestion];
-        UIActionSheet *actionSheet = [[UIActionSheet alloc] initWithTitle:_helpfulPrompt
-                                                                 delegate:self
-                                                        cancelButtonTitle:NSLocalizedStringFromTableInBundle(@"Cancel", @"UserVoice", [UserVoice bundle], nil)
-                                                   destructiveButtonTitle:nil
-                                                        otherButtonTitles:_returnMessage, NSLocalizedStringFromTableInBundle(@"No, I'm done", @"UserVoice", [UserVoice bundle], nil), nil];
-        [actionSheet showInView:self.view];
+        UIAlertController *actionSheet = [UIAlertController alertControllerWithTitle:_helpfulPrompt message:nil preferredStyle:UIAlertControllerStyleActionSheet];
+        if (_returnMessage) {
+            [actionSheet addAction:[UIAlertAction actionWithTitle:_returnMessage style:UIAlertActionStyleDefault handler:^(UIAlertAction *action) {
+                [self.navigationController popViewControllerAnimated:YES];
+            }]];
+            [actionSheet addAction:[UIAlertAction actionWithTitle:NSLocalizedStringFromTableInBundle(@"No, I'm done", @"UserVoice", [UserVoice bundle], nil) style:UIAlertActionStyleDefault handler:^(UIAlertAction *action) {
+                [self dismiss];
+            }]];
+        }
+        [actionSheet addAction:[UIAlertAction actionWithTitle:NSLocalizedStringFromTableInBundle(@"Cancel", @"UserVoice", [UserVoice bundle], nil) style:UIAlertActionStyleCancel handler:nil]];
+        [self presentActionSheet:actionSheet];
     }
     [self updateSuggestion:theSuggestion];
     _subscribing = NO;
@@ -119,14 +124,6 @@
         } else {
             _subscriberCount.text = [NSString stringWithFormat:NSLocalizedStringFromTableInBundle(@"%ld people", @"UserVoice", [UserVoice bundle], nil), (long)_suggestion.subscriberCount];
         }
-    }
-}
-
-- (void)actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex {
-    if (buttonIndex == 0) {
-        [self.navigationController popViewControllerAnimated:YES];
-    } else if (buttonIndex == 1) {
-        [self dismiss];
     }
 }
 

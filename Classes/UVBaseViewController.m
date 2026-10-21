@@ -138,6 +138,18 @@
     [UVUtils presentAlertController:alert];
 }
 
+/// Presents an action sheet from this controller. On iPad, where it becomes a popover, it's anchored to the
+/// bottom of the view unless the caller already set an anchor. iPhone keeps the plain bottom sheet: setting
+/// an anchor there makes iOS 26+ show a menu attached to it instead.
+- (void)presentActionSheet:(UIAlertController *)actionSheet {
+    UIPopoverPresentationController *popover = actionSheet.popoverPresentationController;
+    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad && !popover.barButtonItem && !popover.sourceView) {
+        popover.sourceView = self.view;
+        popover.sourceRect = CGRectMake(CGRectGetMidX(self.view.bounds), CGRectGetMaxY(self.view.bounds), 0, 0);
+    }
+    [self presentViewController:actionSheet animated:YES completion:nil];
+}
+
 - (void)didReceiveError:(NSError *)error {
     NSString *msg = nil;
     [self hideActivityIndicator];

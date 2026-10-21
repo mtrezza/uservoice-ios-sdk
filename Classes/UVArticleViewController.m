@@ -105,20 +105,6 @@
     }
 }
 
-- (void)actionSheet:(UIActionSheet *)actionSheet didDismissWithButtonIndex:(NSInteger)buttonIndex {
-    if (_helpfulPrompt) {
-        if (buttonIndex == 0) {
-            [self.navigationController popViewControllerAnimated:YES];
-        } else if (buttonIndex == 1) {
-            [self dismiss];
-        }
-    } else {
-        if (buttonIndex == 0) {
-            [self presentModalViewController:[UVContactViewController new]];
-        }
-    }
-}
-
 - (void)yesButtonTapped {
     [UVBabayaga track:VOTE_ARTICLE id:_article.articleId];
     if (_deflectingType) {
@@ -127,12 +113,17 @@
     if (_helpfulPrompt) {
         // Do you still want to contact us?
         // Yes, go to my message
-        UIActionSheet *actionSheet = [[UIActionSheet alloc] initWithTitle:_helpfulPrompt
-                                                                 delegate:self
-                                                        cancelButtonTitle:NSLocalizedStringFromTableInBundle(@"Cancel", @"UserVoice", [UserVoice bundle], nil)
-                                                   destructiveButtonTitle:nil
-                                                        otherButtonTitles:_returnMessage, NSLocalizedStringFromTableInBundle(@"No, I'm done", @"UserVoice", [UserVoice bundle], nil), nil];
-        [actionSheet showInView:self.view];
+        UIAlertController *actionSheet = [UIAlertController alertControllerWithTitle:_helpfulPrompt message:nil preferredStyle:UIAlertControllerStyleActionSheet];
+        if (_returnMessage) {
+            [actionSheet addAction:[UIAlertAction actionWithTitle:_returnMessage style:UIAlertActionStyleDefault handler:^(UIAlertAction *action) {
+                [self.navigationController popViewControllerAnimated:YES];
+            }]];
+            [actionSheet addAction:[UIAlertAction actionWithTitle:NSLocalizedStringFromTableInBundle(@"No, I'm done", @"UserVoice", [UserVoice bundle], nil) style:UIAlertActionStyleDefault handler:^(UIAlertAction *action) {
+                [self dismiss];
+            }]];
+        }
+        [actionSheet addAction:[UIAlertAction actionWithTitle:NSLocalizedStringFromTableInBundle(@"Cancel", @"UserVoice", [UserVoice bundle], nil) style:UIAlertActionStyleCancel handler:nil]];
+        [self presentActionSheet:actionSheet];
     } else {
         _yes.hidden = YES;
         _no.hidden = YES;
@@ -147,12 +138,12 @@
     if (_helpfulPrompt) {
         [self.navigationController popViewControllerAnimated:YES];
     } else {
-        UIActionSheet *actionSheet = [[UIActionSheet alloc] initWithTitle:NSLocalizedStringFromTableInBundle(@"Would you like to contact us?", @"UserVoice", [UserVoice bundle], nil)
-                                                                 delegate:self
-                                                        cancelButtonTitle:NSLocalizedStringFromTableInBundle(@"No", @"UserVoice", [UserVoice bundle], nil)
-                                                   destructiveButtonTitle:nil
-                                                        otherButtonTitles:NSLocalizedStringFromTableInBundle(@"Yes", @"UserVoice", [UserVoice bundle], nil), nil];
-        [actionSheet showInView:self.view];
+        UIAlertController *actionSheet = [UIAlertController alertControllerWithTitle:NSLocalizedStringFromTableInBundle(@"Would you like to contact us?", @"UserVoice", [UserVoice bundle], nil) message:nil preferredStyle:UIAlertControllerStyleActionSheet];
+        [actionSheet addAction:[UIAlertAction actionWithTitle:NSLocalizedStringFromTableInBundle(@"Yes", @"UserVoice", [UserVoice bundle], nil) style:UIAlertActionStyleDefault handler:^(UIAlertAction *action) {
+            [self presentModalViewController:[UVContactViewController new]];
+        }]];
+        [actionSheet addAction:[UIAlertAction actionWithTitle:NSLocalizedStringFromTableInBundle(@"No", @"UserVoice", [UserVoice bundle], nil) style:UIAlertActionStyleCancel handler:nil]];
+        [self presentActionSheet:actionSheet];
     }
 }
 

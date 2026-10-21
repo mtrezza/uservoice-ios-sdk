@@ -13,7 +13,7 @@
 
 @class UVTruncatingLabel;
 
-@interface UVSuggestionDetailsViewController : UVBaseViewController <UIAlertViewDelegate, UITableViewDataSource, UITableViewDelegate, UIActionSheetDelegate, UVTruncatingLabelDelegate>
+@interface UVSuggestionDetailsViewController : UVBaseViewController <UITableViewDataSource, UITableViewDelegate, UVTruncatingLabelDelegate>
 
 @property (nonatomic, retain) UVSuggestion *suggestion;
 @property (nonatomic, retain) NSMutableArray *comments;

@@ -190,34 +190,24 @@
 }
 
 - (void)showSaveActionSheet {
-    UIActionSheet *actionSheet = [[UIActionSheet alloc] initWithTitle:nil
-                                                             delegate:self
-                                                    cancelButtonTitle:NSLocalizedStringFromTableInBundle(@"Cancel", @"UserVoice", [UserVoice bundle], nil)
-                                               destructiveButtonTitle:NSLocalizedStringFromTableInBundle(@"Don't save", @"UserVoice", [UserVoice bundle], nil)
-                                                    otherButtonTitles:NSLocalizedStringFromTableInBundle(@"Save draft", @"UserVoice", [UserVoice bundle], nil), nil];
-
+    UIAlertController *actionSheet = [UIAlertController alertControllerWithTitle:nil message:nil preferredStyle:UIAlertControllerStyleActionSheet];
+    [actionSheet addAction:[UIAlertAction actionWithTitle:NSLocalizedStringFromTableInBundle(@"Don't save", @"UserVoice", [UserVoice bundle], nil) style:UIAlertActionStyleDestructive handler:^(UIAlertAction *action) {
+        [self clearDraft];
+        [self dismiss];
+    }]];
+    [actionSheet addAction:[UIAlertAction actionWithTitle:NSLocalizedStringFromTableInBundle(@"Save draft", @"UserVoice", [UserVoice bundle], nil) style:UIAlertActionStyleDefault handler:^(UIAlertAction *action) {
+        [self saveDraft];
+        [self dismiss];
+    }]];
+    [actionSheet addAction:[UIAlertAction actionWithTitle:NSLocalizedStringFromTableInBundle(@"Cancel", @"UserVoice", [UserVoice bundle], nil) style:UIAlertActionStyleCancel handler:^(UIAlertAction *action) {
+        [self->_fieldsView.textView becomeFirstResponder];
+    }]];
     if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad) {
-        [actionSheet showFromBarButtonItem:self.navigationItem.leftBarButtonItem animated:YES];
-    } else {
-        [actionSheet showInView:self.view];
+        actionSheet.popoverPresentationController.barButtonItem = self.navigationItem.leftBarButtonItem;
     }
-    [_fieldsView.textView resignFirstResponder];
-}
 
-- (void)actionSheet:(UIActionSheet *)actionSheet didDismissWithButtonIndex:(NSInteger)buttonIndex {
-    switch (buttonIndex) {
-        case 0:
-            [self clearDraft];
-            [self dismiss];
-            break;
-        case 1:
-            [self saveDraft];
-            [self dismiss];
-            break;
-        default:
-            [_fieldsView.textView becomeFirstResponder];
-            break;
-    }
+    [self presentActionSheet:actionSheet];
+    [_fieldsView.textView resignFirstResponder];
 }
 
 - (void)clearDraft {

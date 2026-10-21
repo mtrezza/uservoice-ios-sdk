@@ -85,6 +85,7 @@
                                   selectable:(BOOL)selectable;
 
 - (void)alertError:(NSString *)message;
+- (void)presentActionSheet:(UIAlertController *)actionSheet;
 - (void)setupGroupedTableView;
 - (void)setupPlainTableView;
 - (UIScrollView *)scrollView;
