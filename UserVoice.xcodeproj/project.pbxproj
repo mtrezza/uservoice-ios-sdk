@@ -1024,6 +1024,7 @@
 				D36839F01C77464C0036064E /* Frameworks */,
 				D36839F11C77464C0036064E /* Headers */,
 				D36839F21C77464C0036064E /* Resources */,
+				D36839FD1C77464C0036064E /* Copy Resources */,
 			);
 			buildRules = (
 			);
@@ -1084,6 +1085,28 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D36839FD1C77464C0036064E /* Copy Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "rsync -a --exclude .DS_Store \"${SRCROOT}/Resources/\" \"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D2AAC07B0554694100DB518D /* Sources */ = {

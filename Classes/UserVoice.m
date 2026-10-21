@@ -31,9 +31,13 @@ static NSBundle *userVoiceBundle;
 
 + (NSBundle *)bundle {
     if (!userVoiceBundle) {
-        NSURL *url = [[NSBundle bundleForClass:self] URLForResource:@"UserVoice" withExtension:@"bundle"];
+        NSBundle *classBundle = [NSBundle bundleForClass:self];
+        NSURL *url = [classBundle URLForResource:@"UserVoice" withExtension:@"bundle"];
         if (url) {
             userVoiceBundle = [NSBundle bundleWithURL:url];
+        } else if ([classBundle pathForResource:@"UserVoice" ofType:@"strings"]) {
+            // UserVoice.framework contains the resources itself
+            userVoiceBundle = classBundle;
         }
     }
     if (!userVoiceBundle) {
