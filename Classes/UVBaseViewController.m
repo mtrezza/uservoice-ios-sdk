@@ -195,21 +195,6 @@
     }
 }
 
-- (UIView *)poweredByView {
-    UIView *power = [UIView new];
-    power.frame = CGRectMake(0, 0, 0, 80);
-    UILabel *version = [UILabel new];
-    version.text = [NSString stringWithFormat:@"iOS SDK v%@", [UserVoice version]];
-    version.font = [UIFont systemFontOfSize:13];
-    version.textColor = [UIColor lightGrayColor];
-    version.textAlignment = NSTextAlignmentCenter;
-    version.backgroundColor = [UIColor clearColor];
-    [self configureView:power
-               subviews:NSDictionaryOfVariableBindings(version)
-            constraints:@[@"V:|-[version]", @"|[version]|"]];
-    return power;
-}
-
 - (BOOL)needNestedModalHack {
     return [UIDevice currentDevice].systemVersion.floatValue >= 6;
 }

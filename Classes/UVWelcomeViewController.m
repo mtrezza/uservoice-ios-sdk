@@ -327,10 +327,6 @@
         }
     }
 
-    if (![UVSession currentSession].clientConfig.whiteLabel) {
-        _tableView.tableFooterView = self.poweredByView;
-    }
-
     [_tableView reloadData];
 }
 

@@ -228,10 +228,6 @@
         _tableView.tableHeaderView = _searchController.searchBar;
     }
 
-    if (![UVSession currentSession].clientConfig.whiteLabel) {
-        _tableView.tableFooterView = self.poweredByView;
-    }
-
     if ([UVSession currentSession].config.showPostIdea) {
         self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemCompose
                                                                                                target:self

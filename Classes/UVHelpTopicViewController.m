@@ -167,9 +167,6 @@
 
 - (void)loadView {
     [self setupGroupedTableView];
-    if (![UVSession currentSession].clientConfig.whiteLabel) {
-        _tableView.tableFooterView = self.poweredByView;
-    }
     _page = 1;
     if (_topic) {
         self.navigationItem.title = _topic.name;
