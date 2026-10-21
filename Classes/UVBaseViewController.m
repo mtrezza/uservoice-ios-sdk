@@ -61,6 +61,13 @@
     CGRect appFrame = [UIScreen mainScreen].applicationFrame;
     CGFloat yStart = barFrame.origin.y + barFrame.size.height;
 
+    if (!isfinite(appFrame.size.width) || !isfinite(appFrame.size.height)) {
+        // applicationFrame has a NaN height on iOS 27. It is still used where valid because the nav bar is
+        // often not laid out yet in loadView, and a taller frame would shift the loading view.
+        CGRect screenBounds = [UIScreen mainScreen].bounds;
+        return CGRectMake(0, yStart, screenBounds.size.width, screenBounds.size.height - yStart);
+    }
+
     return CGRectMake(0, yStart, appFrame.size.width, appFrame.size.height - barFrame.size.height);
 }
 
