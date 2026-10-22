@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>%ld people</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@people@</string>
+		<key>people</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>ld</string>
+			<key>zero</key>
+			<string>لا أحد</string>
+			<key>one</key>
+			<string>شخص واحد</string>
+			<key>two</key>
+			<string>شخصان</string>
+			<key>few</key>
+			<string>%ld أشخاص</string>
+			<key>many</key>
+			<string>%ld شخصًا</string>
+			<key>other</key>
+			<string>%ld شخص</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

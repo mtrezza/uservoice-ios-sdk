@@ -32,7 +32,8 @@
     [super layoutSubviews];
     if (!_constraintsAdded && _placeholderLabel.superview) {
         [self addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"V:|-8-[placeholder]" options:0 metrics:nil views:@{@"placeholder":_placeholderLabel}]];
-        [self addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:(IOS7 ? @"|-4-[placeholder]" : @"|-8-[placeholder]") options:0 metrics:nil views:@{@"placeholder":_placeholderLabel}]];
+        // Pin to the visible frame, not the content area, so the placeholder stays on screen in right-to-left layouts
+        [self addConstraint:[_placeholderLabel.leadingAnchor constraintEqualToAnchor:self.frameLayoutGuide.leadingAnchor constant:(IOS7 ? 4 : 8)]];
         _constraintsAdded = YES;
     }
     [super layoutSubviews];

@@ -1,0 +1,190 @@
+/**
+ * Apple Strings File
+ * Language: ar
+ */
+
+/********** Uncategorized **********/
+
+"%@ (required)" = "%@ (مطلوب)";
+
+"%@ ideas" = "الأفكار: %@";
+
+"%d people" = "%d من الأشخاص";
+
+"%ld people" = "%ld من الأشخاص";
+
+"(none)" = "(لا شيء)";
+
+"(required)" = "(مطلوب)";
+
+"1 idea" = "فكرة واحدة";
+
+"1 person" = "شخص واحد";
+
+"A suggestion with this title already exists. Please change the title." = "توجد فكرة بالعنوان نفسه. جرّب عنوانًا آخر.";
+
+"Add a comment" = "أضف تعليقًا";
+
+"Additional Details" = "تفاصيل إضافية";
+
+"All" = "الكل";
+
+"All Articles" = "كل المقالات";
+
+"Are any of these helpful?" = "هل يفيدك أي منها؟";
+
+"Articles" = "المقالات";
+
+"Back" = "رجوع";
+
+"Cancel" = "إلغاء";
+
+"Category" = "الفئة";
+
+"Close" = "إغلاق";
+
+"Comment" = "نشر";
+
+"Description (optional)" = "الوصف (اختياري)";
+
+"Do you still want to contact us?" = "هل ما زلت بحاجة إلى التواصل معنا؟";
+
+"Do you still want to post your own idea?" = "هل ما زلت تريد نشر فكرتك؟";
+
+"Don't save" = "عدم الحفظ";
+
+"Done" = "تم";
+
+"Email" = "البريد الإلكتروني";
+
+"Enter UserVoice password for %@" = "أدخل كلمة مرور UserVoice لحساب \U200E%@";
+
+"enter value" = "أدخل قيمة";
+
+"Enter your email" = "أدخل بريدك الإلكتروني";
+
+"Error" = "خطأ";
+
+"Feedback" = "الملاحظات";
+
+"Feedback & Support" = "الملاحظات والدعم";
+
+"Feedback Forum" = "منتدى الملاحظات";
+
+"Forgot password" = "نسيت كلمة المرور";
+
+"Give feedback or ask for help..." = "شاركنا ملاحظاتك أو اطلب المساعدة…";
+
+"Great! Glad we could help." = "رائع! يسعدنا أننا ساعدناك.";
+
+"I want this" = "أريد هذا";
+
+"I want this!" = "أريد هذا!";
+
+"Ideas" = "الأفكار";
+
+"Knowledge Base" = "مركز المساعدة";
+
+"Knowledge base" = "مركز المساعدة";
+
+"Load more" = "عرض المزيد";
+
+"Loading..." = "جارٍ التحميل…";
+
+"Message sent!" = "وصلتنا رسالتك!";
+
+"more" = "المزيد";
+
+"Name" = "الاسم";
+
+"Next" = "التالي";
+
+"No" = "لا";
+
+"No, I'm done" = "لا، انتهيت";
+
+"OK" = "حسنًا";
+
+"Password reset email sent to %@" = "أرسلنا رسالة إعادة تعيين كلمة المرور إلى \U200E%@";
+
+"Please enter a valid email address." = "أدخل بريدًا إلكترونيًا صحيحًا.";
+
+"Please enter some text before submitting your comment." = "اكتب تعليقك قبل النشر.";
+
+"Please enter your email address before submitting your comment." = "أدخل بريدك الإلكتروني قبل نشر تعليقك.";
+
+"Please enter your email address before submitting your ticket." = "أدخل بريدك الإلكتروني قبل الإرسال.";
+
+"Please fill out all required fields." = "املأ جميع الحقول المطلوبة.";
+
+"Post" = "نشر";
+
+"Post an idea" = "شاركنا فكرتك";
+
+"Powered by UserVoice" = "بدعم من UserVoice";
+
+"Ranked %@" = "الترتيب: %@";
+
+"Related articles" = "مقالات ذات صلة";
+
+"Related feedback" = "أفكار ذات صلة";
+
+"Save draft" = "حفظ المسودة";
+
+"Search" = "بحث";
+
+"Search forum" = "ابحث في المنتدى";
+
+"select" = "اختر";
+
+"Send" = "إرسال";
+
+"Send us a message" = "راسلنا";
+
+"Sign in" = "تسجيل الدخول";
+
+"Skip" = "تخطٍ";
+
+"Sorry, there was an error in the application." = "عذرًا، حدث خطأ في التطبيق.";
+
+"Thank you!" = "شكرًا لك!";
+
+"There appears to be a problem with your network connection, please check your connectivity and try again." = "يبدو أن هناك مشكلة في اتصالك بالإنترنت. تأكد من الاتصال وحاول مجددًا.";
+
+"There was a problem logging you in." = "تعذّر تسجيل دخولك.";
+
+"this" = "هذا";
+
+"This application didn't configure UserVoice properly" = "إعدادات UserVoice في هذا التطبيق غير صحيحة";
+
+"this idea" = "هذه الفكرة";
+
+"Title" = "العنوان";
+
+"Try again" = "إعادة المحاولة";
+
+"User name" = "اسم المستخدم";
+
+"View idea" = "عرض الفكرة";
+
+"Was this article helpful?" = "هل أفادك هذا المقال؟";
+
+"We'll be in touch." = "سنتواصل معك قريبًا.";
+
+"When you post an idea on our forum, others will be able to subscribe to it and make comments. When we respond to the idea, you'll get notified." = "عند نشر فكرتك في منتدانا، يمكن للآخرين متابعتها والتعليق عليها. وعندما نرد عليها، سيصلك إشعار.";
+
+"Would you like to contact us?" = "هل تود التواصل معنا؟";
+
+"Write a comment..." = "اكتب تعليقك…";
+
+"Yes" = "نعم";
+
+"Yes!" = "نعم!";
+
+"Yes, go to my message" = "نعم، العودة إلى رسالتي";
+
+"Yes, I want to post my idea" = "نعم، أريد نشر فكرتي";
+
+"Your feedback has been posted to our feedback forum." = "فكرتك منشورة الآن في منتدى الملاحظات.";
+
+"“Anonymous”" = "«مجهول»";

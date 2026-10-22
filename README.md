@@ -229,7 +229,7 @@ Yes. You can customize the colors of the UserVoice modal dialogs by creating you
 Translations
 ------------
 
-UserVoice for iOS now has support for the following locales: af, ca, cs, da, de,
+UserVoice for iOS now has support for the following locales: af, ar, ca, cs, da, de,
 el, en-GB, en, es, fi, fr, hr, hu, id, it, ja, ko, ms, nb, nl, pl, pt-PT, pt,
 ro, ru, sk, sv, th, tr, uk, vi, zh-Hans, zh-Hant.
 
