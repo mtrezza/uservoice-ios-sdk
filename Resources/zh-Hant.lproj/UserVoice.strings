@@ -10,7 +10,7 @@
 
 "%@ ideas" = "%@ 則建議";
 
-"%d people" = "%d 人";
+"%ld people" = "%ld 人";
 
 "(none)" = "(無)";
 

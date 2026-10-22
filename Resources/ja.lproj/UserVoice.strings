@@ -10,7 +10,7 @@
 
 "%@ ideas" = "%@考え";
 
-"%d people" = "%d人々";
+"%ld people" = "%ld人々";
 
 "(none)" = "（なし）";
 

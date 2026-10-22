@@ -10,7 +10,7 @@
 
 "%@ ideas" = "%@ fikirler";
 
-"%d people" = "%d insanlar";
+"%ld people" = "%ld insanlar";
 
 "(none)" = "(Yok)";
 

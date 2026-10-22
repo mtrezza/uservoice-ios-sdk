@@ -10,7 +10,7 @@
 
 "%@ ideas" = "%@ 条意见";
 
-"%d people" = "%d 人";
+"%ld people" = "%ld 人";
 
 "(none)" = "(空)";
 

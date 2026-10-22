@@ -10,7 +10,7 @@
 
 "%@ ideas" = "%@ ý kiến";
 
-"%d people" = "%d người";
+"%ld people" = "%ld người";
 
 "(none)" = "(không có)";
 

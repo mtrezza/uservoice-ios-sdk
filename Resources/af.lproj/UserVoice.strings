@@ -5,7 +5,7 @@
 "%@ ideas" = "%@ Idees";
 
 /* No comment provided by engineer. */
-"%d people" = "%d mense";
+"%ld people" = "%ld mense";
 
 /* No comment provided by engineer. */
 "(none)" = "(geen)";

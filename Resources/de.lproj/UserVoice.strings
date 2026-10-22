@@ -10,7 +10,7 @@
 
 "%@ ideas" = "%@ Ideen";
 
-"%d people" = "%d Personen";
+"%ld people" = "%ld Personen";
 
 "(none)" = "(keine)";
 

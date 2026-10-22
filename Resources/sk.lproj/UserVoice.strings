@@ -10,7 +10,7 @@
 
 "%@ ideas" = "%@ nápady";
 
-"%d people" = "%d ľudia";
+"%ld people" = "%ld ľudia";
 
 "(none)" = "(None)";
 
