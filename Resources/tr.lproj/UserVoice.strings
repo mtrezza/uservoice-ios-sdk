@@ -110,6 +110,10 @@
 
 "Please enter a valid email address." = "Geçerli bir e.";
 
+"Please enter a valid name." = "Geçerli bir ad girin.";
+
+"Please enter a valid title." = "Geçerli bir başlık girin.";
+
 "Please enter some text before submitting your comment." = "Yorumunuzu göndermeden önce bazı metni girin.";
 
 "Please enter your email address before submitting your comment." = "Yorumunuzu göndermeden önce e-posta adresinizi girin.";

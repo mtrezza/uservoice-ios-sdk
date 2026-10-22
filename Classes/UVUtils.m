@@ -137,11 +137,25 @@ static const char encodingTable[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopq
         error.code == NSURLErrorTimedOut ||
         error.code == NSURLErrorCannotConnectToHost ||
         error.code == NSURLErrorNetworkConnectionLost ||
-        error.code == NSURLErrorNotConnectedToInternet);
+        error.code == NSURLErrorNotConnectedToInternet ||
+        error.code == NSURLErrorCannotFindHost ||
+        error.code == NSURLErrorDNSLookupFailed ||
+        error.code == NSURLErrorInternationalRoamingOff ||
+        error.code == NSURLErrorCallIsActive ||
+        error.code == NSURLErrorDataNotAllowed ||
+        error.code == NSURLErrorSecureConnectionFailed ||
+        error.code == NSURLErrorServerCertificateHasBadDate ||
+        error.code == NSURLErrorServerCertificateUntrusted ||
+        error.code == NSURLErrorServerCertificateHasUnknownRoot ||
+        error.code == NSURLErrorServerCertificateNotYetValid);
 }
 
 + (BOOL)isUVRecordInvalid:(NSError *)error {
     return [[error domain] isEqualToString:@"uservoice"] && [[[error userInfo] objectForKey:@"type"] isEqualToString:@"record_invalid"];
+}
+
++ (BOOL)isUVRecordInvalid:(NSError *)error forField:(NSString *)field {
+    return [UVUtils isUVRecordInvalid:error] && [[error userInfo] objectForKey:field] != nil;
 }
 
 + (BOOL)isUVRecordInvalid:(NSError *)error forField:(NSString *)field withMessage:(NSString *)message {

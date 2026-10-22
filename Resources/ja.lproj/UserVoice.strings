@@ -110,6 +110,10 @@
 
 "Please enter a valid email address." = "有効なメールアドレスを入力してください。";
 
+"Please enter a valid name." = "有効な名前を入力してください。";
+
+"Please enter a valid title." = "有効なタイトルを入力してください。";
+
 "Please enter some text before submitting your comment." = "内容を記載してください。";
 
 "Please enter your email address before submitting your comment." = "メールアドレスを入力してください。";

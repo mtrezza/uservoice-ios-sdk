@@ -110,6 +110,10 @@
 
 "Please enter a valid email address." = "Xin vui lòng nhập một địa chỉ email hợp lệ.";
 
+"Please enter a valid name." = "Xin vui lòng nhập một tên hợp lệ.";
+
+"Please enter a valid title." = "Xin vui lòng nhập một tiêu đề hợp lệ.";
+
 "Please enter some text before submitting your comment." = "Vui lòng điền một vài từ trước khi gửi đi bình luận của bạn.";
 
 "Please enter your email address before submitting your comment." = "Vui lòng cung cấp địa chỉ thư điện tử trước khi gửi đi bình luận của bạn.";

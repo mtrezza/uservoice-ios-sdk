@@ -110,6 +110,10 @@
 
 "Please enter a valid email address." = "Zadejte prosím platnou e-mailovou adresu.";
 
+"Please enter a valid name." = "Zadejte prosím platné jméno.";
+
+"Please enter a valid title." = "Zadejte prosím platný název.";
+
 "Please enter some text before submitting your comment." = "Před odesláním svůj komentář Zadejte nějaký text.";
 
 "Please enter your email address before submitting your comment." = "Před odesláním svůj komentář, zadejte svou e-mailovou adresu.";

@@ -110,6 +110,10 @@
 
 "Please enter a valid email address." = "Adjon meg egy érvényes email címet.";
 
+"Please enter a valid name." = "Adjon meg egy érvényes nevet.";
+
+"Please enter a valid title." = "Adjon meg egy érvényes címet.";
+
 "Please enter some text before submitting your comment." = "Kérjük, írja be a szöveget, mielőtt elküldi comment.";
 
 "Please enter your email address before submitting your comment." = "Kérjük, adja meg email címét benyújtása előtt meg véleményét.";

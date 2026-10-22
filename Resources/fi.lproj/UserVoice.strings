@@ -110,6 +110,10 @@
 
 "Please enter a valid email address." = "Kirjoita voimassa oleva sähköpostiosoite.";
 
+"Please enter a valid name." = "Kirjoita kelvollinen nimi.";
+
+"Please enter a valid title." = "Kirjoita kelvollinen otsikko.";
+
 "Please enter some text before submitting your comment." = "Kirjoita tekstiä ennen kuin lähetät kommenttisi.";
 
 "Please enter your email address before submitting your comment." = "Kirjoita sähköpostiosoitteesi, ennen kuin lähetät kommenttisi.";

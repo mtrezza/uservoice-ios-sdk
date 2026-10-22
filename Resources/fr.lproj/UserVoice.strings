@@ -110,6 +110,10 @@
 
 "Please enter a valid email address." = "Se il vous plaît entrer une adresse email valide.";
 
+"Please enter a valid name." = "Veuillez saisir un nom valide.";
+
+"Please enter a valid title." = "Veuillez saisir un titre valide.";
+
 "Please enter some text before submitting your comment." = "Merci d'entrer du texte avant d'envoyer votre commentaire.";
 
 "Please enter your email address before submitting your comment." = "Merci d'entrer votre adresse de courriel avant d'envoyer votre commentaire.";

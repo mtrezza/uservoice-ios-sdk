@@ -22,6 +22,7 @@
 
 + (BOOL)isConnectionError:(NSError *)error;
 + (BOOL)isUVRecordInvalid:(NSError *)error;
++ (BOOL)isUVRecordInvalid:(NSError *)error forField:(NSString *)field;
 + (BOOL)isUVRecordInvalid:(NSError *)error forField:(NSString *)field withMessage:(NSString *)message;
 + (BOOL)isAuthError:(NSError *)error;
 + (BOOL)isNotFoundError:(NSError *)error;

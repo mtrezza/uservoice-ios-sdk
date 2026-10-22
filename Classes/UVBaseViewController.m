@@ -153,27 +153,17 @@
 - (void)didReceiveError:(NSError *)error {
     NSString *msg = nil;
     [self hideActivityIndicator];
+    // Server and system error texts aren't localized, so only messages from the strings table are shown
     if ([UVUtils isConnectionError:error]) {
         msg = NSLocalizedStringFromTableInBundle(@"There appears to be a problem with your network connection, please check your connectivity and try again.", @"UserVoice", [UserVoice bundle], nil);
+    } else if ([UVUtils isUVRecordInvalid:error forField:@"email"]) {
+        msg = NSLocalizedStringFromTableInBundle(@"Please enter a valid email address.", @"UserVoice", [UserVoice bundle], nil);
+    } else if ([UVUtils isUVRecordInvalid:error forField:@"display_name"]) {
+        msg = NSLocalizedStringFromTableInBundle(@"Please enter a valid name.", @"UserVoice", [UserVoice bundle], nil);
+    } else if ([UVUtils isUVRecordInvalid:error forField:@"title"]) {
+        msg = NSLocalizedStringFromTableInBundle(@"Please enter a valid title.", @"UserVoice", [UserVoice bundle], nil);
     } else {
-        NSDictionary *userInfo = [error userInfo];
-        for (NSString *key in [userInfo allKeys]) {
-            if ([key isEqualToString:@"message"] || [key isEqualToString:@"type"])
-                continue;
-            NSString *displayKey = nil;
-            if ([key isEqualToString:@"display_name"])
-                displayKey = NSLocalizedStringFromTableInBundle(@"User name", @"UserVoice", [UserVoice bundle], nil);
-            else
-                displayKey = [[key stringByReplacingOccurrencesOfString:@"_" withString:@" "] capitalizedString];
-
-            // Suggestion title has custom messages
-            if ([key isEqualToString:@"title"])
-                msg = [userInfo valueForKey:key];
-            else
-                msg = [NSString stringWithFormat:@"%@ %@", displayKey, [userInfo valueForKey:key]];
-        }
-        if (!msg)
-            msg = NSLocalizedStringFromTableInBundle(@"Sorry, there was an error in the application.", @"UserVoice", [UserVoice bundle], nil);
+        msg = NSLocalizedStringFromTableInBundle(@"Sorry, there was an error in the application.", @"UserVoice", [UserVoice bundle], nil);
     }
     [self alertError:msg];
 }

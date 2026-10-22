@@ -110,6 +110,10 @@
 
 "Please enter a valid email address." = "Silakan masukkan alamat email yang valid.";
 
+"Please enter a valid name." = "Silakan masukkan nama yang valid.";
+
+"Please enter a valid title." = "Silakan masukkan judul yang valid.";
+
 "Please enter some text before submitting your comment." = "Masukkan teks sebelum mengirimkan komentar Anda.";
 
 "Please enter your email address before submitting your comment." = "Masukkan alamat email Anda sebelum mengirimkan komentar Anda.";

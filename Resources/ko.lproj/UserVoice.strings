@@ -110,6 +110,10 @@
 
 "Please enter a valid email address." = "유효한 이메일 주소를 입력하십시오.";
 
+"Please enter a valid name." = "유효한 이름을 입력하십시오.";
+
+"Please enter a valid title." = "유효한 제목을 입력하십시오.";
+
 "Please enter some text before submitting your comment." = "댓글을 제출하기 전에 텍스트를 입력하세요.";
 
 "Please enter your email address before submitting your comment." = "댓글을 제출하기 전에 귀하의 이메일 주소를 입력하십시오.";

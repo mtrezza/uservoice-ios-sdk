@@ -110,6 +110,10 @@
 
 "Please enter a valid email address." = "Пожалуйста, введите действительный адрес электронной почты.";
 
+"Please enter a valid name." = "Пожалуйста, введите корректное имя.";
+
+"Please enter a valid title." = "Пожалуйста, введите корректное название.";
+
 "Please enter some text before submitting your comment." = "Для отправки комментария введите свой какой-нибудь текст.";
 
 "Please enter your email address before submitting your comment." = "Для отправки комментария введите свой электронный адрес.";

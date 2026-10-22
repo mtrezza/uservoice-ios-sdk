@@ -110,6 +110,10 @@
 
 "Please enter a valid email address." = "Indtast en gyldig e-mail-adresse.";
 
+"Please enter a valid name." = "Indtast et gyldigt navn.";
+
+"Please enter a valid title." = "Indtast en gyldig titel.";
+
 "Please enter some text before submitting your comment." = "Indtast venligst en tekst, før du indsender din kommentar.";
 
 "Please enter your email address before submitting your comment." = "Indtast venligst din e-mailadresse, før du indsender din kommentar.";

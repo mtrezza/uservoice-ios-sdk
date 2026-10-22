@@ -110,6 +110,10 @@
 
 "Please enter a valid email address." = "Unesite valjanu adresu e-pošte.";
 
+"Please enter a valid name." = "Unesite valjano ime.";
+
+"Please enter a valid title." = "Unesite valjan naslov.";
+
 "Please enter some text before submitting your comment." = "Unesite tekst prije slanja vašeg komentara.";
 
 "Please enter your email address before submitting your comment." = "Unesite svoju adresu e-pošte prije slanja vašeg komentara.";
