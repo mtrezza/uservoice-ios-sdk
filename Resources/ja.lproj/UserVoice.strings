@@ -8,19 +8,19 @@
 
 "%@ (required)" = "%@ （必須）";
 
-"%@ ideas" = "%@考え";
+"%@ ideas" = "%@件のアイデア";
 
-"%ld people" = "%ld人々";
+"%ld people" = "%ld人";
 
 "(none)" = "（なし）";
 
 "(required)" = "(必須)";
 
-"1 idea" = "1アイデア";
+"1 idea" = "1件のアイデア";
 
 "1 person" = "1名";
 
-"A suggestion with this title already exists. Please change the title." = "同じタイトルのアドバイスは既に投稿されています。タイトルを変更してください。";
+"A suggestion with this title already exists. Please change the title." = "同じタイトルのアイデアは既に投稿されています。タイトルを変更してください。";
 
 "Add a comment" = "コメントを追加";
 
@@ -32,7 +32,7 @@
 
 "Are any of these helpful?" = "お役にたちましたか？";
 
-"Articles" = "内容";
+"Articles" = "記事";
 
 "Back" = "戻る";
 
@@ -46,13 +46,13 @@
 
 "Description (optional)" = "詳細 (オプション)";
 
-"Do you still want to contact us?" = "直接お問い合わせをする";
+"Do you still want to contact us?" = "それでもお問い合わせをしますか？";
 
-"Do you still want to post your own idea?" = "このアイデアを投稿しますか？";
+"Do you still want to post your own idea?" = "それでも自分のアイデアを投稿しますか？";
 
 "Don't save" = "保存しない";
 
-"Done" = "終了";
+"Done" = "完了";
 
 "Email" = "メール";
 
@@ -86,7 +86,7 @@
 
 "Knowledge base" = "ナレッジベース";
 
-"Load more" = "他の記事を読み込む";
+"Load more" = "さらに読み込む";
 
 "Loading..." = "読み込んでいます...";
 
@@ -158,7 +158,7 @@
 
 "There was a problem logging you in." = "ログイン中に問題が発生しました。";
 
-"this" = "この";
+"this" = "これ";
 
 "This application didn't configure UserVoice properly" = "このアプリケーションはUserVoiceを正しく設定できませんでした";
 
@@ -176,9 +176,9 @@
 
 "We'll be in touch." = "お問い合わせありがとうございました。";
 
-"When you post an idea on our forum, others will be able to subscribe to it and make comments. When we respond to the idea, you'll get notified." = "あなたは私たちのフォーラムでアイデアを投稿すると、他の人はそれを購読し、コメントを作ることができるようになります。私たちはアイデアに応答するときは、通知を得るでしょう。";
+"When you post an idea on our forum, others will be able to subscribe to it and make comments. When we respond to the idea, you'll get notified." = "フォーラムにアイデアを投稿すると、他のユーザーがそのアイデアを購読したりコメントしたりできます。私たちがアイデアに返答すると、通知が届きます。";
 
-"Would you like to contact us?" = "お問い合わせをご希望ですか?";
+"Would you like to contact us?" = "お問い合わせをしますか?";
 
 "Write a comment..." = "コメントを書く...";
 
@@ -186,9 +186,9 @@
 
 "Yes!" = "はい!";
 
-"Yes, go to my message" = "はい、私のメッセージに行ってください";
+"Yes, go to my message" = "はい、メッセージに戻る";
 
-"Yes, I want to post my idea" = "はい、私は私のアイデアを投稿したい";
+"Yes, I want to post my idea" = "はい、自分のアイデアを投稿する";
 
 "Your feedback has been posted to our feedback forum." = "ご意見は私たちのフィードバックフォーラムに投稿されました。";
 

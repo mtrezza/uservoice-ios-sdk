@@ -18,7 +18,7 @@
 
 "1 idea" = "En idé";
 
-"1 person" = "En person som";
+"1 person" = "1 person";
 
 "A suggestion with this title already exists. Please change the title." = "Det finns redan ett förslag med den här rubriken. Välj en annan rubrik.";
 
@@ -42,13 +42,13 @@
 
 "Close" = "Stäng";
 
-"Comment" = "Kommentar";
+"Comment" = "Kommentera";
 
 "Description (optional)" = "Beskrivning (valfritt)";
 
 "Do you still want to contact us?" = "Vill du fortfarande kontakta oss?";
 
-"Do you still want to post your own idea?" = "Vill du fortfarande att posta din egen idé?";
+"Do you still want to post your own idea?" = "Vill du fortfarande skicka din egen idé?";
 
 "Don't save" = "Spara inte";
 
@@ -74,7 +74,7 @@
 
 "Give feedback or ask for help..." = "Ge feedback eller be om hjälp ...";
 
-"Great! Glad we could help." = "Great! Glad att vi kunde hjälpa.";
+"Great! Glad we could help." = "Toppen! Kul att vi kunde hjälpa till.";
 
 "I want this" = "Jag vill ha det här";
 
@@ -96,7 +96,7 @@
 
 "Name" = "Namn";
 
-"Next" = "Next";
+"Next" = "Nästa";
 
 "No" = "Nej";
 
@@ -106,7 +106,7 @@
 
 "OK" = "OK";
 
-"Password reset email sent to %@" = "Återställning av lösenord email som skickas till %@";
+"Password reset email sent to %@" = "E-post för återställning av lösenord har skickats till %@";
 
 "Please enter a valid email address." = "Ange en giltig e-postadress.";
 
@@ -128,7 +128,7 @@
 
 "Powered by UserVoice" = "Powered by Uservoice";
 
-"Ranked %@" = "Rankat %@";
+"Ranked %@" = "Placering: %@";
 
 "Related articles" = "Relaterade artiklar";
 
@@ -148,7 +148,7 @@
 
 "Sign in" = "Logga in";
 
-"Skip" = "Hoppa";
+"Skip" = "Hoppa över";
 
 "Sorry, there was an error in the application." = "Tyvärr, ett fel har uppstått i programmet.";
 
@@ -174,9 +174,9 @@
 
 "Was this article helpful?" = "Var den här artikeln till hjälp?";
 
-"We'll be in touch." = "Vi hör av.";
+"We'll be in touch." = "Vi hör av oss.";
 
-"When you post an idea on our forum, others will be able to subscribe to it and make comments. When we respond to the idea, you'll get notified." = "När du lägger upp en idé på vårt forum, andra kommer att kunna prenumerera på den och göra kommentarer. När vi svarar på idén, kommer du få meddelande.";
+"When you post an idea on our forum, others will be able to subscribe to it and make comments. When we respond to the idea, you'll get notified." = "När du lägger upp en idé på vårt forum kommer andra att kunna prenumerera på den och kommentera. När vi svarar på idén får du ett meddelande.";
 
 "Would you like to contact us?" = "Vill du kontakta oss?";
 
@@ -188,8 +188,8 @@
 
 "Yes, go to my message" = "Ja, gå till mitt meddelande";
 
-"Yes, I want to post my idea" = "Ja, jag vill lägga min idé";
+"Yes, I want to post my idea" = "Ja, jag vill lägga upp min idé";
 
-"Your feedback has been posted to our feedback forum." = "Din feedback har skrivit i vår feedback forum.";
+"Your feedback has been posted to our feedback forum." = "Din feedback har publicerats i vårt feedbackforum.";
 
 "“Anonymous”" = "”Anonym”";

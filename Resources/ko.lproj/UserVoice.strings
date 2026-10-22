@@ -10,17 +10,17 @@
 
 "%@ ideas" = "%@ 아이디어";
 
-"%ld people" = "%ld 사람들";
+"%ld people" = "%ld명";
 
 "(none)" = "(없음)";
 
 "(required)" = "(필수)";
 
-"1 idea" = "한 생각";
+"1 idea" = "1 아이디어";
 
 "1 person" = "1 명";
 
-"A suggestion with this title already exists. Please change the title." = "같은 제목의 제안이 이미 있습니다. 제목을 변경하세요.";
+"A suggestion with this title already exists. Please change the title." = "같은 제목의 제안이 이미 있어요. 제목을 변경하세요.";
 
 "Add a comment" = "코멘트를 추가";
 
@@ -30,7 +30,7 @@
 
 "All Articles" = "모든 문서";
 
-"Are any of these helpful?" = "이들의 도움이 있습니까?";
+"Are any of these helpful?" = "도움이 되는 항목이 있나요?";
 
 "Articles" = "문서";
 
@@ -46,9 +46,9 @@
 
 "Description (optional)" = "설명(선택 사항)";
 
-"Do you still want to contact us?" = "저희에게 연락하시겠습니까?";
+"Do you still want to contact us?" = "그래도 저희에게 연락하시겠어요?";
 
-"Do you still want to post your own idea?" = "당신은 여전히​​ 자신의 아이디어를 게시 하시겠습니까?";
+"Do you still want to post your own idea?" = "그래도 직접 아이디어를 게시하시겠어요?";
 
 "Don't save" = "저장 안 함";
 
@@ -70,15 +70,15 @@
 
 "Feedback Forum" = "피드백 포럼";
 
-"Forgot password" = "비밀번호를 잊었습니다";
+"Forgot password" = "비밀번호를 잊었어요";
 
 "Give feedback or ask for help..." = "피드백을 제공하거나 도움을 요청 ...";
 
-"Great! Glad we could help." = "좋아! 우리가 도울 수 다행.";
+"Great! Glad we could help." = "좋아요! 도움이 되어 다행이에요.";
 
-"I want this" = "나는이 원하는";
+"I want this" = "저도 원해요";
 
-"I want this!" = "나는이 원하는!";
+"I want this!" = "저도 원해요!";
 
 "Ideas" = "아이디어";
 
@@ -96,31 +96,31 @@
 
 "Name" = "이름";
 
-"Next" = "다음에";
+"Next" = "다음";
 
 "No" = "아니요";
 
 "No Results" = "결과 없음";
 
-"No, I'm done" = "아니요, 다 되었습니다";
+"No, I'm done" = "아니요, 다 됐어요";
 
 "OK" = "확인";
 
-"Password reset email sent to %@" = "비밀번호 재설정 이메일로 전송 %@";
+"Password reset email sent to %@" = "%@ 주소로 비밀번호 재설정 이메일을 보냈어요";
 
-"Please enter a valid email address." = "유효한 이메일 주소를 입력하십시오.";
+"Please enter a valid email address." = "유효한 이메일 주소를 입력하세요.";
 
-"Please enter a valid name." = "유효한 이름을 입력하십시오.";
+"Please enter a valid name." = "유효한 이름을 입력하세요.";
 
-"Please enter a valid title." = "유효한 제목을 입력하십시오.";
+"Please enter a valid title." = "유효한 제목을 입력하세요.";
 
 "Please enter some text before submitting your comment." = "댓글을 제출하기 전에 텍스트를 입력하세요.";
 
-"Please enter your email address before submitting your comment." = "댓글을 제출하기 전에 귀하의 이메일 주소를 입력하십시오.";
+"Please enter your email address before submitting your comment." = "댓글을 제출하기 전에 이메일 주소를 입력하세요.";
 
 "Please enter your email address before submitting your ticket." = "티켓을 제출하기 전에 이메일 주소를 입력하세요.";
 
-"Please fill out all required fields." = "모든 필수 필드를 작성하십시오.";
+"Please fill out all required fields." = "모든 필수 필드를 작성하세요.";
 
 "Post" = "올리기";
 
@@ -130,7 +130,7 @@
 
 "Ranked %@" = "순위 %@";
 
-"Related articles" = "관련 기사";
+"Related articles" = "관련 문서";
 
 "Related feedback" = "관련 피드백";
 
@@ -138,29 +138,29 @@
 
 "Search" = "검색";
 
-"Search forum" = "검색 포럼";
+"Search forum" = "포럼 검색";
 
 "select" = "선택";
 
 "Send" = "보내기";
 
-"Send us a message" = "우리에게 메시지 보내기";
+"Send us a message" = "저희에게 메시지 보내기";
 
 "Sign in" = "로그인";
 
-"Skip" = "Skip";
+"Skip" = "건너뛰기";
 
-"Sorry, there was an error in the application." = "죄송합니다. 어플리케이션에 오류가 발생했습니다.";
+"Sorry, there was an error in the application." = "죄송해요. 어플리케이션에 오류가 발생했어요.";
 
 "Thank you!" = "감사합니다!";
 
-"There appears to be a problem with your network connection, please check your connectivity and try again." = "네트워크 연결에 문제가 있는 것 같습니다. 연결을 확인하고 다시 시도하세요.";
+"There appears to be a problem with your network connection, please check your connectivity and try again." = "네트워크 연결에 문제가 있는 것 같아요. 연결을 확인하고 다시 시도하세요.";
 
-"There was a problem logging you in." = "당신을 로그인하는 데 문제가 발생했습니다.";
+"There was a problem logging you in." = "로그인하는 중 문제가 발생했어요.";
 
-"this" = "이";
+"this" = "이것";
 
-"This application didn't configure UserVoice properly" = "이 어플리케이션은 UserVoice를 제대로 구성하지 않았습니다";
+"This application didn't configure UserVoice properly" = "이 어플리케이션은 UserVoice를 제대로 구성하지 않았어요";
 
 "this idea" = "이 아이디어";
 
@@ -172,13 +172,13 @@
 
 "View idea" = "아이디어 보기";
 
-"Was this article helpful?" = "이 문서가 유용했습니까?";
+"Was this article helpful?" = "이 문서가 유용했나요?";
 
-"We'll be in touch." = "우리는 연락하지.";
+"We'll be in touch." = "곧 연락드릴게요.";
 
-"When you post an idea on our forum, others will be able to subscribe to it and make comments. When we respond to the idea, you'll get notified." = "당신은 우리의 포럼에 아이디어를 게시하면, 다른 사람들은 구독하고 의견을 수있을 것입니다. 우리가 생각에 응답 할 때 알림을 받게됩니다.";
+"When you post an idea on our forum, others will be able to subscribe to it and make comments. When we respond to the idea, you'll get notified." = "포럼에 아이디어를 게시하면 다른 사람들이 구독하고 댓글을 달 수 있어요. 저희가 아이디어에 답변하면 알림을 받게 돼요.";
 
-"Would you like to contact us?" = "저희에게 연락하시겠습니까?";
+"Would you like to contact us?" = "저희에게 연락하시겠어요?";
 
 "Write a comment..." = "댓글 쓰기…";
 
@@ -188,8 +188,8 @@
 
 "Yes, go to my message" = "예, 내 메시지로 이동";
 
-"Yes, I want to post my idea" = "예, 내 아이디어를 게시 할";
+"Yes, I want to post my idea" = "예, 내 아이디어를 게시할게요";
 
-"Your feedback has been posted to our feedback forum." = "여러분의 의견은 우리의 피드백 포럼에 게시되어 있습니다.";
+"Your feedback has been posted to our feedback forum." = "의견이 저희 피드백 포럼에 게시되었어요.";
 
 "“Anonymous”" = "“익명”";

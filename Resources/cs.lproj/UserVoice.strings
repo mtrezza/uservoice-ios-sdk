@@ -8,19 +8,19 @@
 
 "%@ (required)" = "%@ (Povinné)";
 
-"%@ ideas" = "%@ nápady";
+"%@ ideas" = "Nápady: %@";
 
-"%ld people" = "%ld lidé";
+"%ld people" = "%ld lidí";
 
-"(none)" = "(None)";
+"(none)" = "(Žádné)";
 
 "(required)" = "(povinné)";
 
-"1 idea" = "1. idea";
+"1 idea" = "1 nápad";
 
 "1 person" = "1 osoba";
 
-"A suggestion with this title already exists. Please change the title." = "Návrh s tímto názvem již existuje.Změňte prosím název.";
+"A suggestion with this title already exists. Please change the title." = "Návrh s tímto názvem už existuje. Změň prosím název.";
 
 "Add a comment" = "Přidat komentář";
 
@@ -30,7 +30,7 @@
 
 "All Articles" = "Všechny články";
 
-"Are any of these helpful?" = "Jsou některé z nich užitečná?";
+"Are any of these helpful?" = "Jsou některé z nich užitečné?";
 
 "Articles" = "Články";
 
@@ -42,13 +42,13 @@
 
 "Close" = "Zavřít";
 
-"Comment" = "Komentář";
+"Comment" = "Komentovat";
 
 "Description (optional)" = "Popis (volitelné)";
 
-"Do you still want to contact us?" = "Přejete si nás stále kontaktovat?";
+"Do you still want to contact us?" = "Chceš nás stále kontaktovat?";
 
-"Do you still want to post your own idea?" = "Myslíte si přesto chcete psát své vlastní představu?";
+"Do you still want to post your own idea?" = "Chceš přesto zveřejnit svůj vlastní nápad?";
 
 "Don't save" = "Neukládat";
 
@@ -56,11 +56,11 @@
 
 "Email" = "E-mail";
 
-"Enter UserVoice password for %@" = "Zadejte heslo UserVoice pro %@";
+"Enter UserVoice password for %@" = "Zadej heslo UserVoice pro %@";
 
-"enter value" = "zadejte hodnotu";
+"enter value" = "zadej hodnotu";
 
-"Enter your email" = "Zadejte svůj e-mail";
+"Enter your email" = "Zadej svůj e-mail";
 
 "Error" = "Chyba";
 
@@ -68,17 +68,17 @@
 
 "Feedback & Support" = "Zpětná vazba a podpora";
 
-"Feedback Forum" = "Zpětná vazba k fóru";
+"Feedback Forum" = "Fórum zpětné vazby";
 
 "Forgot password" = "Zapomenuté heslo";
 
-"Give feedback or ask for help..." = "Dejte nám zpětnou vazbu, nebo požádat o pomoc ...";
+"Give feedback or ask for help..." = "Dej nám zpětnou vazbu nebo požádej o pomoc ...";
 
 "Great! Glad we could help." = "Skvělé! Jsem rád, že jsme mohli pomoci.";
 
-"I want this" = "Chci, aby to";
+"I want this" = "Chci to";
 
-"I want this!" = "Chci, aby to!";
+"I want this!" = "Chci to!";
 
 "Ideas" = "Nápady";
 
@@ -88,7 +88,7 @@
 
 "Load more" = "Načíst další";
 
-"Loading..." = "Loading ...";
+"Loading..." = "Načítání...";
 
 "Message sent!" = "Zpráva byla odeslána!";
 
@@ -106,21 +106,21 @@
 
 "OK" = "OK";
 
-"Password reset email sent to %@" = "Email resetování hesla odeslán %@";
+"Password reset email sent to %@" = "E-mail pro obnovení hesla byl odeslán na %@";
 
-"Please enter a valid email address." = "Zadejte prosím platnou e-mailovou adresu.";
+"Please enter a valid email address." = "Zadej prosím platnou e-mailovou adresu.";
 
-"Please enter a valid name." = "Zadejte prosím platné jméno.";
+"Please enter a valid name." = "Zadej prosím platné jméno.";
 
-"Please enter a valid title." = "Zadejte prosím platný název.";
+"Please enter a valid title." = "Zadej prosím platný název.";
 
-"Please enter some text before submitting your comment." = "Před odesláním svůj komentář Zadejte nějaký text.";
+"Please enter some text before submitting your comment." = "Před odesláním komentáře zadej nějaký text.";
 
-"Please enter your email address before submitting your comment." = "Před odesláním svůj komentář, zadejte svou e-mailovou adresu.";
+"Please enter your email address before submitting your comment." = "Před odesláním komentáře zadej svou e-mailovou adresu.";
 
-"Please enter your email address before submitting your ticket." = "Před odesláním vašeho lístku, zadejte prosím svou e-mailovou adresu.";
+"Please enter your email address before submitting your ticket." = "Před odesláním svého lístku zadej prosím svou e-mailovou adresu.";
 
-"Please fill out all required fields." = "Vyplňte prosím všechna povinná pole.";
+"Please fill out all required fields." = "Vyplň prosím všechna povinná pole.";
 
 "Post" = "Zveřejnit";
 
@@ -128,7 +128,7 @@
 
 "Powered by UserVoice" = "Powered by UserVoice";
 
-"Ranked %@" = "Zařadil %@";
+"Ranked %@" = "Pořadí: %@";
 
 "Related articles" = "Související články";
 
@@ -138,49 +138,49 @@
 
 "Search" = "Vyhledat";
 
-"Search forum" = "Hledat forum";
+"Search forum" = "Hledat ve fóru";
 
 "select" = "vybrat";
 
 "Send" = "Odeslat";
 
-"Send us a message" = "Pošlete nám zprávu";
+"Send us a message" = "Pošli nám zprávu";
 
-"Sign in" = "Přihlaste se";
+"Sign in" = "Přihlásit se";
 
 "Skip" = "Přeskočit";
 
 "Sorry, there was an error in the application." = "Litujeme, ale v aplikaci se vyskytla chyba.";
 
-"Thank you!" = "Děkuji vám!";
+"Thank you!" = "Děkujeme!";
 
-"There appears to be a problem with your network connection, please check your connectivity and try again." = "Zdá se, že je problém s vaším připojením k síti. Zkontrolujte prosím své připojení a zkuste to znovu.";
+"There appears to be a problem with your network connection, please check your connectivity and try again." = "Zdá se, že je problém s tvým připojením k síti. Zkontroluj prosím své připojení a zkus to znovu.";
 
-"There was a problem logging you in." = "Tam byl problém přihlášení vás.";
+"There was a problem logging you in." = "Při přihlašování došlo k potížím.";
 
 "this" = "to";
 
 "This application didn't configure UserVoice properly" = "Tato aplikace nenakonfigurovala UserVoice správně";
 
-"this idea" = "tato myšlenka";
+"this idea" = "tento nápad";
 
 "Title" = "Název";
 
-"Try again" = "Zkuste to znovu";
+"Try again" = "Zkus to znovu";
 
 "User name" = "Uživatelské jméno";
 
 "View idea" = "Zobrazit nápad";
 
-"Was this article helpful?" = "Pomohl vám tento článek?";
+"Was this article helpful?" = "Pomohl ti tento článek?";
 
 "We'll be in touch." = "Budeme v kontaktu.";
 
-"When you post an idea on our forum, others will be able to subscribe to it and make comments. When we respond to the idea, you'll get notified." = "Při přidání představu o našem fóru, některé budou moci objednat a vznést připomínky. Když jsme se reagovat na myšlence, dostanete upozorněni.";
+"When you post an idea on our forum, others will be able to subscribe to it and make comments. When we respond to the idea, you'll get notified." = "Když zveřejníš nápad na našem fóru, ostatní ho budou moci odebírat a komentovat. Až na nápad zareagujeme, dostaneš upozornění.";
 
-"Would you like to contact us?" = "Přejete si nás kontaktovat?";
+"Would you like to contact us?" = "Chceš nás kontaktovat?";
 
-"Write a comment..." = "Napište komentář...";
+"Write a comment..." = "Napiš komentář...";
 
 "Yes" = "Ano";
 
@@ -188,8 +188,8 @@
 
 "Yes, go to my message" = "Ano, přejít na mou zprávu";
 
-"Yes, I want to post my idea" = "Ano, chci, abyste mohl psát můj nápad";
+"Yes, I want to post my idea" = "Ano, chci zveřejnit svůj nápad";
 
-"Your feedback has been posted to our feedback forum." = "Váš názor byl vyslán do naší zpětné vazby fórum.";
+"Your feedback has been posted to our feedback forum." = "Tvůj názor byl zveřejněn na našem fóru zpětné vazby.";
 
 "“Anonymous”" = "\"Anonymní\"";

@@ -22,7 +22,7 @@
 
 "A suggestion with this title already exists. Please change the title." = "已有一個同樣標題的建議。請更改標題。";
 
-"Add a comment" = "增加一個意見";
+"Add a comment" = "新增評論";
 
 "Additional Details" = "額外的詳細資訊";
 
@@ -30,7 +30,7 @@
 
 "All Articles" = "所有文章";
 
-"Are any of these helpful?" = "這些文章對您有幫助嗎?";
+"Are any of these helpful?" = "這些文章對你有幫助嗎?";
 
 "Articles" = "文章";
 
@@ -48,13 +48,13 @@
 
 "Do you still want to contact us?" = "你仍想要與我們聯繫嗎？";
 
-"Do you still want to post your own idea?" = "請問你仍然要發佈你的意見嗎?";
+"Do you still want to post your own idea?" = "你仍然要發佈你的意見嗎?";
 
 "Don't save" = "不儲存";
 
 "Done" = "完成";
 
-"Email" = "信件";
+"Email" = "電子郵件";
 
 "Enter UserVoice password for %@" = "輸入 %@ 的 UserVoice 密碼";
 
@@ -94,7 +94,7 @@
 
 "more" = "更多";
 
-"Name" = "名稱";
+"Name" = "姓名";
 
 "Next" = "下一步";
 
@@ -114,11 +114,11 @@
 
 "Please enter a valid title." = "請輸入有效的標題。";
 
-"Please enter some text before submitting your comment." = "送出意見前，請先輸入文字。";
+"Please enter some text before submitting your comment." = "送出評論前，請先輸入文字。";
 
-"Please enter your email address before submitting your comment." = "送出意見前，請先輸入你的電郵地址。";
+"Please enter your email address before submitting your comment." = "送出評論前，請先輸入你的電郵地址。";
 
-"Please enter your email address before submitting your ticket." = "投票前，請先輸入你的電郵地址。";
+"Please enter your email address before submitting your ticket." = "送出前，請先輸入你的電郵地址。";
 
 "Please fill out all required fields." = "請填寫所有需要的欄位。";
 
@@ -152,11 +152,11 @@
 
 "Sorry, there was an error in the application." = "抱歉，應用程式出現錯誤。";
 
-"Thank you!" = "感謝您!";
+"Thank you!" = "謝謝你!";
 
 "There appears to be a problem with your network connection, please check your connectivity and try again." = "所用網路連線似乎有問題，請檢查一下網路連線，然後再試一次。";
 
-"There was a problem logging you in." = "遇到問題，暫時無法讓您登錄。";
+"There was a problem logging you in." = "遇到問題，暫時無法讓你登入。";
 
 "this" = "這個";
 
@@ -172,13 +172,13 @@
 
 "View idea" = "閱覽意見和建議";
 
-"Was this article helpful?" = "這篇文章是否有幫助？";
+"Was this article helpful?" = "這篇文章有幫助嗎？";
 
 "We'll be in touch." = "我們會保持聯繫的。";
 
-"When you post an idea on our forum, others will be able to subscribe to it and make comments. When we respond to the idea, you'll get notified." = "當你發表意見至論壇時，其他人可以訂閱或者回覆。 當我們回應這個意見時，您將收到通知。";
+"When you post an idea on our forum, others will be able to subscribe to it and make comments. When we respond to the idea, you'll get notified." = "當你發表意見至論壇時，其他人可以訂閱或者回覆。 當我們回應這個意見時，你將收到通知。";
 
-"Would you like to contact us?" = "是否想要與我們聯絡？";
+"Would you like to contact us?" = "想要與我們聯絡嗎？";
 
 "Write a comment..." = "請留言...";
 
@@ -186,10 +186,10 @@
 
 "Yes!" = "是！";
 
-"Yes, go to my message" = "可以，前往我的信件";
+"Yes, go to my message" = "可以，前往我的訊息";
 
 "Yes, I want to post my idea" = "是的, 我想要刊登我的想法";
 
-"Your feedback has been posted to our feedback forum." = "您的意見已經發布到我們的論壇";
+"Your feedback has been posted to our feedback forum." = "你的意見已經發布到我們的論壇";
 
 "“Anonymous”" = "「匿名」";

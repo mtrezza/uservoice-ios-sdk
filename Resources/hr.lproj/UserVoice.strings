@@ -6,13 +6,13 @@
 
 /********** Uncategorized **********/
 
-"%@ (required)" = "%@ (Required)";
+"%@ (required)" = "%@ (obvezno)";
 
 "%@ ideas" = "%@ Ideje";
 
 "%ld people" = "%ld ljudi";
 
-"(none)" = "(None)";
+"(none)" = "(ništa)";
 
 "(required)" = "(obvezno)";
 
@@ -20,17 +20,17 @@
 
 "1 person" = "1 osoba";
 
-"A suggestion with this title already exists. Please change the title." = "Prijedlog s ovim naslovom već postoji. Molimo promijenite naslov.";
+"A suggestion with this title already exists. Please change the title." = "Prijedlog s ovim naslovom već postoji. Promijeni naslov.";
 
 "Add a comment" = "Dodaj komentar";
 
-"Additional Details" = "Dodatne detalje";
+"Additional Details" = "Dodatni detalji";
 
 "All" = "Sve";
 
 "All Articles" = "Svi članci";
 
-"Are any of these helpful?" = "Jesu li bilo koji od ovih pomoći?";
+"Are any of these helpful?" = "Je li išta od ovoga korisno?";
 
 "Articles" = "Članci";
 
@@ -42,13 +42,13 @@
 
 "Close" = "Zatvori";
 
-"Comment" = "Komentar";
+"Comment" = "Komentiraj";
 
 "Description (optional)" = "Opis (opcionalno)";
 
-"Do you still want to contact us?" = "Još uvijek naš želite kontaktirati?";
+"Do you still want to contact us?" = "Još uvijek nas želiš kontaktirati?";
 
-"Do you still want to post your own idea?" = "Da li i dalje želite objaviti svoju ideju?";
+"Do you still want to post your own idea?" = "Želiš li i dalje objaviti svoju ideju?";
 
 "Don't save" = "Nemoj spremiti";
 
@@ -56,25 +56,25 @@
 
 "Email" = "E-pošta";
 
-"Enter UserVoice password for %@" = "Upišite zaporku UserVoice za %@";
+"Enter UserVoice password for %@" = "Upiši zaporku UserVoice za %@";
 
-"enter value" = "upišite vrijednost";
+"enter value" = "upiši vrijednost";
 
 "Enter your email" = "Upiši svoju adresu e-pošte";
 
 "Error" = "Pogreška";
 
-"Feedback" = "Vaše mišljenje";
+"Feedback" = "Tvoje mišljenje";
 
 "Feedback & Support" = "Povratna informacija & podrška";
 
 "Feedback Forum" = "Forum za povratne informacije";
 
-"Forgot password" = "Zaboravili ste lozinku";
+"Forgot password" = "Zaboravljena lozinka";
 
-"Give feedback or ask for help..." = "Dajte svoje mišljenje ili pitati za pomoć ...";
+"Give feedback or ask for help..." = "Daj svoje mišljenje ili zatraži pomoć...";
 
-"Great! Glad we could help." = "Veliki! Drago mi je što smo mogli pomoći.";
+"Great! Glad we could help." = "Odlično! Drago nam je što smo mogli pomoći.";
 
 "I want this" = "Želim ovo";
 
@@ -88,7 +88,7 @@
 
 "Load more" = "Još učitaj";
 
-"Loading..." = "Loading ...";
+"Loading..." = "Učitavanje...";
 
 "Message sent!" = "Poruka je poslana!";
 
@@ -106,67 +106,67 @@
 
 "OK" = "U redu";
 
-"Password reset email sent to %@" = "Resetiranje lozinke e-mail poslan %@";
+"Password reset email sent to %@" = "Poruka za ponovno postavljanje lozinke poslana je na %@";
 
-"Please enter a valid email address." = "Unesite valjanu adresu e-pošte.";
+"Please enter a valid email address." = "Unesi valjanu adresu e-pošte.";
 
-"Please enter a valid name." = "Unesite valjano ime.";
+"Please enter a valid name." = "Unesi valjano ime.";
 
-"Please enter a valid title." = "Unesite valjan naslov.";
+"Please enter a valid title." = "Unesi valjan naslov.";
 
-"Please enter some text before submitting your comment." = "Unesite tekst prije slanja vašeg komentara.";
+"Please enter some text before submitting your comment." = "Unesi tekst prije slanja svog komentara.";
 
-"Please enter your email address before submitting your comment." = "Unesite svoju adresu e-pošte prije slanja vašeg komentara.";
+"Please enter your email address before submitting your comment." = "Unesi svoju adresu e-pošte prije slanja svog komentara.";
 
-"Please enter your email address before submitting your ticket." = "Molimo upišite adresu e-pošte prije slanja ulaznice.";
+"Please enter your email address before submitting your ticket." = "Upiši adresu e-pošte prije slanja.";
 
-"Please fill out all required fields." = "Molimo Vas da ispunite sva obavezna polja.";
+"Please fill out all required fields." = "Ispuni sva obavezna polja.";
 
-"Post" = "Objava";
+"Post" = "Objavi";
 
 "Post an idea" = "Objavi ideju";
 
 "Powered by UserVoice" = "Powered by UserVoice";
 
-"Ranked %@" = "Muški %@";
+"Ranked %@" = "Rang: %@";
 
 "Related articles" = "Vezani članci";
 
-"Related feedback" = "Povezano feedback";
+"Related feedback" = "Povezane povratne informacije";
 
 "Save draft" = "Spremi nacrt";
 
 "Search" = "Pretraži";
 
-"Search forum" = "Traži forum";
+"Search forum" = "Pretraži forum";
 
-"select" = "odabrati";
+"select" = "odaberi";
 
 "Send" = "Šalji";
 
-"Send us a message" = "Pošaljite nam poruku";
+"Send us a message" = "Pošalji nam poruku";
 
 "Sign in" = "Prijava";
 
-"Skip" = "Preskočiti";
+"Skip" = "Preskoči";
 
 "Sorry, there was an error in the application." = "Žao nam je, došlo je do pogreške u aplikaciji.";
 
-"Thank you!" = "Hvala vam!";
+"Thank you!" = "Hvala ti!";
 
-"There appears to be a problem with your network connection, please check your connectivity and try again." = "Čini se da dolazi do problema s vašom mrežnom vezom, molimo da provjerite svoju povezanost i pokušate ponovno.";
+"There appears to be a problem with your network connection, please check your connectivity and try again." = "Čini se da dolazi do problema s tvojom mrežnom vezom, provjeri svoju povezanost i pokušaj ponovno.";
 
-"There was a problem logging you in." = "Tu je problem što se prijavite.";
+"There was a problem logging you in." = "Došlo je do problema s prijavom.";
 
 "this" = "ovo";
 
 "This application didn't configure UserVoice properly" = "Ova aplikacija nije pravilno konfigurirala UserVoice";
 
-"this idea" = "ova ideja";
+"this idea" = "ovu ideju";
 
 "Title" = "Naslov";
 
-"Try again" = "Ponovite";
+"Try again" = "Ponovi";
 
 "User name" = "Korisničko ime";
 
@@ -176,9 +176,9 @@
 
 "We'll be in touch." = "Bit ćemo u kontaktu.";
 
-"When you post an idea on our forum, others will be able to subscribe to it and make comments. When we respond to the idea, you'll get notified." = "Kada objavite ideju na našem forumu, drugi će biti u mogućnosti da se pretplatite na njega i napraviti komentare. Kad smo odgovoriti na ideju, da ćete dobiti obavijest.";
+"When you post an idea on our forum, others will be able to subscribe to it and make comments. When we respond to the idea, you'll get notified." = "Kada objaviš ideju na našem forumu, drugi će se moći pretplatiti na nju i komentirati je. Kada odgovorimo na ideju, dobit ćeš obavijest.";
 
-"Would you like to contact us?" = "Želite li nam se obratiti?";
+"Would you like to contact us?" = "Želiš li nam se obratiti?";
 
 "Write a comment..." = "Napiši komentar…";
 
@@ -190,6 +190,6 @@
 
 "Yes, I want to post my idea" = "Da, želim objaviti svoju ideju";
 
-"Your feedback has been posted to our feedback forum." = "Vaše povratne informacije je objavljena na našoj povratne forumu.";
+"Your feedback has been posted to our feedback forum." = "Tvoje mišljenje objavljeno je na našem forumu za povratne informacije.";
 
 "“Anonymous”" = "„Anonimno“";

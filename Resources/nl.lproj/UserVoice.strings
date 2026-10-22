@@ -30,7 +30,7 @@
 
 "All Articles" = "Alle artikelen";
 
-"Are any of these helpful?" = "Bedoelde u misschien…";
+"Are any of these helpful?" = "Is een van deze nuttig?";
 
 "Articles" = "Artikelen";
 
@@ -42,13 +42,13 @@
 
 "Close" = "Sluiten";
 
-"Comment" = "Opmerking";
+"Comment" = "Reageren";
 
 "Description (optional)" = "Beschrijving (optioneel)";
 
-"Do you still want to contact us?" = "Wilt u nog steeds contact met ons opnemen?";
+"Do you still want to contact us?" = "Wil je nog steeds contact met ons opnemen?";
 
-"Do you still want to post your own idea?" = "Wilt u uw idee nog steeds plaatsen?";
+"Do you still want to post your own idea?" = "Wil je je idee nog steeds plaatsen?";
 
 "Don't save" = "Niet opslaan";
 
@@ -58,9 +58,9 @@
 
 "Enter UserVoice password for %@" = "Geef UserVoice-wachtwoord op voor %@";
 
-"enter value" = "voeren waarde";
+"enter value" = "waarde invoeren";
 
-"Enter your email" = "Geef uw e-mailadres op";
+"Enter your email" = "Geef je e-mailadres op";
 
 "Error" = "Fout";
 
@@ -72,7 +72,7 @@
 
 "Forgot password" = "Wachtwoord vergeten";
 
-"Give feedback or ask for help..." = "Omschrijf hier uw probleem…";
+"Give feedback or ask for help..." = "Omschrijf hier je probleem…";
 
 "Great! Glad we could help." = "Geweldig! Blij dat we konden helpen.";
 
@@ -106,7 +106,7 @@
 
 "OK" = "OK";
 
-"Password reset email sent to %@" = "E-mail voor het opnieuw instellen van uw wachtwoord verstuurd naar %@";
+"Password reset email sent to %@" = "E-mail voor het opnieuw instellen van je wachtwoord verstuurd naar %@";
 
 "Please enter a valid email address." = "Vul een geldig e-mailadres in.";
 
@@ -114,11 +114,11 @@
 
 "Please enter a valid title." = "Vul een geldige titel in.";
 
-"Please enter some text before submitting your comment." = "Vul een tekst in alvorens uw reactie te versturen.";
+"Please enter some text before submitting your comment." = "Vul een tekst in voordat je je reactie verstuurt.";
 
-"Please enter your email address before submitting your comment." = "Vul uw e-mailadres in alvorens uw reactie te versturen.";
+"Please enter your email address before submitting your comment." = "Vul je e-mailadres in voordat je je reactie verstuurt.";
 
-"Please enter your email address before submitting your ticket." = "Vul uw e-mailadres in alvorens uw ticket te versturen.";
+"Please enter your email address before submitting your ticket." = "Vul je e-mailadres in voordat je je ticket verstuurt.";
 
 "Please fill out all required fields." = "Vul alle verplichte velden in.";
 
@@ -128,7 +128,7 @@
 
 "Powered by UserVoice" = "Powered by UserVoice";
 
-"Ranked %@" = "Gerangschikt %@";
+"Ranked %@" = "Rang %@";
 
 "Related articles" = "Gerelateerde artikelen";
 
@@ -152,9 +152,9 @@
 
 "Sorry, there was an error in the application." = "Er is een fout opgetreden.";
 
-"Thank you!" = "Dank u wel!";
+"Thank you!" = "Dank je wel!";
 
-"There appears to be a problem with your network connection, please check your connectivity and try again." = "Er is mogelijk een probleem met uw netwerkverbinding. Controleer de verbinding en probeer het opnieuw.";
+"There appears to be a problem with your network connection, please check your connectivity and try again." = "Er is mogelijk een probleem met je netwerkverbinding. Controleer de verbinding en probeer het opnieuw.";
 
 "There was a problem logging you in." = "Er is een probleem opgetreden tijdens het inloggen.";
 
@@ -174,11 +174,11 @@
 
 "Was this article helpful?" = "Was dit artikel nuttig?";
 
-"We'll be in touch." = "We nemen contact met u op.";
+"We'll be in touch." = "We nemen contact met je op.";
 
-"When you post an idea on our forum, others will be able to subscribe to it and make comments. When we respond to the idea, you'll get notified." = "Als u een suggestie op ons forum plaatst, kunnen anderen zich op deze suggestie abonneren en opmerkingen plaatsen. U krijgt een melding als we op de suggestie hebben gereageerd.";
+"When you post an idea on our forum, others will be able to subscribe to it and make comments. When we respond to the idea, you'll get notified." = "Als je een suggestie op ons forum plaatst, kunnen anderen zich op deze suggestie abonneren en opmerkingen plaatsen. Je krijgt een melding als we op de suggestie hebben gereageerd.";
 
-"Would you like to contact us?" = "Wilt u contact met ons opnemen?";
+"Would you like to contact us?" = "Wil je contact met ons opnemen?";
 
 "Write a comment..." = "Schrijf een opmerking…";
 
@@ -190,6 +190,6 @@
 
 "Yes, I want to post my idea" = "Ja, ik wil mijn suggestie plaatsen";
 
-"Your feedback has been posted to our feedback forum." = "Uw suggestie is geplaatst op ons forum.";
+"Your feedback has been posted to our feedback forum." = "Je suggestie is geplaatst op ons forum.";
 
 "“Anonymous”" = "“Anoniem”";

@@ -8,15 +8,15 @@
 
 "%@ (required)" = "%@ (Wymagane)";
 
-"%@ ideas" = "%@ pomysły";
+"%@ ideas" = "Pomysły: %@";
 
-"%ld people" = "%ld ludzie";
+"%ld people" = "%ld ludzi";
 
 "(none)" = "(Brak)";
 
 "(required)" = "(wymagane)";
 
-"1 idea" = "1 pomysłem";
+"1 idea" = "1 pomysł";
 
 "1 person" = "1 osoba";
 
@@ -42,7 +42,7 @@
 
 "Close" = "Zamknij";
 
-"Comment" = "Komentarz";
+"Comment" = "Skomentuj";
 
 "Description (optional)" = "Opis (opcjonalny)";
 
@@ -58,7 +58,7 @@
 
 "Enter UserVoice password for %@" = "Wprowadź hasło usługi UserVoice dla: %@";
 
-"enter value" = "wprowadzić wartość";
+"enter value" = "wprowadź wartość";
 
 "Enter your email" = "Podaj adres e-mail";
 
@@ -72,9 +72,9 @@
 
 "Forgot password" = "Nie pamiętam hasła";
 
-"Give feedback or ask for help..." = "Prześlij opinię lub poprosić o pomoc ...";
+"Give feedback or ask for help..." = "Prześlij opinię lub poproś o pomoc ...";
 
-"Great! Glad we could help." = "Świetne! Cieszę się, że mogliśmy pomóc.";
+"Great! Glad we could help." = "Świetnie! Cieszymy się, że mogliśmy pomóc.";
 
 "I want this" = "Chcę to";
 
@@ -94,9 +94,9 @@
 
 "more" = "więcej";
 
-"Name" = "Nazwa";
+"Name" = "Imię";
 
-"Next" = "Następny";
+"Next" = "Dalej";
 
 "No" = "Nie";
 
@@ -106,21 +106,21 @@
 
 "OK" = "OK";
 
-"Password reset email sent to %@" = "E-mail wysłany do resetowania hasła %@";
+"Password reset email sent to %@" = "E-mail do resetowania hasła wysłano na adres %@";
 
-"Please enter a valid email address." = "Proszę podać poprawny adres e-mail.";
+"Please enter a valid email address." = "Podaj poprawny adres e-mail.";
 
-"Please enter a valid name." = "Proszę podać poprawne imię.";
+"Please enter a valid name." = "Podaj poprawne imię.";
 
-"Please enter a valid title." = "Proszę podać poprawny tytuł.";
+"Please enter a valid title." = "Podaj poprawny tytuł.";
 
-"Please enter some text before submitting your comment." = "Proszę podać tekst przed wysłaniem komentarza.";
+"Please enter some text before submitting your comment." = "Wpisz tekst przed wysłaniem komentarza.";
 
 "Please enter your email address before submitting your comment." = "Podaj swój adres e-mail przed wysłaniem komentarza.";
 
 "Please enter your email address before submitting your ticket." = "Przed wysłaniem zgłoszenia podaj swój adres e-mail.";
 
-"Please fill out all required fields." = "Proszę wypełnić wszystkie wymagane pola.";
+"Please fill out all required fields." = "Wypełnij wszystkie wymagane pola.";
 
 "Post" = "Opublikuj";
 
@@ -140,7 +140,7 @@
 
 "Search forum" = "Szukaj na forum";
 
-"select" = "wybierać";
+"select" = "wybierz";
 
 "Send" = "Wyślij";
 
@@ -148,7 +148,7 @@
 
 "Sign in" = "Zaloguj się";
 
-"Skip" = "Skip";
+"Skip" = "Pomiń";
 
 "Sorry, there was an error in the application." = "Przepraszamy. Wystąpił błąd w aplikacji.";
 
@@ -176,7 +176,7 @@
 
 "We'll be in touch." = "Będziemy w kontakcie.";
 
-"When you post an idea on our forum, others will be able to subscribe to it and make comments. When we respond to the idea, you'll get notified." = "Kiedy po pomysł na naszym forum, inni będą mogli się do niej zapisać i przedstawić swoje uwagi. Kiedy w odpowiedzi na pomysł, będziesz otrzymywać powiadomienia.";
+"When you post an idea on our forum, others will be able to subscribe to it and make comments. When we respond to the idea, you'll get notified." = "Gdy opublikujesz pomysł na naszym forum, inni będą mogli go subskrybować i komentować. Gdy odpowiemy na pomysł, otrzymasz powiadomienie.";
 
 "Would you like to contact us?" = "Czy chcesz się z nami skontaktować?";
 
@@ -188,8 +188,8 @@
 
 "Yes, go to my message" = "Tak, przejdź do mojej wiadomości";
 
-"Yes, I want to post my idea" = "Tak, chcę, aby umieścić swój pomysł";
+"Yes, I want to post my idea" = "Tak, chcę opublikować swój pomysł";
 
-"Your feedback has been posted to our feedback forum." = "Twoja opinia została wysłana do naszego forum zwrotnego.";
+"Your feedback has been posted to our feedback forum." = "Twoja opinia została opublikowana na naszym forum opinii.";
 
 "“Anonymous”" = "„Anonimowo”";

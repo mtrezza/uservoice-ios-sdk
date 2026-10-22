@@ -20,7 +20,7 @@
 
 "1 person" = "1 คน";
 
-"A suggestion with this title already exists. Please change the title." = "มีคำแนะนำชื่อนี้อยู่แล้วโปรดเปลี่ยนชื่อ";
+"A suggestion with this title already exists. Please change the title." = "มีคำแนะนำที่ใช้หัวข้อนี้อยู่แล้ว โปรดเปลี่ยนหัวข้อ";
 
 "Add a comment" = "เพิ่มความคิดเห็น";
 
@@ -30,7 +30,7 @@
 
 "All Articles" = "บทความทั้งหมด";
 
-"Are any of these helpful?" = "มีใด ๆ เหล่านี้เป็นประโยชน์หรือไม่";
+"Are any of these helpful?" = "มีรายการไหนช่วยได้ไหม";
 
 "Articles" = "บทความ";
 
@@ -48,7 +48,7 @@
 
 "Do you still want to contact us?" = "คุณยังต้องการติดต่อเราอยู่ไหม";
 
-"Do you still want to post your own idea?" = "คุณยังคงต้องการที่จะโพสต์ความคิดของคุณเอง?";
+"Do you still want to post your own idea?" = "คุณยังต้องการโพสต์ความคิดของคุณเองอยู่ไหม";
 
 "Don't save" = "ไม่บันทึก";
 
@@ -74,29 +74,29 @@
 
 "Give feedback or ask for help..." = "แสดงความคิดเห็นหรือขอความช่วยเหลือ ...";
 
-"Great! Glad we could help." = "ที่ดี! ดีใจที่เราสามารถช่วย";
+"Great! Glad we could help." = "เยี่ยมเลย! ดีใจที่ได้ช่วยคุณ";
 
-"I want this" = "ผมอยากให้เรื่องนี้";
+"I want this" = "ฉันต้องการสิ่งนี้";
 
-"I want this!" = "ผมอยากให้เรื่องนี้!";
+"I want this!" = "ฉันต้องการสิ่งนี้!";
 
 "Ideas" = "ความคิด";
 
 "Knowledge Base" = "ฐานความรู้";
 
-"Knowledge base" = "Knowledge base";
+"Knowledge base" = "ฐานความรู้";
 
 "Load more" = "โหลดเพิ่ม";
 
 "Loading..." = "กำลังโหลด ...";
 
-"Message sent!" = "ข้อความที่ส่ง!";
+"Message sent!" = "ส่งข้อความแล้ว!";
 
-"more" = "มากกว่า";
+"more" = "เพิ่มเติม";
 
 "Name" = "ชื่อ";
 
-"Next" = "Next";
+"Next" = "ถัดไป";
 
 "No" = "ไม่";
 
@@ -128,7 +128,7 @@
 
 "Powered by UserVoice" = "Powered by UserVoice";
 
-"Ranked %@" = "การจัดอันดับ %@";
+"Ranked %@" = "อันดับ %@";
 
 "Related articles" = "บทความที่เกี่ยวข้อง";
 
@@ -138,7 +138,7 @@
 
 "Search" = "ค้นหา";
 
-"Search forum" = "ฟอรั่มค้นหา";
+"Search forum" = "ค้นหาในฟอรั่ม";
 
 "select" = "เลือก";
 
@@ -146,25 +146,25 @@
 
 "Send us a message" = "ส่งข้อความถึงเรา";
 
-"Sign in" = "ลงชื่อเข้า";
+"Sign in" = "ลงชื่อเข้าใช้";
 
-"Skip" = "Skip";
+"Skip" = "ข้าม";
 
 "Sorry, there was an error in the application." = "ขออภัย เกิดข้อผิดพลาดในแอพพลิเคชั่นนี้";
 
-"Thank you!" = "ขอขอบคุณ!";
+"Thank you!" = "ขอบคุณ!";
 
 "There appears to be a problem with your network connection, please check your connectivity and try again." = "ดูเหมือนจะมีปัญหาในการเชื่อมต่อเครือข่าย โปรดตรวจสอบการเชื่อมต่อของคุณแล้วลองใหม่";
 
-"There was a problem logging you in." = "มีปัญหาในการเข้าสู่ระบบคุณในการเป็น";
+"There was a problem logging you in." = "เกิดปัญหาในการเข้าสู่ระบบ";
 
-"this" = "นี้";
+"this" = "สิ่งนี้";
 
 "This application didn't configure UserVoice properly" = "แอพพลิเคชั่นนี้ไม่ได้ตั้งค่า UserVoice อย่างถูกต้อง";
 
 "this idea" = "ความคิดนี้";
 
-"Title" = "ชื่อ";
+"Title" = "หัวข้อ";
 
 "Try again" = "ลองใหม่";
 
@@ -172,13 +172,13 @@
 
 "View idea" = "ดูความคิด";
 
-"Was this article helpful?" = "บทความนี้มีประโยชน์หรือไม่";
+"Was this article helpful?" = "บทความนี้มีประโยชน์ไหม";
 
 "We'll be in touch." = "เราจะติดต่อ";
 
-"When you post an idea on our forum, others will be able to subscribe to it and make comments. When we respond to the idea, you'll get notified." = "เมื่อคุณโพสต์ความคิดในฟอรั่มของเราคนอื่น ๆ จะสามารถที่จะสมัครเป็นสมาชิกและให้ความเห็น เมื่อเราตอบสนองต่อความคิดของคุณจะได้รับการแจ้งเตือน";
+"When you post an idea on our forum, others will be able to subscribe to it and make comments. When we respond to the idea, you'll get notified." = "เมื่อคุณโพสต์ความคิดในฟอรั่มของเรา คนอื่น ๆ จะสามารถติดตามและแสดงความเห็นได้ เมื่อเราตอบกลับความคิดนั้น คุณจะได้รับการแจ้งเตือน";
 
-"Would you like to contact us?" = "ต้องการติดต่อเราใช่หรือไม่";
+"Would you like to contact us?" = "ต้องการติดต่อเราไหม";
 
 "Write a comment..." = "เขียนความเห็น...";
 
@@ -188,8 +188,8 @@
 
 "Yes, go to my message" = "ใช่ ไปที่ข้อความของฉัน";
 
-"Yes, I want to post my idea" = "ใช่ฉันต้องการที่จะโพสต์ความคิดของฉัน";
+"Yes, I want to post my idea" = "ใช่ ฉันต้องการโพสต์ความคิดของฉัน";
 
-"Your feedback has been posted to our feedback forum." = "ความคิดเห็นของคุณได้รับการโพสต์ในฟอรั่มความคิดเห็นของเรา";
+"Your feedback has been posted to our feedback forum." = "โพสต์ความคิดเห็นของคุณในฟอรั่มความคิดเห็นของเราแล้ว";
 
 "“Anonymous”" = "“ไม่ระบุชื่อ”";

@@ -20,7 +20,7 @@
 
 "1 person" = "1 Person";
 
-"A suggestion with this title already exists. Please change the title." = "Es ist bereits ein Vorschlag mit diesem Titel vorhanden. Bitte ändern Sie den Titel.";
+"A suggestion with this title already exists. Please change the title." = "Es ist bereits ein Vorschlag mit diesem Titel vorhanden. Bitte ändere den Titel.";
 
 "Add a comment" = "Kommentar hinzufügen";
 
@@ -46,9 +46,9 @@
 
 "Description (optional)" = "Beschreibung (optional)";
 
-"Do you still want to contact us?" = "Möchten Sie uns noch kontaktieren?";
+"Do you still want to contact us?" = "Möchtest du uns noch kontaktieren?";
 
-"Do you still want to post your own idea?" = "Möchten Sie trotzdem Ihre eigene Idee veröffentlichen?";
+"Do you still want to post your own idea?" = "Möchtest du trotzdem deine eigene Idee veröffentlichen?";
 
 "Don't save" = "Nicht speichern";
 
@@ -106,21 +106,21 @@
 
 "OK" = "OK";
 
-"Password reset email sent to %@" = "E-Mail zum zurücksetzen des Passworts gesendet an %@";
+"Password reset email sent to %@" = "E-Mail zum Zurücksetzen des Passworts gesendet an %@";
 
-"Please enter a valid email address." = "Bitte geben Sie eine gültige E-Mail-Adresse ein.";
+"Please enter a valid email address." = "Bitte gib eine gültige E-Mail-Adresse ein.";
 
-"Please enter a valid name." = "Bitte geben Sie einen gültigen Namen ein.";
+"Please enter a valid name." = "Bitte gib einen gültigen Namen ein.";
 
-"Please enter a valid title." = "Bitte geben Sie einen gültigen Titel ein.";
+"Please enter a valid title." = "Bitte gib einen gültigen Titel ein.";
 
-"Please enter some text before submitting your comment." = "Bitte geben Sie etwas ein, bevor Sie den Kommentar absenden.";
+"Please enter some text before submitting your comment." = "Bitte gib etwas ein, bevor du den Kommentar absendest.";
 
-"Please enter your email address before submitting your comment." = "Bitte geben Sie Ihre E-Mail Adresse ein, bevor Sie Ihren Kommentar absenden.";
+"Please enter your email address before submitting your comment." = "Bitte gib deine E-Mail-Adresse ein, bevor du deinen Kommentar absendest.";
 
-"Please enter your email address before submitting your ticket." = "Bitte geben Sie Ihre E-Mail Adresse ein, bevor Sie Ihr Ticket absenden.";
+"Please enter your email address before submitting your ticket." = "Bitte gib deine E-Mail-Adresse ein, bevor du dein Ticket absendest.";
 
-"Please fill out all required fields." = "Bitte füllen sie alle Pflichtfelder aus.";
+"Please fill out all required fields." = "Bitte fülle alle Pflichtfelder aus.";
 
 "Post" = "Veröffentlichen";
 
@@ -144,7 +144,7 @@
 
 "Send" = "Senden";
 
-"Send us a message" = "Senden Sie uns eine Nachricht";
+"Send us a message" = "Sende uns eine Nachricht";
 
 "Sign in" = "Anmelden";
 
@@ -154,7 +154,7 @@
 
 "Thank you!" = "Vielen Dank!";
 
-"There appears to be a problem with your network connection, please check your connectivity and try again." = "Es gibt anscheinend ein Problem mit Ihrer Netzwerkverbindung. Bitte prüfen Sie die Verbindung und versuchen Sie es erneut.";
+"There appears to be a problem with your network connection, please check your connectivity and try again." = "Es gibt anscheinend ein Problem mit deiner Netzwerkverbindung. Bitte prüfe die Verbindung und versuche es erneut.";
 
 "There was a problem logging you in." = "Es gab ein Problem bei der Anmeldung.";
 
@@ -174,11 +174,11 @@
 
 "Was this article helpful?" = "War dieser Artikel hilfreich?";
 
-"We'll be in touch." = "Sie hören von uns.";
+"We'll be in touch." = "Du hörst von uns.";
 
-"When you post an idea on our forum, others will be able to subscribe to it and make comments. When we respond to the idea, you'll get notified." = "Wenn Sie eine Idee in unserem Forum veröffentlichen, können andere Ihre Idee abonnieren und kommentieren. Wenn wir auf Ihre Idee antworten, werden Sie benachrichtigt.";
+"When you post an idea on our forum, others will be able to subscribe to it and make comments. When we respond to the idea, you'll get notified." = "Wenn du eine Idee in unserem Forum veröffentlichst, können andere deine Idee abonnieren und kommentieren. Wenn wir auf deine Idee antworten, wirst du benachrichtigt.";
 
-"Would you like to contact us?" = "Möchten Sie uns kontaktieren?";
+"Would you like to contact us?" = "Möchtest du uns kontaktieren?";
 
 "Write a comment..." = "Kommentar schreiben...";
 
@@ -190,6 +190,6 @@
 
 "Yes, I want to post my idea" = "Ja, ich möchte meine Idee veröffentlichen";
 
-"Your feedback has been posted to our feedback forum." = "Ihr Feedback wurde in unserem Feedback Forum veröffentlicht.";
+"Your feedback has been posted to our feedback forum." = "Dein Feedback wurde in unserem Feedback-Forum veröffentlicht.";
 
 "“Anonymous”" = "\"Anonym\"";

@@ -10,7 +10,7 @@
 
 "%@ ideas" = "%@ ideas";
 
-"%ld people" = "%ld gente";
+"%ld people" = "%ld personas";
 
 "(none)" = "(Ninguno)";
 
@@ -42,11 +42,11 @@
 
 "Close" = "Cerrar";
 
-"Comment" = "Comentario";
+"Comment" = "Comentar";
 
 "Description (optional)" = "Descripción (opcional)";
 
-"Do you still want to contact us?" = "¿Sigues deseando ponerte en contacto con nosotros?";
+"Do you still want to contact us?" = "¿Aún quieres ponerte en contacto con nosotros?";
 
 "Do you still want to post your own idea?" = "¿Aún quieres enviar tu propia idea?";
 
@@ -80,19 +80,19 @@
 
 "I want this!" = "Quiero esto!";
 
-"Ideas" = "Comentarios";
+"Ideas" = "Ideas";
 
 "Knowledge Base" = "Base de Conocimientos";
 
 "Knowledge base" = "Base de conocimientos";
 
-"Load more" = "Más información";
+"Load more" = "Cargar más";
 
 "Loading..." = "Cargando...";
 
 "Message sent!" = "Mensaje enviado!";
 
-"more" = "mas";
+"more" = "más";
 
 "Name" = "Nombre";
 
@@ -106,7 +106,7 @@
 
 "OK" = "Aceptar";
 
-"Password reset email sent to %@" = "Se envió un correo a %@, para tu cambio de Contraseña";
+"Password reset email sent to %@" = "Se envió un correo a %@ para restablecer tu contraseña";
 
 "Please enter a valid email address." = "Por favor, introduce una dirección de correo electrónico válida.";
 
@@ -138,7 +138,7 @@
 
 "Search" = "Buscar";
 
-"Search forum" = "Buscar foro";
+"Search forum" = "Buscar en el foro";
 
 "select" = "Seleccionar";
 
@@ -156,7 +156,7 @@
 
 "There appears to be a problem with your network connection, please check your connectivity and try again." = "Al parecer ha surgido un problema con tu conexión de red, por favor revisa tu conectividad e inténtalo de nuevo.";
 
-"There was a problem logging you in." = "Hubo un problema al tratar de registrarte.";
+"There was a problem logging you in." = "Hubo un problema al iniciar sesión.";
 
 "this" = "esto";
 
@@ -170,7 +170,7 @@
 
 "User name" = "Nombre de usuario";
 
-"View idea" = "Ver comentario";
+"View idea" = "Ver idea";
 
 "Was this article helpful?" = "¿Ha sido de ayuda este artículo?";
 
@@ -178,7 +178,7 @@
 
 "When you post an idea on our forum, others will be able to subscribe to it and make comments. When we respond to the idea, you'll get notified." = "Cuando publicas una idea en nuestro foro, otros usuarios podrán suscribirse y hacer comentarios. Cuando nosotros respondamos a tu idea, serás notificado.";
 
-"Would you like to contact us?" = "¿Deseas ponerte en contacto con nosotros?";
+"Would you like to contact us?" = "¿Quieres ponerte en contacto con nosotros?";
 
 "Write a comment..." = "Escribe un comentario…";
 

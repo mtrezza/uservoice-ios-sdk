@@ -42,7 +42,7 @@
 
 "Close" = "Chiudi";
 
-"Comment" = "Commento";
+"Comment" = "Commenta";
 
 "Description (optional)" = "Descrizione (facoltativa)";
 
@@ -72,7 +72,7 @@
 
 "Forgot password" = "Password dimenticata";
 
-"Give feedback or ask for help..." = "Lascia un feedback, una richiesta d'aiuto..";
+"Give feedback or ask for help..." = "Lascia un feedback o chiedi aiuto...";
 
 "Great! Glad we could help." = "Perfetto! Siamo felici di poterti aiutare.";
 
@@ -82,9 +82,9 @@
 
 "Ideas" = "Idee";
 
-"Knowledge Base" = "Informazioni di Base";
+"Knowledge Base" = "Base di conoscenza";
 
-"Knowledge base" = "Informazioni di base";
+"Knowledge base" = "Base di conoscenza";
 
 "Load more" = "Carica altro";
 
@@ -108,11 +108,11 @@
 
 "Password reset email sent to %@" = "L'email per reimpostare la password è stata inviata a %@";
 
-"Please enter a valid email address." = "Si prega di inserire un indirizzo email valido.";
+"Please enter a valid email address." = "Inserisci un indirizzo email valido.";
 
-"Please enter a valid name." = "Si prega di inserire un nome valido.";
+"Please enter a valid name." = "Inserisci un nome valido.";
 
-"Please enter a valid title." = "Si prega di inserire un titolo valido.";
+"Please enter a valid title." = "Inserisci un titolo valido.";
 
 "Please enter some text before submitting your comment." = "Scrivi qualcosa prima di lasciare il tuo commento.";
 
@@ -156,7 +156,7 @@
 
 "There appears to be a problem with your network connection, please check your connectivity and try again." = "Sembra che ci sia un problema con la tua connessione di rete. Controllala e riprova.";
 
-"There was a problem logging you in." = "C'è stato un problema con la tua login.";
+"There was a problem logging you in." = "C'è stato un problema durante l'accesso.";
 
 "this" = "questo";
 
@@ -188,7 +188,7 @@
 
 "Yes, go to my message" = "Sì, vai al mio messaggio";
 
-"Yes, I want to post my idea" = "Si, voglio inviare la mia idea";
+"Yes, I want to post my idea" = "Sì, voglio inviare la mia idea";
 
 "Your feedback has been posted to our feedback forum." = "Il tuo feedback è stato pubblicato nel nostro Forum.";
 

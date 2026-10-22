@@ -30,7 +30,7 @@
 
 "All Articles" = "所有文章";
 
-"Are any of these helpful?" = "他们对你有用吗？";
+"Are any of these helpful?" = "这些内容有帮助吗？";
 
 "Articles" = "文章";
 
@@ -44,23 +44,23 @@
 
 "Comment" = "评论";
 
-"Description (optional)" = "说明（可有可无）";
+"Description (optional)" = "说明（选填）";
 
-"Do you still want to contact us?" = "您仍要与我们联络吗？";
+"Do you still want to contact us?" = "你仍要与我们联络吗？";
 
-"Do you still want to post your own idea?" = "您仍要发表您的意见吗？";
+"Do you still want to post your own idea?" = "你仍要发表你的意见吗？";
 
 "Don't save" = "不保存";
 
 "Done" = "完成";
 
-"Email" = "邮件";
+"Email" = "电子邮件";
 
 "Enter UserVoice password for %@" = "输入 %@ 的 UserVoice 密码";
 
 "enter value" = "输入内容";
 
-"Enter your email" = "输入您的电邮地址";
+"Enter your email" = "输入你的电邮地址";
 
 "Error" = "错误";
 
@@ -74,7 +74,7 @@
 
 "Give feedback or ask for help..." = "提供建议或请求帮助……";
 
-"Great! Glad we could help." = "太好了，很高兴我们能够帮到您！";
+"Great! Glad we could help." = "太好了，很高兴我们能够帮到你！";
 
 "I want this" = "我想要这个";
 
@@ -90,13 +90,13 @@
 
 "Loading..." = "正在加载……";
 
-"Message sent!" = "邮件发送成功！";
+"Message sent!" = "消息发送成功！";
 
 "more" = "更多";
 
-"Name" = "名称";
+"Name" = "姓名";
 
-"Next" = "下一个";
+"Next" = "下一步";
 
 "No" = "否";
 
@@ -116,9 +116,9 @@
 
 "Please enter some text before submitting your comment." = "不能发表空的评论。";
 
-"Please enter your email address before submitting your comment." = "请输入您的电邮地址。";
+"Please enter your email address before submitting your comment." = "请输入你的电邮地址。";
 
-"Please enter your email address before submitting your ticket." = "投票前，请先输入您的电邮地址。";
+"Please enter your email address before submitting your ticket." = "提交前，请先输入你的电邮地址。";
 
 "Please fill out all required fields." = "请完成全部必填字段。";
 
@@ -144,7 +144,7 @@
 
 "Send" = "发送";
 
-"Send us a message" = "给我们发邮件";
+"Send us a message" = "给我们发消息";
 
 "Sign in" = "登录";
 
@@ -156,7 +156,7 @@
 
 "There appears to be a problem with your network connection, please check your connectivity and try again." = "当前网络好象有问题，请检查一下网络连接，然后再试一次。";
 
-"There was a problem logging you in." = "遇到问题，暂时无法让您登录。";
+"There was a problem logging you in." = "遇到问题，暂时无法让你登录。";
 
 "this" = "这条";
 
@@ -172,13 +172,13 @@
 
 "View idea" = "查看意见和建议";
 
-"Was this article helpful?" = "这篇文章是否有帮助？";
+"Was this article helpful?" = "这篇文章有帮助吗？";
 
-"We'll be in touch." = "我们会时刻关注。";
+"We'll be in touch." = "我们会与你联系。";
 
-"When you post an idea on our forum, others will be able to subscribe to it and make comments. When we respond to the idea, you'll get notified." = "当您在论坛上发表意见时，其他人可以订阅和回复您。当我们对您的意见有反馈时，将会通知您。";
+"When you post an idea on our forum, others will be able to subscribe to it and make comments. When we respond to the idea, you'll get notified." = "当你在论坛上发表意见时，其他人可以订阅和回复你。当我们对你的意见有反馈时，将会通知你。";
 
-"Would you like to contact us?" = "是否想与我们联络？";
+"Would you like to contact us?" = "想与我们联络吗？";
 
 "Write a comment..." = "请留言...";
 
@@ -186,10 +186,10 @@
 
 "Yes!" = "好！";
 
-"Yes, go to my message" = "可以，转到我的邮件";
+"Yes, go to my message" = "可以，转到我的消息";
 
 "Yes, I want to post my idea" = "是的，发表我的意见";
 
-"Your feedback has been posted to our feedback forum." = "您的反馈已发表至我们的意见反馈论坛。";
+"Your feedback has been posted to our feedback forum." = "你的反馈已发表至我们的意见反馈论坛。";
 
 "“Anonymous”" = "“匿名”";

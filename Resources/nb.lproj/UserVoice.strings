@@ -20,7 +20,7 @@
 
 "1 person" = "1 person";
 
-"A suggestion with this title already exists. Please change the title." = "Det finnes allerede et forslag med denne tittelen. Vær vennlig å endre tittelen.";
+"A suggestion with this title already exists. Please change the title." = "Det finnes allerede et forslag med denne tittelen. Endre tittelen.";
 
 "Add a comment" = "Legg til en kommentar";
 
@@ -42,7 +42,7 @@
 
 "Close" = "Lukk";
 
-"Comment" = "Kommentar";
+"Comment" = "Kommenter";
 
 "Description (optional)" = "Beskrivelse (valgfritt)";
 
@@ -66,7 +66,7 @@
 
 "Feedback" = "Tilbakemelding";
 
-"Feedback & Support" = "Tilbakemelding og støtte";
+"Feedback & Support" = "Tilbakemelding og brukerstøtte";
 
 "Feedback Forum" = "Tilbakemeldingsforum";
 
@@ -74,7 +74,7 @@
 
 "Give feedback or ask for help..." = "Gi tilbakemelding eller be om hjelp...";
 
-"Great! Glad we could help." = "Kjempe! Glad vi kunne være til hjelp.";
+"Great! Glad we could help." = "Kjempebra! Glad vi kunne være til hjelp.";
 
 "I want this" = "Jeg vil ha dette";
 
@@ -106,7 +106,7 @@
 
 "OK" = "OK";
 
-"Password reset email sent to %@" = "Epost med resetting av epost er sendt til %@";
+"Password reset email sent to %@" = "E-post for tilbakestilling av passord er sendt til %@";
 
 "Please enter a valid email address." = "Skriv inn en gyldig e-postadresse.";
 
@@ -114,13 +114,13 @@
 
 "Please enter a valid title." = "Skriv inn en gyldig tittel.";
 
-"Please enter some text before submitting your comment." = "Vær vennlig å skriv inn noe tekst før du sender inn kommentaren din.";
+"Please enter some text before submitting your comment." = "Skriv inn litt tekst før du sender inn kommentaren din.";
 
-"Please enter your email address before submitting your comment." = "Vær vennlig å skriv inn din epostadresse før du sender inn din kommentar.";
+"Please enter your email address before submitting your comment." = "Skriv inn e-postadressen din før du sender inn kommentaren din.";
 
 "Please enter your email address before submitting your ticket." = "Skriv inn e-postadressen din før du sender saken.";
 
-"Please fill out all required fields." = "Vær vennlig og fyll ut alle de påkrevde feltene.";
+"Please fill out all required fields." = "Fyll ut alle de påkrevde feltene.";
 
 "Post" = "Legg inn";
 
@@ -128,7 +128,7 @@
 
 "Powered by UserVoice" = "Powered by Voice";
 
-"Ranked %@" = "Vurdert %@";
+"Ranked %@" = "Plassering: %@";
 
 "Related articles" = "Relaterte artikler";
 
@@ -142,7 +142,7 @@
 
 "select" = "velg";
 
-"Send" = "Sende";
+"Send" = "Send";
 
 "Send us a message" = "Send oss en melding";
 
@@ -176,7 +176,7 @@
 
 "We'll be in touch." = "Vi vil kontakte deg.";
 
-"When you post an idea on our forum, others will be able to subscribe to it and make comments. When we respond to the idea, you'll get notified." = "Når du sender inn en idé på vårt forum,vil andre være istand til å abonnere på den og skrive kommentarer. Du vil få en melding når vi svarer på idéen.";
+"When you post an idea on our forum, others will be able to subscribe to it and make comments. When we respond to the idea, you'll get notified." = "Når du sender inn en idé på vårt forum, vil andre kunne abonnere på den og skrive kommentarer. Du vil få en melding når vi svarer på idéen.";
 
 "Would you like to contact us?" = "Vil du kontakte oss?";
 
@@ -188,8 +188,8 @@
 
 "Yes, go to my message" = "Ja, gå til meldingen min";
 
-"Yes, I want to post my idea" = "Ja, Jeg ønsker å sende inn idéen min";
+"Yes, I want to post my idea" = "Ja, jeg vil sende inn idéen min";
 
-"Your feedback has been posted to our feedback forum." = "Dine tilbakemeldinger er blitt sent inn til vårt tilbakemeldingsforum.";
+"Your feedback has been posted to our feedback forum." = "Dine tilbakemeldinger er blitt sendt inn til vårt tilbakemeldingsforum.";
 
 "“Anonymous”" = "\"Anonym\"";

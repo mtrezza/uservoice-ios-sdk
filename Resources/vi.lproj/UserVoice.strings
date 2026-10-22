@@ -54,13 +54,13 @@
 
 "Done" = "Xong";
 
-"Email" = "Hộp thư";
+"Email" = "Email";
 
 "Enter UserVoice password for %@" = "Nhập mật khẩu UserVoice cho %@";
 
 "enter value" = "điền giá trị";
 
-"Enter your email" = "Nhập hộp thư của bạn";
+"Enter your email" = "Nhập email của bạn";
 
 "Error" = "Lỗi";
 
@@ -82,7 +82,7 @@
 
 "Ideas" = "Ý kiến";
 
-"Knowledge Base" = "Nền tảng Kiến thức";
+"Knowledge Base" = "Kho kiến thức";
 
 "Knowledge base" = "Kho kiến thức";
 
@@ -92,7 +92,7 @@
 
 "Message sent!" = "Tin nhắn đã gửi!";
 
-"more" = "hơn";
+"more" = "xem thêm";
 
 "Name" = "Tên";
 
@@ -108,19 +108,19 @@
 
 "Password reset email sent to %@" = "Thư khôi phục mật khẩu đã được gửi đến %@";
 
-"Please enter a valid email address." = "Xin vui lòng nhập một địa chỉ email hợp lệ.";
+"Please enter a valid email address." = "Vui lòng nhập một địa chỉ email hợp lệ.";
 
-"Please enter a valid name." = "Xin vui lòng nhập một tên hợp lệ.";
+"Please enter a valid name." = "Vui lòng nhập một tên hợp lệ.";
 
-"Please enter a valid title." = "Xin vui lòng nhập một tiêu đề hợp lệ.";
+"Please enter a valid title." = "Vui lòng nhập một tiêu đề hợp lệ.";
 
 "Please enter some text before submitting your comment." = "Vui lòng điền một vài từ trước khi gửi đi bình luận của bạn.";
 
 "Please enter your email address before submitting your comment." = "Vui lòng cung cấp địa chỉ thư điện tử trước khi gửi đi bình luận của bạn.";
 
-"Please enter your email address before submitting your ticket." = "Hãy nhập địa chỉ thư điện tử của bạn trước khi gửi vé.";
+"Please enter your email address before submitting your ticket." = "Hãy nhập địa chỉ thư điện tử của bạn trước khi gửi yêu cầu.";
 
-"Please fill out all required fields." = "Xin vui lòng điền hết những thông tin bắt buộc.";
+"Please fill out all required fields." = "Vui lòng điền hết những thông tin bắt buộc.";
 
 "Post" = "Đăng";
 
@@ -144,7 +144,7 @@
 
 "Send" = "Gửi";
 
-"Send us a message" = "Gửi cho chúng tôi một thông điệp";
+"Send us a message" = "Gửi tin nhắn cho chúng tôi";
 
 "Sign in" = "Đăng nhập";
 
@@ -152,7 +152,7 @@
 
 "Sorry, there was an error in the application." = "Rất tiếc, đã có lỗi trong ứng dụng.";
 
-"Thank you!" = "Xin cảm ơn!";
+"Thank you!" = "Cảm ơn bạn!";
 
 "There appears to be a problem with your network connection, please check your connectivity and try again." = "Xuất hiện lỗi với kết nối mạng của bạn, hãy kiểm tra kết nối của bạn và thử lại.";
 
@@ -160,7 +160,7 @@
 
 "this" = "cái này";
 
-"This application didn't configure UserVoice properly" = "Ứng dụng này không thích ứng với UserVoice";
+"This application didn't configure UserVoice properly" = "Ứng dụng này chưa cấu hình UserVoice đúng cách";
 
 "this idea" = "ý kiến này";
 
@@ -174,9 +174,9 @@
 
 "Was this article helpful?" = "Bài viết này có hữu ích không?";
 
-"We'll be in touch." = "Chúng ta sẽ giữ liên lạc";
+"We'll be in touch." = "Chúng tôi sẽ liên hệ với bạn.";
 
-"When you post an idea on our forum, others will be able to subscribe to it and make comments. When we respond to the idea, you'll get notified." = "Khi bạn đăng ý kiến lên diễn đàn của chúng tôi, những người khác sẽ có thể đăng ký và cho bình luận về nó.";
+"When you post an idea on our forum, others will be able to subscribe to it and make comments. When we respond to the idea, you'll get notified." = "Khi bạn đăng ý kiến lên diễn đàn của chúng tôi, những người khác có thể đăng ký theo dõi và bình luận. Khi chúng tôi phản hồi, bạn sẽ nhận được thông báo.";
 
 "Would you like to contact us?" = "Bạn có muốn liên hệ chúng tôi?";
 
@@ -188,7 +188,7 @@
 
 "Yes, go to my message" = "Có, chuyển đến thư của tôi";
 
-"Yes, I want to post my idea" = "Vâng, tôi muốn đăng ý kiến của mình";
+"Yes, I want to post my idea" = "Có, tôi muốn đăng ý kiến của mình";
 
 "Your feedback has been posted to our feedback forum." = "Phản hồi của bạn đã được đăng lên diễn đàn phản hồi của chúng tôi.";
 

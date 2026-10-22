@@ -30,7 +30,7 @@
 
 "All Articles" = "Semua Artikel";
 
-"Are any of these helpful?" = "Pengguna matawang ini membantu?";
+"Are any of these helpful?" = "Ada yang membantu?";
 
 "Articles" = "Artikel";
 
@@ -72,9 +72,9 @@
 
 "Forgot password" = "Terlupa kata laluan";
 
-"Give feedback or ask for help..." = "Memberikan maklum balas atau meminta pertolongan ...";
+"Give feedback or ask for help..." = "Berikan maklum balas atau minta bantuan...";
 
-"Great! Glad we could help." = "Great! Gembira kita boleh membantu.";
+"Great! Glad we could help." = "Bagus! Gembira kami dapat membantu.";
 
 "I want this" = "Saya mahu ini";
 
@@ -88,11 +88,11 @@
 
 "Load more" = "Muatkan lagi";
 
-"Loading..." = "Loading ...";
+"Loading..." = "Memuatkan...";
 
 "Message sent!" = "Mesej dihantar!";
 
-"more" = "lebih";
+"more" = "lihat lagi";
 
 "Name" = "Nama";
 
@@ -114,11 +114,11 @@
 
 "Please enter a valid title." = "Sila masukkan tajuk yang sah.";
 
-"Please enter some text before submitting your comment." = "Sila masukkan teks sebelum mengemukakan komen anda.";
+"Please enter some text before submitting your comment." = "Sila masukkan teks sebelum menghantar komen anda.";
 
 "Please enter your email address before submitting your comment." = "Sila masukkan alamat e-mel anda sebelum menghantar komen anda.";
 
-"Please enter your email address before submitting your ticket." = "Sila masukkan alamat e-mel anda sebelum menyerahkan tiket.";
+"Please enter your email address before submitting your ticket." = "Sila masukkan alamat e-mel anda sebelum menghantar tiket.";
 
 "Please fill out all required fields." = "Sila isi semua medan yang diperlukan.";
 
@@ -138,7 +138,7 @@
 
 "Search" = "Cari";
 
-"Search forum" = "Forum Cari";
+"Search forum" = "Cari forum";
 
 "select" = "pilih";
 
@@ -156,7 +156,7 @@
 
 "There appears to be a problem with your network connection, please check your connectivity and try again." = "Nampaknya ada masalah dengan sambungan rangkaian anda, sila semak sambungan dan cuba lagi.";
 
-"There was a problem logging you in." = "Terdapat masalah pembalakan anda dalam.";
+"There was a problem logging you in." = "Terdapat masalah semasa anda mendaftar masuk.";
 
 "this" = "ini";
 
@@ -176,7 +176,7 @@
 
 "We'll be in touch." = "Kami akan menghubungi anda.";
 
-"When you post an idea on our forum, others will be able to subscribe to it and make comments. When we respond to the idea, you'll get notified." = "Apabila anda menyiarkan idea pada forum kami, yang lain akan dapat melangganinya dan membuat komen. Apabila kita bertindak balas terhadap idea, anda akan dimaklumkan.";
+"When you post an idea on our forum, others will be able to subscribe to it and make comments. When we respond to the idea, you'll get notified." = "Apabila anda menyiarkan idea pada forum kami, orang lain akan dapat melangganinya dan membuat komen. Apabila kami bertindak balas terhadap idea itu, anda akan dimaklumkan.";
 
 "Would you like to contact us?" = "Adakah anda mahu menghubungi kami?";
 

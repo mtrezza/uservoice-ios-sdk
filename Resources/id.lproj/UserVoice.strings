@@ -10,9 +10,9 @@
 
 "%@ ideas" = "%@ ide";
 
-"%ld people" = "%ld orang-orang";
+"%ld people" = "%ld orang";
 
-"(none)" = "(None)";
+"(none)" = "(Tidak ada)";
 
 "(required)" = "(wajib diisi)";
 
@@ -30,7 +30,7 @@
 
 "All Articles" = "Semua Artikel";
 
-"Are any of these helpful?" = "Apakah semua ini bermanfaat?";
+"Are any of these helpful?" = "Apakah ada yang bermanfaat?";
 
 "Articles" = "Artikel";
 
@@ -46,9 +46,9 @@
 
 "Description (optional)" = "Deskripsi (opsional)";
 
-"Do you still want to contact us?" = "Apakah Anda masih ingin menghubungi kami?";
+"Do you still want to contact us?" = "Apakah kamu masih ingin menghubungi kami?";
 
-"Do you still want to post your own idea?" = "Apakah Anda masih ingin memposting ide Anda sendiri?";
+"Do you still want to post your own idea?" = "Apakah kamu masih ingin memposting idemu sendiri?";
 
 "Don't save" = "Jangan simpan";
 
@@ -58,7 +58,7 @@
 
 "Enter UserVoice password for %@" = "Masukkan kata sandi UserVoice untuk %@";
 
-"enter value" = "memasukkan nilai";
+"enter value" = "masukkan nilai";
 
 "Enter your email" = "Masukkan email";
 
@@ -72,11 +72,11 @@
 
 "Forgot password" = "Lupa kata sandi";
 
-"Give feedback or ask for help..." = "Berikan umpan balik atau meminta bantuan ...";
+"Give feedback or ask for help..." = "Berikan umpan balik atau minta bantuan...";
 
-"Great! Glad we could help." = "Besar! Senang kami bisa membantu.";
+"Great! Glad we could help." = "Bagus! Senang kami bisa membantu.";
 
-"I want this" = "Saya ingin ini";
+"I want this" = "Aku ingin ini";
 
 "I want this!" = "Aku ingin ini!";
 
@@ -84,15 +84,15 @@
 
 "Knowledge Base" = "Basis Pengetahuan";
 
-"Knowledge base" = "Pengetahuan dasar";
+"Knowledge base" = "Basis Pengetahuan";
 
 "Load more" = "Muat lainnya";
 
-"Loading..." = "Loading ...";
+"Loading..." = "Memuat...";
 
 "Message sent!" = "Pesan dikirim!";
 
-"more" = "lebih";
+"more" = "selengkapnya";
 
 "Name" = "Nama";
 
@@ -102,11 +102,11 @@
 
 "No Results" = "Tidak Ada Hasil";
 
-"No, I'm done" = "Tidak, saya selesai";
+"No, I'm done" = "Tidak, aku selesai";
 
 "OK" = "OK";
 
-"Password reset email sent to %@" = "Email reset password yang dikirim ke %@";
+"Password reset email sent to %@" = "Email reset kata sandi telah dikirim ke %@";
 
 "Please enter a valid email address." = "Silakan masukkan alamat email yang valid.";
 
@@ -114,13 +114,13 @@
 
 "Please enter a valid title." = "Silakan masukkan judul yang valid.";
 
-"Please enter some text before submitting your comment." = "Masukkan teks sebelum mengirimkan komentar Anda.";
+"Please enter some text before submitting your comment." = "Masukkan teks sebelum mengirimkan komentarmu.";
 
-"Please enter your email address before submitting your comment." = "Masukkan alamat email Anda sebelum mengirimkan komentar Anda.";
+"Please enter your email address before submitting your comment." = "Masukkan alamat emailmu sebelum mengirimkan komentarmu.";
 
 "Please enter your email address before submitting your ticket." = "Masukkan alamat email sebelum mengirim tiket.";
 
-"Please fill out all required fields." = "Silahkan mengisi semua bidang yang diperlukan.";
+"Please fill out all required fields." = "Silakan isi semua bidang yang diperlukan.";
 
 "Post" = "Posting";
 
@@ -138,17 +138,17 @@
 
 "Search" = "Cari";
 
-"Search forum" = "Forum Cari";
+"Search forum" = "Cari di forum";
 
-"select" = "memilih";
+"select" = "pilih";
 
 "Send" = "Kirim";
 
-"Send us a message" = "Mengirim pesan";
+"Send us a message" = "Kirim pesan kepada kami";
 
 "Sign in" = "Masuk";
 
-"Skip" = "Melewatkan";
+"Skip" = "Lewati";
 
 "Sorry, there was an error in the application." = "Maaf, ada kesalahan pada aplikasi.";
 
@@ -156,7 +156,7 @@
 
 "There appears to be a problem with your network connection, please check your connectivity and try again." = "Tampaknya koneksi jaringan bermasalah, silakan cek konektivitas dan coba lagi.";
 
-"There was a problem logging you in." = "Ada masalah penebangan Anda.";
+"There was a problem logging you in." = "Ada masalah saat kamu masuk.";
 
 "this" = "ini";
 
@@ -174,11 +174,11 @@
 
 "Was this article helpful?" = "Apakah artikel ini membantu?";
 
-"We'll be in touch." = "Kami akan menghubungi.";
+"We'll be in touch." = "Kami akan menghubungimu.";
 
-"When you post an idea on our forum, others will be able to subscribe to it and make comments. When we respond to the idea, you'll get notified." = "Ketika Anda memposting sebuah gagasan pada forum kami, orang lain akan dapat berlangganan dan membuat komentar. Ketika kita menanggapi ide, Anda akan mendapatkan pemberitahuan.";
+"When you post an idea on our forum, others will be able to subscribe to it and make comments. When we respond to the idea, you'll get notified." = "Ketika kamu memposting ide di forum kami, orang lain akan dapat berlangganan dan membuat komentar. Ketika kami menanggapi ide tersebut, kamu akan mendapatkan pemberitahuan.";
 
-"Would you like to contact us?" = "Anda ingin menghubungi kami?";
+"Would you like to contact us?" = "Kamu ingin menghubungi kami?";
 
 "Write a comment..." = "Tulis komentar...";
 
@@ -186,10 +186,10 @@
 
 "Yes!" = "Ya!";
 
-"Yes, go to my message" = "Ya, lihat pesan saya";
+"Yes, go to my message" = "Ya, lihat pesanku";
 
-"Yes, I want to post my idea" = "Ya, saya ingin memposting ide saya";
+"Yes, I want to post my idea" = "Ya, aku ingin memposting ideku";
 
-"Your feedback has been posted to our feedback forum." = "Tanggapan Anda telah diposting ke forum masukan kami.";
+"Your feedback has been posted to our feedback forum." = "Tanggapanmu telah diposting ke forum masukan kami.";
 
 "“Anonymous”" = "“Anonim”";

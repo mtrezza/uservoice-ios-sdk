@@ -10,9 +10,9 @@
 
 "%@ ideas" = "%@ ідеї";
 
-"%ld people" = "%ld люди";
+"%ld people" = "%ld осіб";
 
-"(none)" = "(Ні)";
+"(none)" = "(Немає)";
 
 "(required)" = "(обов'язково)";
 
@@ -20,7 +20,7 @@
 
 "1 person" = "1 людина";
 
-"A suggestion with this title already exists. Please change the title." = "Пропозиція з такою назвою вже існує. Змініть назву.";
+"A suggestion with this title already exists. Please change the title." = "Пропозиція з такою назвою вже існує. Зміни назву.";
 
 "Add a comment" = "Додати коментар";
 
@@ -30,7 +30,7 @@
 
 "All Articles" = "Усі статті";
 
-"Are any of these helpful?" = "Хто-небудь з них корисні?";
+"Are any of these helpful?" = "Чи щось із цього корисне?";
 
 "Articles" = "Статті";
 
@@ -42,25 +42,25 @@
 
 "Close" = "Закрити";
 
-"Comment" = "Коментар";
+"Comment" = "Надіслати";
 
 "Description (optional)" = "Опис (необов'язковий)";
 
-"Do you still want to contact us?" = "Усе одно бажаєте написати нам?";
+"Do you still want to contact us?" = "Усе одно хочеш написати нам?";
 
-"Do you still want to post your own idea?" = "Ви все ще хочете розмістити свою ідею?";
+"Do you still want to post your own idea?" = "Усе ще хочеш розмістити свою ідею?";
 
 "Don't save" = "Не зберігати";
 
-"Done" = "Виконано";
+"Done" = "Готово";
 
 "Email" = "Ел. пошта";
 
-"Enter UserVoice password for %@" = "Уведіть пароль UserVoice для %@";
+"Enter UserVoice password for %@" = "Уведи пароль UserVoice для %@";
 
-"enter value" = "введіть значення";
+"enter value" = "введи значення";
 
-"Enter your email" = "Уведіть адресу ел. пошти";
+"Enter your email" = "Уведи адресу ел. пошти";
 
 "Error" = "Помилка";
 
@@ -76,7 +76,7 @@
 
 "Great! Glad we could help." = "Відмінно! Раді, що змогли допомогти.";
 
-"I want this" = "Я хочу, щоб це";
+"I want this" = "Я хочу це";
 
 "I want this!" = "Я хочу це!";
 
@@ -88,7 +88,7 @@
 
 "Load more" = "Завантажити ще";
 
-"Loading..." = "Loading ...";
+"Loading..." = "Завантаження...";
 
 "Message sent!" = "Повідомлення відправлено!";
 
@@ -96,7 +96,7 @@
 
 "Name" = "Ім'я";
 
-"Next" = "Наступний";
+"Next" = "Далі";
 
 "No" = "Ні";
 
@@ -106,21 +106,21 @@
 
 "OK" = "Добре";
 
-"Password reset email sent to %@" = "Відновлення пароля електронний лист, відправлений %@";
+"Password reset email sent to %@" = "Лист для скидання пароля надіслано на %@";
 
-"Please enter a valid email address." = "Будь ласка, введіть дійсну адресу електронної пошти.";
+"Please enter a valid email address." = "Будь ласка, введи дійсну адресу електронної пошти.";
 
-"Please enter a valid name." = "Будь ласка, введіть коректне ім'я.";
+"Please enter a valid name." = "Будь ласка, введи коректне ім'я.";
 
-"Please enter a valid title." = "Будь ласка, введіть коректну назву.";
+"Please enter a valid title." = "Будь ласка, введи коректну назву.";
 
-"Please enter some text before submitting your comment." = "Будь ласка, введіть текст перед відправкою коментаря.";
+"Please enter some text before submitting your comment." = "Будь ласка, введи текст перед відправкою коментаря.";
 
-"Please enter your email address before submitting your comment." = "Будь ласка, введіть Вашу адресу електронної пошти перед відправкою коментаря.";
+"Please enter your email address before submitting your comment." = "Будь ласка, введи свою адресу електронної пошти перед відправкою коментаря.";
 
-"Please enter your email address before submitting your ticket." = "Щоб надіслати запит, уведіть свою адресу електронної пошти.";
+"Please enter your email address before submitting your ticket." = "Щоб надіслати запит, уведи свою адресу електронної пошти.";
 
-"Please fill out all required fields." = "Будь ласка, заповніть всі обов'язкові поля.";
+"Please fill out all required fields." = "Будь ласка, заповни всі обов'язкові поля.";
 
 "Post" = "Опублікувати";
 
@@ -128,11 +128,11 @@
 
 "Powered by UserVoice" = "Працює на UserVoice";
 
-"Ranked %@" = "Займає %@";
+"Ranked %@" = "Місце в рейтингу: %@";
 
 "Related articles" = "Статті за темою";
 
-"Related feedback" = "Пов'язані зворотного зв'язку";
+"Related feedback" = "Схожі відгуки";
 
 "Save draft" = "Зберегти чернетку";
 
@@ -144,29 +144,29 @@
 
 "Send" = "Надіслати";
 
-"Send us a message" = "Надішліть нам повідомлення";
+"Send us a message" = "Надішли нам повідомлення";
 
 "Sign in" = "Увійти";
 
-"Skip" = "Пропускати";
+"Skip" = "Пропустити";
 
 "Sorry, there was an error in the application." = "Помилка в застосунку.";
 
 "Thank you!" = "Спасибі!";
 
-"There appears to be a problem with your network connection, please check your connectivity and try again." = "Схоже, сталася помилка підключення до мережі. Перевірте підключення та повторіть спробу.";
+"There appears to be a problem with your network connection, please check your connectivity and try again." = "Схоже, сталася помилка підключення до мережі. Перевір підключення та повтори спробу.";
 
-"There was a problem logging you in." = "Був проблема реєстрації Вас.";
+"There was a problem logging you in." = "Під час входу виникла проблема.";
 
 "this" = "це";
 
 "This application didn't configure UserVoice properly" = "У цьому застосунку неправильно налаштовано UserVoice";
 
-"this idea" = "ця ідея";
+"this idea" = "цю ідею";
 
 "Title" = "Назва";
 
-"Try again" = "Спробуйте ще раз";
+"Try again" = "Спробуй ще раз";
 
 "User name" = "Ім'я користувача";
 
@@ -176,9 +176,9 @@
 
 "We'll be in touch." = "Ми будемо на зв'язку.";
 
-"When you post an idea on our forum, others will be able to subscribe to it and make comments. When we respond to the idea, you'll get notified." = "Коли ви розміщуєте ідею на нашому форумі, інші користувачі зможуть підписатися на нього і висловити свої зауваження. Коли ми ставитеся до ідеї, ви будете отримувати повідомлення.";
+"When you post an idea on our forum, others will be able to subscribe to it and make comments. When we respond to the idea, you'll get notified." = "Коли ти розміщуєш ідею на нашому форумі, інші користувачі зможуть підписатися на неї і залишати коментарі. Коли ми відповімо на ідею, ти отримаєш сповіщення.";
 
-"Would you like to contact us?" = "Бажаєте звернутися до нас?";
+"Would you like to contact us?" = "Хочеш звернутися до нас?";
 
 "Write a comment..." = "Написати коментар…";
 
@@ -190,6 +190,6 @@
 
 "Yes, I want to post my idea" = "Так, я хочу розмістити свою ідею";
 
-"Your feedback has been posted to our feedback forum." = "Ваша зворотний зв'язок була розміщена в наш форум зворотного зв'язку.";
+"Your feedback has been posted to our feedback forum." = "Твій відгук розміщено на нашому форумі відгуків.";
 
 "“Anonymous”" = "«Анонімно»";

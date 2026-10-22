@@ -10,7 +10,7 @@
 
 "%@ ideas" = "%@ Idees";
 
-"%ld people" = "%ld gent";
+"%ld people" = "%ld persones";
 
 "(none)" = "(Cap)";
 
@@ -20,7 +20,7 @@
 
 "1 person" = "1 persona";
 
-"A suggestion with this title already exists. Please change the title." = "Ja hi ha un suggeriment amb aquest títol. Canvieu el títol.";
+"A suggestion with this title already exists. Please change the title." = "Ja hi ha un suggeriment amb aquest títol. Canvia el títol.";
 
 "Add a comment" = "Afegir un comentari";
 
@@ -30,7 +30,7 @@
 
 "All Articles" = "Tots els articles";
 
-"Are any of these helpful?" = "Algun d'aquests útil?";
+"Are any of these helpful?" = "Algun d'aquests és útil?";
 
 "Articles" = "Articles";
 
@@ -42,13 +42,13 @@
 
 "Close" = "Tanca";
 
-"Comment" = "Comentari";
+"Comment" = "Comenta";
 
 "Description (optional)" = "Descripció (opcional)";
 
-"Do you still want to contact us?" = "Encara voleu contactar amb nosaltres?";
+"Do you still want to contact us?" = "Encara vols contactar amb nosaltres?";
 
-"Do you still want to post your own idea?" = "Encara Vol enviar la seva pròpia idea?";
+"Do you still want to post your own idea?" = "Encara vols enviar la teva pròpia idea?";
 
 "Don't save" = "No desis";
 
@@ -56,11 +56,11 @@
 
 "Email" = "Correu electrònic";
 
-"Enter UserVoice password for %@" = "Introduïu la contrasenya de l’UserVoice per %@";
+"Enter UserVoice password for %@" = "Introdueix la contrasenya de l’UserVoice per %@";
 
 "enter value" = "introduir el valor";
 
-"Enter your email" = "Introduïu el correu electrònic";
+"Enter your email" = "Introdueix el correu electrònic";
 
 "Error" = "Error";
 
@@ -72,11 +72,11 @@
 
 "Forgot password" = "He oblidat la contrasenya";
 
-"Give feedback or ask for help..." = "Comentaris i suggeriments o demanar ajuda ...";
+"Give feedback or ask for help..." = "Envia’ns comentaris o demana ajuda...";
 
 "Great! Glad we could help." = "Genial! M'alegro d'haver pogut ajudar.";
 
-"I want this" = "Vull que aquest";
+"I want this" = "Vull això";
 
 "I want this!" = "Vull això!";
 
@@ -96,7 +96,7 @@
 
 "Name" = "Nom";
 
-"Next" = "¡Següent";
+"Next" = "Següent";
 
 "No" = "No";
 
@@ -106,7 +106,7 @@
 
 "OK" = "D’acord";
 
-"Password reset email sent to %@" = "Missatge de restabliment de contrasenya ha estat enviada a %@";
+"Password reset email sent to %@" = "S’ha enviat el missatge de restabliment de la contrasenya a %@";
 
 "Please enter a valid email address." = "Si us plau, introdueix una adreça de correu electrònic vàlida.";
 
@@ -114,13 +114,13 @@
 
 "Please enter a valid title." = "Si us plau, introdueix un títol vàlid.";
 
-"Please enter some text before submitting your comment." = "Si us plau, introdueixi algun text abans d'enviar el seu comentari.";
+"Please enter some text before submitting your comment." = "Si us plau, introdueix algun text abans d'enviar el teu comentari.";
 
-"Please enter your email address before submitting your comment." = "Introduïu la vostra adreça de correu electrònic abans d'enviar el seu comentari.";
+"Please enter your email address before submitting your comment." = "Introdueix la teva adreça de correu electrònic abans d'enviar el teu comentari.";
 
-"Please enter your email address before submitting your ticket." = "Introduïu l’adreça de correu electrònic abans d’enviar el tiquet.";
+"Please enter your email address before submitting your ticket." = "Introdueix l’adreça de correu electrònic abans d’enviar el tiquet.";
 
-"Please fill out all required fields." = "Si us plau, ompli tots els camps obligatoris.";
+"Please fill out all required fields." = "Si us plau, omple tots els camps obligatoris.";
 
 "Post" = "Publica";
 
@@ -132,19 +132,19 @@
 
 "Related articles" = "Articles relacionats";
 
-"Related feedback" = "Retroalimentació Relacionats";
+"Related feedback" = "Comentaris relacionats";
 
 "Save draft" = "Desa esborrall";
 
 "Search" = "Cerca";
 
-"Search forum" = "Fòrum";
+"Search forum" = "Cerca al fòrum";
 
 "select" = "seleccionar";
 
 "Send" = "Envia";
 
-"Send us a message" = "Envieu-nos un missatge";
+"Send us a message" = "Envia’ns un missatge";
 
 "Sign in" = "Inicia sessió";
 
@@ -154,11 +154,11 @@
 
 "Thank you!" = "Gràcies!";
 
-"There appears to be a problem with your network connection, please check your connectivity and try again." = "Sembla que hi ha problemes amb la connexió a la xarxa. Comproveu la connexió i torneu-ho a provar.";
+"There appears to be a problem with your network connection, please check your connectivity and try again." = "Sembla que hi ha problemes amb la connexió a la xarxa. Comprova la connexió i torna-ho a provar.";
 
-"There was a problem logging you in." = "Hi va haver un problema d'iniciar sessió.";
+"There was a problem logging you in." = "S’ha produït un problema en iniciar la sessió.";
 
-"this" = "aquest";
+"this" = "això";
 
 "This application didn't configure UserVoice properly" = "Aquesta aplicació no ha configurat l’UserVoice correctament";
 
@@ -176,9 +176,9 @@
 
 "We'll be in touch." = "Estarem en contacte.";
 
-"When you post an idea on our forum, others will be able to subscribe to it and make comments. When we respond to the idea, you'll get notified." = "En publicar una idea en el nostre fòrum, altres podran subscriure a ell i fer comentaris. Quan responem a la idea, podràs rebre una notificació.";
+"When you post an idea on our forum, others will be able to subscribe to it and make comments. When we respond to the idea, you'll get notified." = "En publicar una idea al nostre fòrum, altres usuaris s'hi podran subscriure i fer-hi comentaris. Quan responguem a la idea, rebràs una notificació.";
 
-"Would you like to contact us?" = "Desitgeu contactar amb nosaltres?";
+"Would you like to contact us?" = "Vols contactar amb nosaltres?";
 
 "Write a comment..." = "Escriu un comentari...";
 
@@ -190,6 +190,6 @@
 
 "Yes, I want to post my idea" = "Sí, vull publicar la meva idea";
 
-"Your feedback has been posted to our feedback forum." = "La seva regeneració s'ha publicat en el nostre fòrum de comentaris.";
+"Your feedback has been posted to our feedback forum." = "El teu comentari s'ha publicat al nostre fòrum de comentaris.";
 
 "“Anonymous”" = "“Anònim”";

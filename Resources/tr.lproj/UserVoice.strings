@@ -8,9 +8,9 @@
 
 "%@ (required)" = "%@ (Gerekli)";
 
-"%@ ideas" = "%@ fikirler";
+"%@ ideas" = "%@ fikir";
 
-"%ld people" = "%ld insanlar";
+"%ld people" = "%ld kişi";
 
 "(none)" = "(Yok)";
 
@@ -20,7 +20,7 @@
 
 "1 person" = "1 kişi";
 
-"A suggestion with this title already exists. Please change the title." = "Bu başlıkta bir öneri zaten var Lütfen başlığı değiştirin.";
+"A suggestion with this title already exists. Please change the title." = "Bu başlıkta bir öneri zaten var. Lütfen başlığı değiştir.";
 
 "Add a comment" = "Yorum ekle";
 
@@ -30,7 +30,7 @@
 
 "All Articles" = "Tüm Makaleler";
 
-"Are any of these helpful?" = "Bunlardan herhangi bir yararlı mı?";
+"Are any of these helpful?" = "Bunlardan herhangi biri yararlı mı?";
 
 "Articles" = "Makaleler";
 
@@ -46,9 +46,9 @@
 
 "Description (optional)" = "Açıklama (isteğe bağlı)";
 
-"Do you still want to contact us?" = "Bizimle iletişime geçmeyi yine de istiyor musunuz?";
+"Do you still want to contact us?" = "Bizimle iletişime geçmeyi yine de istiyor musun?";
 
-"Do you still want to post your own idea?" = "Eğer hala kendi fikrini göndermek istiyor musunuz?";
+"Do you still want to post your own idea?" = "Yine de kendi fikrini göndermek istiyor musun?";
 
 "Don't save" = "Kaydetme";
 
@@ -56,11 +56,11 @@
 
 "Email" = "E-posta";
 
-"Enter UserVoice password for %@" = "%@ için UserVoice parolasını girin";
+"Enter UserVoice password for %@" = "%@ için UserVoice parolasını gir";
 
-"enter value" = "değeri girin";
+"enter value" = "değeri gir";
 
-"Enter your email" = "E-postanızı girin";
+"Enter your email" = "E-postanı gir";
 
 "Error" = "Hata";
 
@@ -70,15 +70,15 @@
 
 "Feedback Forum" = "Geribildirim Forumu";
 
-"Forgot password" = "Parolanızı mı unuttunuz";
+"Forgot password" = "Parolanı mı unuttun";
 
-"Give feedback or ask for help..." = "Geribildirim vermek veya yardım isteyin ...";
+"Give feedback or ask for help..." = "Geribildirim ver veya yardım iste...";
 
-"Great! Glad we could help." = "Büyük! Biz yardımcı olabilir sevindim.";
+"Great! Glad we could help." = "Harika! Yardımcı olabildiğimize sevindik.";
 
-"I want this" = "Ben bu istiyorum";
+"I want this" = "Bunu istiyorum";
 
-"I want this!" = "Ben bu istiyorum!";
+"I want this!" = "Bunu istiyorum!";
 
 "Ideas" = "Görüşler";
 
@@ -92,7 +92,7 @@
 
 "Message sent!" = "Mesaj gönderildi!";
 
-"more" = "daha";
+"more" = "devamı";
 
 "Name" = "Ad";
 
@@ -106,21 +106,21 @@
 
 "OK" = "Tamam";
 
-"Password reset email sent to %@" = "Şifre sıfırlama e-posta gönderildi %@";
+"Password reset email sent to %@" = "Parola sıfırlama e-postası %@ adresine gönderildi";
 
-"Please enter a valid email address." = "Geçerli bir e.";
+"Please enter a valid email address." = "Geçerli bir e-posta adresi gir.";
 
-"Please enter a valid name." = "Geçerli bir ad girin.";
+"Please enter a valid name." = "Geçerli bir ad gir.";
 
-"Please enter a valid title." = "Geçerli bir başlık girin.";
+"Please enter a valid title." = "Geçerli bir başlık gir.";
 
-"Please enter some text before submitting your comment." = "Yorumunuzu göndermeden önce bazı metni girin.";
+"Please enter some text before submitting your comment." = "Yorumunu göndermeden önce bir metin gir.";
 
-"Please enter your email address before submitting your comment." = "Yorumunuzu göndermeden önce e-posta adresinizi girin.";
+"Please enter your email address before submitting your comment." = "Yorumunu göndermeden önce e-posta adresini gir.";
 
-"Please enter your email address before submitting your ticket." = "Sorun bildiriminizi göndermek için e-posta adresinizi girin.";
+"Please enter your email address before submitting your ticket." = "Sorun bildirimini göndermek için e-posta adresini gir.";
 
-"Please fill out all required fields." = "Gerekli tüm alanları doldurunuz.";
+"Please fill out all required fields." = "Gerekli tüm alanları doldur.";
 
 "Post" = "Gönder";
 
@@ -128,7 +128,7 @@
 
 "Powered by UserVoice" = "UserVoice tarafından desteklenmektedir";
 
-"Ranked %@" = "Sırada %@";
+"Ranked %@" = "Sıralama: %@";
 
 "Related articles" = "İlgili Makaleler";
 
@@ -138,9 +138,9 @@
 
 "Search" = "Ara";
 
-"Search forum" = "Arama forumu";
+"Search forum" = "Forumda ara";
 
-"select" = "seçmek";
+"select" = "seç";
 
 "Send" = "Gönder";
 
@@ -148,25 +148,25 @@
 
 "Sign in" = "Giriş";
 
-"Skip" = "Atlamak";
+"Skip" = "Atla";
 
 "Sorry, there was an error in the application." = "Özür dileriz, uygulamada bir hata oluştu.";
 
 "Thank you!" = "Teşekkür ederim!";
 
-"There appears to be a problem with your network connection, please check your connectivity and try again." = "Ağ bağlantınızda bir sorun var, bağlantınızı kontrol edip tekrar deneyin.";
+"There appears to be a problem with your network connection, please check your connectivity and try again." = "Ağ bağlantında bir sorun var, bağlantını kontrol edip tekrar dene.";
 
-"There was a problem logging you in." = "Sizi günlüğü bir sorun oluştu.";
+"There was a problem logging you in." = "Giriş yapılırken bir sorun oluştu.";
 
-"this" = "bu";
+"this" = "bunu";
 
 "This application didn't configure UserVoice properly" = "Bu uygulama UserVoice'i düzgün yapılandırmadı";
 
-"this idea" = "Bu fikir";
+"this idea" = "bu fikri";
 
 "Title" = "Başlık";
 
-"Try again" = "Tekrar deneyin";
+"Try again" = "Tekrar dene";
 
 "User name" = "Kullanıcı adı";
 
@@ -174,13 +174,13 @@
 
 "Was this article helpful?" = "Bu makale faydalı oldu mu?";
 
-"We'll be in touch." = "Biz irtibat halinde olacağım.";
+"We'll be in touch." = "Seninle iletişime geçeceğiz.";
 
-"When you post an idea on our forum, others will be able to subscribe to it and make comments. When we respond to the idea, you'll get notified." = "Bizim forum bir fikir sonrası, diğerleri abone ve yorum yapmak mümkün olacak. Biz fikir cevap zaman, haberdar edeceğiz.";
+"When you post an idea on our forum, others will be able to subscribe to it and make comments. When we respond to the idea, you'll get notified." = "Forumumuzda bir fikir paylaştığında, diğerleri ona abone olabilir ve yorum yapabilir. Fikre yanıt verdiğimizde sana bildirim gönderilecek.";
 
-"Would you like to contact us?" = "Bizimle iletişime geçmek istiyor musunuz?";
+"Would you like to contact us?" = "Bizimle iletişime geçmek istiyor musun?";
 
-"Write a comment..." = "Yorum yazın...";
+"Write a comment..." = "Yorum yaz...";
 
 "Yes" = "Evet";
 
@@ -188,8 +188,8 @@
 
 "Yes, go to my message" = "Evet, mesajıma git";
 
-"Yes, I want to post my idea" = "Evet, benim fikrim göndermek istiyorum";
+"Yes, I want to post my idea" = "Evet, fikrimi göndermek istiyorum";
 
-"Your feedback has been posted to our feedback forum." = "Görüşleriniz bizim görüşleriniz forumu gönderilen edilmiştir.";
+"Your feedback has been posted to our feedback forum." = "Görüşün Geribildirim Forumumuzda yayınlandı.";
 
 "“Anonymous”" = "“Anonim”";

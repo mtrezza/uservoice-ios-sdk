@@ -12,7 +12,7 @@
 
 "%ld people" = "%ld mennesker";
 
-"(none)" = "(None)";
+"(none)" = "(Ingen)";
 
 "(required)" = "(obligatorisk)";
 
@@ -20,7 +20,7 @@
 
 "1 person" = "1 person";
 
-"A suggestion with this title already exists. Please change the title." = "Der findes allerede et forslag med denne titel. Ændr venligst titlen.";
+"A suggestion with this title already exists. Please change the title." = "Der findes allerede et forslag med denne titel. Ændr titlen.";
 
 "Add a comment" = "Tilføj en kommentar";
 
@@ -48,7 +48,7 @@
 
 "Do you still want to contact us?" = "Vil du stadig kontakte os?";
 
-"Do you still want to post your own idea?" = "Har du stadig ønsker at sende din egen idé?";
+"Do you still want to post your own idea?" = "Vil du stadig sende din egen idé?";
 
 "Don't save" = "Gem ikke";
 
@@ -58,7 +58,7 @@
 
 "Enter UserVoice password for %@" = "Indtast UserVoice-adgangskode for %@";
 
-"enter value" = "indtaste værdi";
+"enter value" = "indtast værdi";
 
 "Enter your email" = "Indtast din e-mail";
 
@@ -72,9 +72,9 @@
 
 "Forgot password" = "Glemt adgangskode";
 
-"Give feedback or ask for help..." = "Giv feedback eller bede om hjælp ...";
+"Give feedback or ask for help..." = "Giv feedback eller bed om hjælp ...";
 
-"Great! Glad we could help." = "Great! Glad vi kunne hjælpe.";
+"Great! Glad we could help." = "Super! Godt, at vi kunne hjælpe.";
 
 "I want this" = "Jeg vil have denne";
 
@@ -106,7 +106,7 @@
 
 "OK" = "OK";
 
-"Password reset email sent to %@" = "Nulstilling af adgangskode e-mail sendt til %@";
+"Password reset email sent to %@" = "E-mail til nulstilling af adgangskode sendt til %@";
 
 "Please enter a valid email address." = "Indtast en gyldig e-mail-adresse.";
 
@@ -114,13 +114,13 @@
 
 "Please enter a valid title." = "Indtast en gyldig titel.";
 
-"Please enter some text before submitting your comment." = "Indtast venligst en tekst, før du indsender din kommentar.";
+"Please enter some text before submitting your comment." = "Indtast en tekst, før du sender din kommentar.";
 
-"Please enter your email address before submitting your comment." = "Indtast venligst din e-mailadresse, før du indsender din kommentar.";
+"Please enter your email address before submitting your comment." = "Indtast din e-mailadresse, før du sender din kommentar.";
 
-"Please enter your email address before submitting your ticket." = "Indtast din e-mailadresse, før du sender din support ticket.";
+"Please enter your email address before submitting your ticket." = "Indtast din e-mailadresse, før du sender din henvendelse.";
 
-"Please fill out all required fields." = "Udfyld venligst alle obligatoriske felter.";
+"Please fill out all required fields." = "Udfyld alle obligatoriske felter.";
 
 "Post" = "Postér";
 
@@ -128,7 +128,7 @@
 
 "Powered by UserVoice" = "Powered by UserVoice";
 
-"Ranked %@" = "Vurderet %@";
+"Ranked %@" = "Placering: %@";
 
 "Related articles" = "Beslægtede artikler";
 
@@ -142,13 +142,13 @@
 
 "select" = "Vælg";
 
-"Send" = "Sende";
+"Send" = "Send";
 
 "Send us a message" = "Send os en besked";
 
 "Sign in" = "Log ind";
 
-"Skip" = "Spring";
+"Skip" = "Spring over";
 
 "Sorry, there was an error in the application." = "Beklager, men der var en fejl i programmet.";
 
@@ -174,9 +174,9 @@
 
 "Was this article helpful?" = "Hjalp denne artikel?";
 
-"We'll be in touch." = "Vi vil være i kontakt.";
+"We'll be in touch." = "Vi kontakter dig.";
 
-"When you post an idea on our forum, others will be able to subscribe to it and make comments. When we respond to the idea, you'll get notified." = "Når du sender en idé på vores forum, andre vil være i stand til at abonnere på den og komme med kommentarer. Når vi reagerer på ideen, vil du få besked.";
+"When you post an idea on our forum, others will be able to subscribe to it and make comments. When we respond to the idea, you'll get notified." = "Når du sender en idé på vores forum, vil andre kunne abonnere på den og komme med kommentarer. Når vi svarer på ideen, får du besked.";
 
 "Would you like to contact us?" = "Vil du kontakte os?";
 
@@ -188,8 +188,8 @@
 
 "Yes, go to my message" = "Ja, gå til min meddelelse";
 
-"Yes, I want to post my idea" = "Ja, jeg ønsker at sende min idé";
+"Yes, I want to post my idea" = "Ja, jeg vil sende min idé";
 
-"Your feedback has been posted to our feedback forum." = "Din feedback er indsendt til vores feedback forum.";
+"Your feedback has been posted to our feedback forum." = "Din feedback er indsendt til vores tilbagemeldingsforum.";
 
-"“Anonymous”" = "“Anonymt”";
+"“Anonymous”" = "“Anonym”";

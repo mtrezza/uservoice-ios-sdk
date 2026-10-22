@@ -10,7 +10,7 @@
 
 "%@ ideas" = "%@ идеи";
 
-"%ld people" = "%ld люди";
+"%ld people" = "%ld человек";
 
 "(none)" = "(Нет)";
 
@@ -20,9 +20,9 @@
 
 "1 person" = "1 человек";
 
-"A suggestion with this title already exists. Please change the title." = "Предложение с таким названием уже существует. Измените название.";
+"A suggestion with this title already exists. Please change the title." = "Предложение с таким названием уже существует. Измени название.";
 
-"Add a comment" = "Добавьте комментарий";
+"Add a comment" = "Добавь комментарий";
 
 "Additional Details" = "Дополнительные сведения";
 
@@ -42,13 +42,13 @@
 
 "Close" = "Закрыть";
 
-"Comment" = "Комментарий";
+"Comment" = "Отправить";
 
 "Description (optional)" = "Описание (необязательно)";
 
 "Do you still want to contact us?" = "Все равно написать нам?";
 
-"Do you still want to post your own idea?" = "Всё равно хотите опубликовать свою идею?";
+"Do you still want to post your own idea?" = "Всё равно хочешь опубликовать свою идею?";
 
 "Don't save" = "Не сохранять";
 
@@ -56,11 +56,11 @@
 
 "Email" = "Эл. почта";
 
-"Enter UserVoice password for %@" = "Введите пароль UserVoice для %@";
+"Enter UserVoice password for %@" = "Введи пароль UserVoice для %@";
 
-"enter value" = "введите значение";
+"enter value" = "введи значение";
 
-"Enter your email" = "Введите эл. адрес";
+"Enter your email" = "Введи эл. адрес";
 
 "Error" = "Ошибка";
 
@@ -70,9 +70,9 @@
 
 "Feedback Forum" = "Форум отзывов";
 
-"Forgot password" = "Забыли пароль";
+"Forgot password" = "Не помню пароль";
 
-"Give feedback or ask for help..." = "Оставьте отзыв или обратитесь за помощью...";
+"Give feedback or ask for help..." = "Оставь отзыв или обратись за помощью...";
 
 "Great! Glad we could help." = "Прекрасно! Рады, что смогли помочь.";
 
@@ -106,21 +106,21 @@
 
 "OK" = "OK";
 
-"Password reset email sent to %@" = "Восстановление пароля электронное письмо, отправленное %@";
+"Password reset email sent to %@" = "Письмо для сброса пароля отправлено на %@";
 
-"Please enter a valid email address." = "Пожалуйста, введите действительный адрес электронной почты.";
+"Please enter a valid email address." = "Пожалуйста, введи действительный адрес электронной почты.";
 
-"Please enter a valid name." = "Пожалуйста, введите корректное имя.";
+"Please enter a valid name." = "Пожалуйста, введи корректное имя.";
 
-"Please enter a valid title." = "Пожалуйста, введите корректное название.";
+"Please enter a valid title." = "Пожалуйста, введи корректное название.";
 
-"Please enter some text before submitting your comment." = "Для отправки комментария введите свой какой-нибудь текст.";
+"Please enter some text before submitting your comment." = "Для отправки комментария введи текст.";
 
-"Please enter your email address before submitting your comment." = "Для отправки комментария введите свой электронный адрес.";
+"Please enter your email address before submitting your comment." = "Для отправки комментария введи свой электронный адрес.";
 
-"Please enter your email address before submitting your ticket." = "Для отправки запроса введите свой электронный адрес.";
+"Please enter your email address before submitting your ticket." = "Для отправки запроса введи свой электронный адрес.";
 
-"Please fill out all required fields." = "Пожалуйса, заполните все обязательные поля.";
+"Please fill out all required fields." = "Пожалуйста, заполни все обязательные поля.";
 
 "Post" = "Опубликовать";
 
@@ -128,7 +128,7 @@
 
 "Powered by UserVoice" = "Созданно UserVoice";
 
-"Ranked %@" = "Занимает %@";
+"Ranked %@" = "Место в рейтинге: %@";
 
 "Related articles" = "Похожие статьи";
 
@@ -154,7 +154,7 @@
 
 "Thank you!" = "Спасибо!";
 
-"There appears to be a problem with your network connection, please check your connectivity and try again." = "Возможна неполадка подключения к сети. Проверьте подключение и повторите попытку.";
+"There appears to be a problem with your network connection, please check your connectivity and try again." = "Возможна неполадка подключения к сети. Проверь подключение и повтори попытку.";
 
 "There was a problem logging you in." = "Неполадки при авторизации.";
 
@@ -162,11 +162,11 @@
 
 "This application didn't configure UserVoice properly" = "В этом приложении неправильно настроено UserVoice";
 
-"this idea" = "эта идея";
+"this idea" = "эту идею";
 
 "Title" = "Название";
 
-"Try again" = "Попробуйте ещё раз";
+"Try again" = "Попробуй ещё раз";
 
 "User name" = "Имя пользователя";
 
@@ -176,9 +176,9 @@
 
 "We'll be in touch." = "Мы будем на связи.";
 
-"When you post an idea on our forum, others will be able to subscribe to it and make comments. When we respond to the idea, you'll get notified." = "Когда Вы опубликуете идею на форуме, другие люди смогут подписаться на неё и оставлять комментарии. Когда мы ответим на идею, Вы будете уведомлены.";
+"When you post an idea on our forum, others will be able to subscribe to it and make comments. When we respond to the idea, you'll get notified." = "Когда ты опубликуешь идею на форуме, другие люди смогут подписаться на неё и оставлять комментарии. Когда мы ответим на идею, ты получишь уведомление.";
 
-"Would you like to contact us?" = "Хотите связаться с нами?";
+"Would you like to contact us?" = "Хочешь связаться с нами?";
 
 "Write a comment..." = "Написать комментарий…";
 
@@ -190,6 +190,6 @@
 
 "Yes, I want to post my idea" = "Да, я хочу опубликовать мою идею";
 
-"Your feedback has been posted to our feedback forum." = "Ваш отзыв был опубликован на нашем форуме.";
+"Your feedback has been posted to our feedback forum." = "Твой отзыв был опубликован на нашем форуме.";
 
 "“Anonymous”" = "«Анонимно»";

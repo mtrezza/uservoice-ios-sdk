@@ -74,7 +74,7 @@
 "Email" = "E-pos";
 
 /* No comment provided by engineer. */
-"Enter UserVoice password for %@" = "Vul UserVoice wagwoord in vir %@";
+"Enter UserVoice password for %@" = "Vul UserVoice-wagwoord in vir %@";
 
 /* No comment provided by engineer. */
 "enter value" = "vul waarde in";
@@ -149,10 +149,10 @@
 "OK" = "Ok";
 
 /* No comment provided by engineer. */
-"Password reset email sent to %@" = "Wagwoord herstel e-pos gestuur na %@";
+"Password reset email sent to %@" = "Wagwoordherstel-e-pos gestuur na %@";
 
 /* No comment provided by engineer. */
-"Please enter a valid email address." = "Tik asb n geldige e-posadres in.";
+"Please enter a valid email address." = "Tik asb. 'n geldige e-posadres in.";
 
 /* No comment provided by engineer. */
 "Please enter a valid name." = "Tik asb. 'n geldige naam in.";
@@ -167,7 +167,7 @@
 "Please enter your email address before submitting your comment." = "Vul jou e-posadres in voor jy jou kommentaar stuur";
 
 /* No comment provided by engineer. */
-"Please enter your email address before submitting your ticket." = "Vul jou e-posadres in voor jy jou kaartjie stuur.";
+"Please enter your email address before submitting your ticket." = "Vul jou e-posadres in voor jy jou versoek stuur.";
 
 /* No comment provided by engineer. */
 "Please fill out all required fields." = "Vul asseblief die nodige velde in.";
@@ -191,7 +191,7 @@
 "Related feedback" = "Verwante terugvoer";
 
 /* No comment provided by engineer. */
-"Save draft" = "Stoor 'n kopie";
+"Save draft" = "Stoor konsep";
 
 /* No comment provided by engineer. */
 "Search" = "Soek";
@@ -212,10 +212,10 @@
 "Sign in" = "Teken in";
 
 /* No comment provided by engineer. */
-"Skip" = "Skip";
+"Skip" = "Slaan oor";
 
 /* No comment provided by engineer. */
-"Sorry, there was an error in the application." = "Jammer, daar was n fout met die app.";
+"Sorry, there was an error in the application." = "Jammer, daar was 'n fout met die app.";
 
 /* No comment provided by engineer. */
 "Thank you!" = "Dankie!";
@@ -230,7 +230,7 @@
 "this" = "hierdie";
 
 /* No comment provided by engineer. */
-"This application didn't configure UserVoice properly" = "Hierdie app het nie UserVoice reg gelaai nie";
+"This application didn't configure UserVoice properly" = "Hierdie app het UserVoice nie reg opgestel nie";
 
 /* No comment provided by engineer. */
 "this idea" = "hierdie idee";
@@ -254,7 +254,7 @@
 "We'll be in touch." = "Ons sal in kontak wees";
 
 /* No comment provided by engineer. */
-"When you post an idea on our forum, others will be able to subscribe to it and make comments. When we respond to the idea, you'll get notified." = "Wanneer jy n idee op ons forum publiseer, kan ander op dit inteken en kommentaar lewer. As ons op jou idee reageer, sal in in kennis gestel word.";
+"When you post an idea on our forum, others will be able to subscribe to it and make comments. When we respond to the idea, you'll get notified." = "Wanneer jy 'n idee op ons forum publiseer, kan ander op dit inteken en kommentaar lewer. As ons op jou idee reageer, sal jy in kennis gestel word.";
 
 /* No comment provided by engineer. */
 "Would you like to contact us?" = "Wil jy ons kontak?";
@@ -275,7 +275,7 @@
 "Yes, I want to post my idea" = "Ja, ek wil my idee plaas";
 
 /* No comment provided by engineer. */
-"Your feedback has been posted to our feedback forum." = "Jou kommentaar is gepubliseer op die forum.";
+"Your feedback has been posted to our feedback forum." = "Jou terugvoer is op ons terugvoerforum gepubliseer.";
 
 /* No comment provided by engineer. */
 "“Anonymous”" = "\"Anoniem\"";

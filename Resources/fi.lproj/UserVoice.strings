@@ -10,7 +10,7 @@
 
 "%@ ideas" = "%@ ideoita";
 
-"%ld people" = "%ld ihmiset";
+"%ld people" = "%ld henkilöä";
 
 "(none)" = "(Ei mitään)";
 
@@ -30,7 +30,7 @@
 
 "All Articles" = "Kaikki artikkelit";
 
-"Are any of these helpful?" = "Ovatko näitä hyödyllisiä?";
+"Are any of these helpful?" = "Onko näistä apua?";
 
 "Articles" = "Artikkelit";
 
@@ -42,13 +42,13 @@
 
 "Close" = "Sulje";
 
-"Comment" = "Kommentti";
+"Comment" = "Kommentoi";
 
 "Description (optional)" = "Kuvaus (valinnainen)";
 
 "Do you still want to contact us?" = "Haluatko yhä ottaa meihin yhteyttä?";
 
-"Do you still want to post your own idea?" = "Do you still want to post your own idea?";
+"Do you still want to post your own idea?" = "Haluatko yhä lähettää oman ideasi?";
 
 "Don't save" = "Älä tallenna";
 
@@ -74,7 +74,7 @@
 
 "Give feedback or ask for help..." = "Anna palautetta tai pyydä apua ...";
 
-"Great! Glad we could help." = "Hienoa! Glad voisimme auttaa.";
+"Great! Glad we could help." = "Hienoa! Kiva, että pystyimme auttamaan.";
 
 "I want this" = "Haluan tämän";
 
@@ -84,7 +84,7 @@
 
 "Knowledge Base" = "Tietopankki";
 
-"Knowledge base" = "Knowledge base";
+"Knowledge base" = "Tietopankki";
 
 "Load more" = "Lataa lisää";
 
@@ -106,7 +106,7 @@
 
 "OK" = "OK";
 
-"Password reset email sent to %@" = "Salasanan sähköposti lähetetään %@";
+"Password reset email sent to %@" = "Salasanan palautusviesti lähetetty osoitteeseen %@";
 
 "Please enter a valid email address." = "Kirjoita voimassa oleva sähköpostiosoite.";
 
@@ -132,15 +132,15 @@
 
 "Related articles" = "Aiheeseen liittyviä artikkeleita";
 
-"Related feedback" = "Liittyvät palaute";
+"Related feedback" = "Aiheeseen liittyvää palautetta";
 
 "Save draft" = "Tallenna luonnos";
 
 "Search" = "Etsi";
 
-"Search forum" = "Haku foorumi";
+"Search forum" = "Hae foorumilta";
 
-"select" = "valita";
+"select" = "valitse";
 
 "Send" = "Lähetä";
 
@@ -148,7 +148,7 @@
 
 "Sign in" = "Kirjaudu sisään";
 
-"Skip" = "Hyppiä";
+"Skip" = "Ohita";
 
 "Sorry, there was an error in the application." = "Valitettavasti sovelluksessa tapahtui virhe.";
 
@@ -156,15 +156,15 @@
 
 "There appears to be a problem with your network connection, please check your connectivity and try again." = "Verkkoyhteydessäsi näyttää olevan jokin ongelma. Tarkista yhteytesi toimivuus ja yritä uudelleen.";
 
-"There was a problem logging you in." = "Oli ongelma kirjautumisen sinua.";
+"There was a problem logging you in." = "Sisäänkirjautumisessa oli ongelma.";
 
-"this" = "tämä";
+"this" = "tätä";
 
 "This application didn't configure UserVoice properly" = "Tämä sovellus ei määrittänyt UserVoice-ohjelmaa oikein";
 
-"this idea" = "tämä ajatus";
+"this idea" = "tätä ideaa";
 
-"Title" = "Nimike";
+"Title" = "Otsikko";
 
 "Try again" = "Yritä uudelleen";
 
@@ -176,7 +176,7 @@
 
 "We'll be in touch." = "Otamme yhteyttä.";
 
-"When you post an idea on our forum, others will be able to subscribe to it and make comments. When we respond to the idea, you'll get notified." = "Kun lähetät idea meidän foorumi, toiset pystyy tilata sen ja tehdä huomautuksia. Kun me vastaamme idea, voit saada ilmoituksen.";
+"When you post an idea on our forum, others will be able to subscribe to it and make comments. When we respond to the idea, you'll get notified." = "Kun lähetät idean foorumillemme, muut voivat tilata sen ja kommentoida sitä. Saat ilmoituksen, kun vastaamme ideaan.";
 
 "Would you like to contact us?" = "Haluatko ottaa meihin yhteyttä?";
 
@@ -190,6 +190,6 @@
 
 "Yes, I want to post my idea" = "Kyllä, haluan lähettää ideani";
 
-"Your feedback has been posted to our feedback forum." = "Palautteesi on lähetetty palautefoorumiltamme.";
+"Your feedback has been posted to our feedback forum." = "Palautteesi on lähetetty palautefoorumillemme.";
 
 "“Anonymous”" = "\"Anonyymi\"";

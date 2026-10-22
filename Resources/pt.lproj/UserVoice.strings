@@ -42,7 +42,7 @@
 
 "Close" = "Fechar";
 
-"Comment" = "Comentário";
+"Comment" = "Comentar";
 
 "Description (optional)" = "Descrição (opcional)";
 
@@ -64,9 +64,9 @@
 
 "Error" = "Erro";
 
-"Feedback" = "Comentário";
+"Feedback" = "Comentários";
 
-"Feedback & Support" = "Comentário e suporte";
+"Feedback & Support" = "Comentários e suporte";
 
 "Feedback Forum" = "Fórum de comentários";
 
@@ -132,7 +132,7 @@
 
 "Related articles" = "Artigos relacionados";
 
-"Related feedback" = "Comentário relacionado";
+"Related feedback" = "Comentários relacionados";
 
 "Save draft" = "Salvar rascunho";
 
@@ -144,7 +144,7 @@
 
 "Send" = "Enviar";
 
-"Send us a message" = "Nos envia uma mensagem";
+"Send us a message" = "Envie-nos uma mensagem";
 
 "Sign in" = "Entrar";
 
@@ -176,9 +176,9 @@
 
 "We'll be in touch." = "Entraremos em contato";
 
-"When you post an idea on our forum, others will be able to subscribe to it and make comments. When we respond to the idea, you'll get notified." = "Quando você publica uma ideia no nosso fórum, outroas pessoas poderão se inscrever e fazer comentários. Quando nós respondermos, você será notificado.";
+"When you post an idea on our forum, others will be able to subscribe to it and make comments. When we respond to the idea, you'll get notified." = "Quando você publica uma ideia no nosso fórum, outras pessoas poderão se inscrever e fazer comentários. Quando nós respondermos, você será notificado.";
 
-"Would you like to contact us?" = "Gostaria entrar em contato conosco?";
+"Would you like to contact us?" = "Gostaria de entrar em contato conosco?";
 
 "Write a comment..." = "Escreva um comentário...";
 
@@ -188,7 +188,7 @@
 
 "Yes, go to my message" = "Sim, vá para minha mensagem";
 
-"Yes, I want to post my idea" = "Sim, eu quero pubicar minha ideia";
+"Yes, I want to post my idea" = "Sim, eu quero publicar minha ideia";
 
 "Your feedback has been posted to our feedback forum." = "Seu comentário foi publicado no nosso fórum.";
 

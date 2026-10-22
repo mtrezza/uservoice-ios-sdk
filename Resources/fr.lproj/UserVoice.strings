@@ -20,7 +20,7 @@
 
 "1 person" = "1 personne";
 
-"A suggestion with this title already exists. Please change the title." = "Une suggestion portant ce titre existe déjà. Modifiez le titre.";
+"A suggestion with this title already exists. Please change the title." = "Une suggestion portant ce titre existe déjà. Modifie le titre.";
 
 "Add a comment" = "Ajouter un commentaire";
 
@@ -42,13 +42,13 @@
 
 "Close" = "Fermer";
 
-"Comment" = "Commentaire";
+"Comment" = "Commenter";
 
 "Description (optional)" = "Description (facultatif)";
 
-"Do you still want to contact us?" = "Souhaitez-vous nous contacter ?";
+"Do you still want to contact us?" = "Tu veux toujours nous contacter ?";
 
-"Do you still want to post your own idea?" = "Voulez-vous toujours soumettre votre propre idée?";
+"Do you still want to post your own idea?" = "Tu veux toujours soumettre ta propre idée?";
 
 "Don't save" = "Ne pas enregistrer";
 
@@ -56,11 +56,11 @@
 
 "Email" = "Courriel";
 
-"Enter UserVoice password for %@" = "Entrez le mot de passe UserVoice pour %@";
+"Enter UserVoice password for %@" = "Saisis le mot de passe UserVoice pour %@";
 
-"enter value" = "entrez la valeur";
+"enter value" = "saisis la valeur";
 
-"Enter your email" = "Entrez votre courriel";
+"Enter your email" = "Saisis ton courriel";
 
 "Error" = "Erreur";
 
@@ -72,7 +72,7 @@
 
 "Forgot password" = "Mot de passe oublié";
 
-"Give feedback or ask for help..." = "Donnez une suggestion ou demandez de l'aide";
+"Give feedback or ask for help..." = "Donne une suggestion ou demande de l'aide";
 
 "Great! Glad we could help." = "Super! Content d'avoir pu aider.";
 
@@ -106,19 +106,19 @@
 
 "OK" = "OK";
 
-"Password reset email sent to %@" = "Courriel de remise à zéro du mot de passe envoyé à %@";
+"Password reset email sent to %@" = "Courriel de réinitialisation du mot de passe envoyé à %@";
 
-"Please enter a valid email address." = "Se il vous plaît entrer une adresse email valide.";
+"Please enter a valid email address." = "Saisis une adresse courriel valide.";
 
-"Please enter a valid name." = "Veuillez saisir un nom valide.";
+"Please enter a valid name." = "Saisis un nom valide.";
 
-"Please enter a valid title." = "Veuillez saisir un titre valide.";
+"Please enter a valid title." = "Saisis un titre valide.";
 
-"Please enter some text before submitting your comment." = "Merci d'entrer du texte avant d'envoyer votre commentaire.";
+"Please enter some text before submitting your comment." = "Merci d'entrer du texte avant d'envoyer ton commentaire.";
 
-"Please enter your email address before submitting your comment." = "Merci d'entrer votre adresse de courriel avant d'envoyer votre commentaire.";
+"Please enter your email address before submitting your comment." = "Merci d'entrer ton adresse de courriel avant d'envoyer ton commentaire.";
 
-"Please enter your email address before submitting your ticket." = "Entrez votre adresse courriel avant d’envoyer votre ticket.";
+"Please enter your email address before submitting your ticket." = "Saisis ton adresse courriel avant d’envoyer ton ticket.";
 
 "Please fill out all required fields." = "Merci de remplir tous les champs obligatoires.";
 
@@ -140,11 +140,11 @@
 
 "Search forum" = "Rechercher sur le forum";
 
-"select" = "select";
+"select" = "sélectionner";
 
 "Send" = "Envoyer";
 
-"Send us a message" = "Envoyez-nous un message";
+"Send us a message" = "Envoie-nous un message";
 
 "Sign in" = "Connexion";
 
@@ -154,31 +154,31 @@
 
 "Thank you!" = "Merci!";
 
-"There appears to be a problem with your network connection, please check your connectivity and try again." = "Problème avec votre connexion. Vérifiez que vous êtes bien connecté à Internet et réessayez.";
+"There appears to be a problem with your network connection, please check your connectivity and try again." = "Problème avec ta connexion. Vérifie que tu es bien connecté à Internet et réessaie.";
 
-"There was a problem logging you in." = "Il y a eu un problème avec votre authentification.";
+"There was a problem logging you in." = "Il y a eu un problème avec ton authentification.";
 
 "this" = "ceci";
 
 "This application didn't configure UserVoice properly" = "Cette application n’a pas correctement configuré UserVoice";
 
-"this idea" = "Cette idée";
+"this idea" = "cette idée";
 
 "Title" = "Titre";
 
-"Try again" = "Réessayez";
+"Try again" = "Réessaie";
 
 "User name" = "Nom d’utilisateur";
 
 "View idea" = "Afficher l’idée";
 
-"Was this article helpful?" = "Cet article vous a-t-il été utile ?";
+"Was this article helpful?" = "Cet article t'a été utile ?";
 
-"We'll be in touch." = "Nous vous recontacterons.";
+"We'll be in touch." = "Nous te recontacterons.";
 
-"When you post an idea on our forum, others will be able to subscribe to it and make comments. When we respond to the idea, you'll get notified." = "Lorsque vous postez une idée sur notre forum, d'autres personnes pourront la suivre et la commenter. Quand nous répondons à l'idée, vous serez notifié.";
+"When you post an idea on our forum, others will be able to subscribe to it and make comments. When we respond to the idea, you'll get notified." = "Lorsque tu postes une idée sur notre forum, d'autres personnes pourront la suivre et la commenter. Quand nous répondrons à l'idée, tu seras notifié.";
 
-"Would you like to contact us?" = "Souhaitez-vous nous contacter ?";
+"Would you like to contact us?" = "Tu veux nous contacter ?";
 
 "Write a comment..." = "Rédiger un commentaire...";
 
@@ -190,6 +190,6 @@
 
 "Yes, I want to post my idea" = "Oui, je veux publier mon idée";
 
-"Your feedback has been posted to our feedback forum." = "Votre suggestion a été publiée sur notre forum de suggestions.";
+"Your feedback has been posted to our feedback forum." = "Ta suggestion a été publiée sur notre forum de suggestions.";
 
 "“Anonymous”" = "« Anonyme »";
