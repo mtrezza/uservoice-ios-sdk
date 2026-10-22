@@ -26,7 +26,7 @@
 - (UIView *)displayNoResults {
     if (self.searchResults.count == 0) {
         UILabel *noResultsLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, self.tableView.frame.size.width, self.tableView.frame.size.height)];
-        noResultsLabel.text = @"No Results";
+        noResultsLabel.text = NSLocalizedStringFromTableInBundle(@"No Results", @"UserVoice", [UserVoice bundle], nil);
         noResultsLabel.textAlignment = NSTextAlignmentCenter;
         [noResultsLabel sizeToFit];
         return noResultsLabel;
