@@ -38,14 +38,16 @@
     text.adjustsFontForContentSizeCategory = YES;
     text.numberOfLines = 0;
     text.textAlignment = NSTextAlignmentCenter;
-    // Styled like the Next button of the forms, including the style sheet options that apply to it
+    // Styled like the Next button of the forms, including the style sheet options that apply to it, unless the
+    // style sheet sets the success button options
+    UVStyleSheet *styles = [UVStyleSheet instance];
     UIButtonConfiguration *configuration;
-    UIColor *buttonColor;
-    NSDictionary *titleAttributes;
+    UIColor *buttonColor = styles.successButtonColor;
+    NSDictionary *titleAttributes = styles.successButtonTitleTextAttributes;
     if (@available(iOS 26.0, *)) {
         configuration = [UIButtonConfiguration prominentGlassButtonConfiguration];
-        buttonColor = [UVStyleSheet instance].navigationBarButtonColor;
-        titleAttributes = [UVStyleSheet instance].navigationBarAppearance.prominentButtonAppearance.normal.titleTextAttributes;
+        buttonColor = buttonColor ?: styles.navigationBarButtonColor;
+        titleAttributes = titleAttributes ?: styles.navigationBarAppearance.prominentButtonAppearance.normal.titleTextAttributes;
     } else {
         configuration = [UIButtonConfiguration filledButtonConfiguration];
         configuration.cornerStyle = UIButtonConfigurationCornerStyleCapsule;
