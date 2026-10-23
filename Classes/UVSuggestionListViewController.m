@@ -229,16 +229,16 @@
     }
 
     if ([UVSession currentSession].config.showPostIdea) {
-        self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemCompose
-                                                                                               target:self
-                                                                                               action:@selector(composeButtonTapped)];
+        self.navigationItem.rightBarButtonItem = [UVUtils barButtonItemWithSystemItem:UIBarButtonSystemItemCompose
+                                                                               target:self
+                                                                               action:@selector(composeButtonTapped)];
     }
 
     if ([UVSession currentSession].isModal && _firstController) {
-        self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:NSLocalizedStringFromTableInBundle(@"Close", @"UserVoice", [UserVoice bundle], nil)
-                                                                                 style:UIBarButtonItemStylePlain
-                                                                                target:self
-                                                                                action:@selector(dismiss)];
+        self.navigationItem.leftBarButtonItem = [UVUtils barButtonItemWithTitle:NSLocalizedStringFromTableInBundle(@"Close", @"UserVoice", [UserVoice bundle], nil)
+                                                                          style:UIBarButtonItemStylePlain
+                                                                         target:self
+                                                                         action:@selector(dismiss)];
     }
     
     if (_forum && !_forum.suggestions.count) {
@@ -258,10 +258,10 @@
 
 - (void)initNavigationItem {
     self.navigationItem.title = _forum.name;
-    self.exitButton = [[UIBarButtonItem alloc] initWithTitle:NSLocalizedStringFromTableInBundle(@"Cancel", @"UserVoice", [UserVoice bundle], nil)
-                                                       style:UIBarButtonItemStylePlain
-                                                      target:self
-                                                      action:@selector(dismiss)];
+    self.exitButton = [UVUtils barButtonItemWithTitle:NSLocalizedStringFromTableInBundle(@"Cancel", @"UserVoice", [UserVoice bundle], nil)
+                                                style:UIBarButtonItemStylePlain
+                                               target:self
+                                               action:@selector(dismiss)];
     if ([UVSession currentSession].isModal && _firstController) {
         self.navigationItem.leftBarButtonItem = _exitButton;
     }

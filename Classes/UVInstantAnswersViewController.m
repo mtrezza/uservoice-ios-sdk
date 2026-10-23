@@ -10,6 +10,7 @@
 #import "UVArticle.h"
 #import "UVSuggestion.h"
 #import "UVDeflection.h"
+#import "UVUtils.h"
 
 @implementation UVInstantAnswersViewController
 
@@ -18,10 +19,10 @@
 - (void)loadView {
     [self setupGroupedTableView];
     self.navigationItem.title = NSLocalizedStringFromTableInBundle(@"Are any of these helpful?", @"UserVoice", [UserVoice bundle], nil);
-    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:NSLocalizedStringFromTableInBundle(@"Skip", @"UserVoice", [UserVoice bundle], nil)
-                                                                              style:UIBarButtonItemStyleDone
-                                                                             target:self
-                                                                             action:@selector(next)];
+    self.navigationItem.rightBarButtonItem = [UVUtils barButtonItemWithTitle:NSLocalizedStringFromTableInBundle(@"Skip", @"UserVoice", [UserVoice bundle], nil)
+                                                                       style:UIBarButtonItemStyleDone
+                                                                      target:self
+                                                                      action:@selector(next)];
 
     NSArray *visibleIdeas = [_instantAnswerManager.ideas subarrayWithRange:NSMakeRange(0, MIN(3, _instantAnswerManager.ideas.count))];
     NSArray *visibleArticles = [_instantAnswerManager.articles subarrayWithRange:NSMakeRange(0, MIN(3, _instantAnswerManager.articles.count))];
@@ -48,7 +49,7 @@
 }
 
 - (void)tableView:(UITableView *)theTableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    self.navigationItem.backBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:NSLocalizedStringFromTableInBundle(@"Back", @"UserVoice", [UserVoice bundle], nil) style:UIBarButtonItemStylePlain target:nil action:nil];
+    self.navigationItem.backBarButtonItem = [UVUtils barButtonItemWithTitle:NSLocalizedStringFromTableInBundle(@"Back", @"UserVoice", [UserVoice bundle], nil) style:UIBarButtonItemStylePlain target:nil action:nil];
     NSArray *results = [self resultsForSection:indexPath.section];
     if (indexPath.row >= results.count) return;
     id model = [results objectAtIndex:indexPath.row];
@@ -85,7 +86,7 @@
 #pragma mark ===== Misc =====
 
 - (void)next {
-    self.navigationItem.backBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:NSLocalizedStringFromTableInBundle(@"Back", @"UserVoice", [UserVoice bundle], nil) style:UIBarButtonItemStylePlain target:nil action:nil];
+    self.navigationItem.backBarButtonItem = [UVUtils barButtonItemWithTitle:NSLocalizedStringFromTableInBundle(@"Back", @"UserVoice", [UserVoice bundle], nil) style:UIBarButtonItemStylePlain target:nil action:nil];
     [_instantAnswerManager skipInstantAnswers];
 }
 

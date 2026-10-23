@@ -33,6 +33,8 @@
 + (void)configureView:(UIView *)superview subviews:(NSDictionary *)viewsDict constraints:(NSArray *)constraintStrings;
 + (UIImage *)imageNamed:(NSString *)name;
 + (UIImageView *)imageViewWithImageNamed:(NSString *)name;
++ (UIBarButtonItem *)barButtonItemWithTitle:(NSString *)title style:(UIBarButtonItemStyle)style target:(id)target action:(SEL)action;
++ (UIBarButtonItem *)barButtonItemWithSystemItem:(UIBarButtonSystemItem)systemItem target:(id)target action:(SEL)action;
 
 /**
  *  Presents an alert from the top-most view controller of the foreground scene's key window.

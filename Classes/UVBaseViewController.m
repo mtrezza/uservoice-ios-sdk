@@ -19,6 +19,7 @@
 #import "UVKeyboardUtils.h"
 #import "UVUtils.h"
 #import "UVTruncatingLabel.h"
+#import "UVNavigationController.h"
 
 #define TITLE 20
 #define SUBSCRIBER_COUNT 21
@@ -171,15 +172,15 @@
 - (void)initNavigationItem {
     self.navigationItem.title = NSLocalizedStringFromTableInBundle(@"Feedback", @"UserVoice", [UserVoice bundle], nil);
 
-    self.navigationItem.backBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:NSLocalizedStringFromTableInBundle(@"Back", @"UserVoice", [UserVoice bundle], nil)
-                                                                             style:UIBarButtonItemStylePlain
-                                                                            target:nil
-                                                                            action:nil];
+    self.navigationItem.backBarButtonItem = [UVUtils barButtonItemWithTitle:NSLocalizedStringFromTableInBundle(@"Back", @"UserVoice", [UserVoice bundle], nil)
+                                                                      style:UIBarButtonItemStylePlain
+                                                                     target:nil
+                                                                     action:nil];
 
-    _exitButton = [[UIBarButtonItem alloc] initWithTitle:NSLocalizedStringFromTableInBundle(@"Cancel", @"UserVoice", [UserVoice bundle], nil)
-                                                   style:UIBarButtonItemStylePlain
-                                                  target:self
-                                                  action:@selector(dismiss)];
+    _exitButton = [UVUtils barButtonItemWithTitle:NSLocalizedStringFromTableInBundle(@"Cancel", @"UserVoice", [UserVoice bundle], nil)
+                                            style:UIBarButtonItemStylePlain
+                                           target:self
+                                           action:@selector(dismiss)];
     if ([UVSession currentSession].isModal && _firstController) {
         self.navigationItem.leftBarButtonItem = _exitButton;
     }
@@ -387,7 +388,7 @@
 }
 
 - (void)presentModalViewController:(UIViewController *)viewController {
-    UINavigationController *navigationController = [UINavigationController new];
+    UINavigationController *navigationController = [UVNavigationController new];
     navigationController.viewControllers = @[viewController];
     if (FORMSHEET)
         navigationController.modalPresentationStyle = UIModalPresentationFormSheet;

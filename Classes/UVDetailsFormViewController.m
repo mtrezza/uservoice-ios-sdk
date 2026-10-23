@@ -9,6 +9,7 @@
 #import "UVDetailsFormViewController.h"
 #import "UVValueSelectViewController.h"
 #import "UVStyleSheet.h"
+#import "UVUtils.h"
 
 #define LABEL 100
 #define VALUE 101
@@ -22,10 +23,10 @@
     [self registerForKeyboardNotifications];
     [self setupGroupedTableView];
     self.navigationItem.title = NSLocalizedStringFromTableInBundle(@"Additional Details", @"UserVoice", [UserVoice bundle], nil);
-    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:_sendTitle
-                                                                              style:UIBarButtonItemStyleDone
-                                                                             target:self
-                                                                             action:@selector(send)];
+    self.navigationItem.rightBarButtonItem = [UVUtils barButtonItemWithTitle:_sendTitle
+                                                                       style:UIBarButtonItemStyleDone
+                                                                      target:self
+                                                                      action:@selector(send)];
     if (_helpText) {
         UIView *help = [UIView new];
         help.frame = CGRectMake(0, 0, 0, 80);
@@ -187,12 +188,12 @@
     activityView.color = [UVStyleSheet instance].navigationBarActivityIndicatorColor;
     [activityView startAnimating];
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:activityView];
-    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:NSLocalizedStringFromTableInBundle(@"Cancel", @"UserVoice", [UserVoice bundle], nil) style:UIBarButtonItemStylePlain target:self action:@selector(dismiss)];
+    self.navigationItem.leftBarButtonItem = [UVUtils barButtonItemWithTitle:NSLocalizedStringFromTableInBundle(@"Cancel", @"UserVoice", [UserVoice bundle], nil) style:UIBarButtonItemStylePlain target:self action:@selector(dismiss)];
     self.navigationItem.hidesBackButton = YES;
 }
 
 - (void)hideActivityIndicator {
-    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:_sendTitle style:UIBarButtonItemStyleDone target:self action:@selector(send)];
+    self.navigationItem.rightBarButtonItem = [UVUtils barButtonItemWithTitle:_sendTitle style:UIBarButtonItemStyleDone target:self action:@selector(send)];
     self.navigationItem.leftBarButtonItem = nil;
     self.navigationItem.hidesBackButton = NO;
 }

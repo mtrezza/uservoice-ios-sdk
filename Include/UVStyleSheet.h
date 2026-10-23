@@ -15,6 +15,14 @@
 
 @property (nonatomic, retain) UIColor *tintColor;
 @property (nonatomic, retain) UIColor *tableViewBackgroundColor;
+// Applied to all appearances of the SDK's navigation bars; nil keeps the system default. Button text colors
+// per state are set through its buttonAppearance, doneButtonAppearance (prominentButtonAppearance as of
+// iOS 26) and backButtonAppearance, and take precedence over navigationBarButtonColor.
+@property (nonatomic, copy) UINavigationBarAppearance *navigationBarAppearance;
+// Tint color of the navigation bar buttons. Before iOS 26 it colors the button text; as of iOS 26 it colors
+// the text of plain buttons, fills prominent buttons such as Next and colors the back chevron. It also tints
+// other controls in the bar, such as the search field. nil keeps the inherited tint.
+@property (nonatomic, retain) UIColor *navigationBarButtonColor;
 @property (nonatomic, retain) UIColor *navigationBarActivityIndicatorColor;
 @property (nonatomic, retain) UIColor *loadingViewBackgroundColor;
 @property (nonatomic, assign) UIStatusBarStyle preferredStatusBarStyle;

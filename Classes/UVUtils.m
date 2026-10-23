@@ -8,6 +8,7 @@
 
 #import "UVUtils.h"
 #import "UVDefines.h"
+#import "UVStyleSheet.h"
 #import "UserVoice.h"
 
 @implementation UVUtils
@@ -212,6 +213,20 @@ static const char encodingTable[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopq
 
 + (UIImageView *)imageViewWithImageNamed:(NSString *)name {
     return [[UIImageView alloc] initWithImage:[UVUtils imageNamed:name]];
+}
+
+// The color is set on each item, because the navigation bar's tint doesn't reach plain button text or,
+// before iOS 27, the fill of prominent buttons.
++ (UIBarButtonItem *)barButtonItemWithTitle:(NSString *)title style:(UIBarButtonItemStyle)style target:(id)target action:(SEL)action {
+    UIBarButtonItem *item = [[UIBarButtonItem alloc] initWithTitle:title style:style target:target action:action];
+    item.tintColor = [UVStyleSheet instance].navigationBarButtonColor;
+    return item;
+}
+
++ (UIBarButtonItem *)barButtonItemWithSystemItem:(UIBarButtonSystemItem)systemItem target:(id)target action:(SEL)action {
+    UIBarButtonItem *item = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:systemItem target:target action:action];
+    item.tintColor = [UVStyleSheet instance].navigationBarButtonColor;
+    return item;
 }
 
 + (CGSize)string:(NSString *)string sizeWithFont:(UIFont *)font {
