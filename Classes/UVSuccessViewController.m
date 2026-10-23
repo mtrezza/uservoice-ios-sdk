@@ -82,4 +82,10 @@
     ]];
 }
 
+// The bar is hidden, so the status bar sits on the background here instead of on the bar that the style sheet's
+// status bar style is meant for
+- (UIStatusBarStyle)preferredStatusBarStyle {
+    return UIStatusBarStyleDefault;
+}
+
 @end

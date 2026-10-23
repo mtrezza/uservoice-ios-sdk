@@ -34,4 +34,10 @@
     return [UVStyleSheet instance].preferredStatusBarStyle;
 }
 
+// While the bar is hidden, as on the success screen, the status bar sits on the top screen's content, so that
+// screen picks the style. UIKit's default currently does the same, which the success screen shouldn't rely on.
+- (UIViewController *)childViewControllerForStatusBarStyle {
+    return self.navigationBarHidden ? self.topViewController : [super childViewControllerForStatusBarStyle];
+}
+
 @end

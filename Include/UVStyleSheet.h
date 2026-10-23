@@ -25,6 +25,8 @@
 @property (nonatomic, retain) UIColor *navigationBarButtonColor;
 @property (nonatomic, retain) UIColor *navigationBarActivityIndicatorColor;
 @property (nonatomic, retain) UIColor *loadingViewBackgroundColor;
+// Status bar style of the screens with a navigation bar. The success screen hides the bar and picks the style
+// that fits its background.
 @property (nonatomic, assign) UIStatusBarStyle preferredStatusBarStyle;
 
 @end
