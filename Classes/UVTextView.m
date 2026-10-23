@@ -19,7 +19,7 @@
         [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(textChanged:) name:UITextViewTextDidChangeNotification object:self];
         
         self.contentSize = CGSizeMake(0, 20);
-        self.font = [UIFont systemFontOfSize:15];
+        self.font = [UIFont systemFontOfSize:17];
         _placeholderLabel = [UILabel new];
         _placeholderLabel.font = self.font;
         _placeholderLabel.textColor = IOS7 ? [UIColor colorWithRed:0.78f green:0.78f blue:0.80f alpha:1.0f] : [UIColor colorWithWhite:0.702f alpha:1.0f];
