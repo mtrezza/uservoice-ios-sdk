@@ -9,6 +9,7 @@
 #import "UVSuccessViewController.h"
 #import "UVSession.h"
 #import "UVClientConfig.h"
+#import "UVStyleSheet.h"
 
 @implementation UVSuccessViewController
 
@@ -17,39 +18,68 @@
     [self.navigationController setNavigationBarHidden:YES animated:YES];
     self.view = [UIView new];
     self.view.frame = [self contentFrame];
-    self.view.backgroundColor = [UIColor colorWithRed:0.26f green:0.31f blue:0.35f alpha:1.0f];
+    // Same background as the forms that lead here
+    self.view.backgroundColor = [UIColor systemBackgroundColor];
+    UILabel *icon = [UILabel new];
+    icon.text = @"\U0001F973";
+    icon.font = [UIFont systemFontOfSize:64];
     UILabel *title = [UILabel new];
     title.text = _titleText;
-    title.textColor = [UIColor whiteColor];
-    title.font = [UIFont systemFontOfSize:26];
+    title.textColor = [UIColor labelColor];
+    title.font = [UIFont preferredFontForTextStyle:UIFontTextStyleTitle2];
+    title.font = [UIFont fontWithDescriptor:[title.font.fontDescriptor fontDescriptorWithSymbolicTraits:UIFontDescriptorTraitBold] size:0];
+    title.adjustsFontForContentSizeCategory = YES;
+    title.numberOfLines = 0;
     title.textAlignment = NSTextAlignmentCenter;
-    title.backgroundColor = [UIColor clearColor];
     UILabel *text = [UILabel new];
     text.text = _text;
-    text.textColor = [UIColor whiteColor];
-    text.font = [UIFont systemFontOfSize:15];
+    text.textColor = [UIColor secondaryLabelColor];
+    text.font = [UIFont preferredFontForTextStyle:UIFontTextStyleBody];
+    text.adjustsFontForContentSizeCategory = YES;
     text.numberOfLines = 0;
     text.textAlignment = NSTextAlignmentCenter;
-    text.backgroundColor = [UIColor clearColor];
-    UIButton *button = [UIButton new];
-    button.layer.borderWidth = 1.0;
-    button.layer.borderColor = [UIColor whiteColor].CGColor;
-    button.layer.backgroundColor = [UIColor colorWithRed:0.f green:0.f blue:0.f alpha:0.3f].CGColor;
-    button.layer.cornerRadius = 14.0;
-    button.titleLabel.font = [UIFont systemFontOfSize:14];
-    [button setTitle:NSLocalizedStringFromTableInBundle(@"Close", @"UserVoice", [UserVoice bundle], nil) forState:UIControlStateNormal];
+    // Styled like the Next button of the forms, including the style sheet options that apply to it
+    UIButtonConfiguration *configuration;
+    UIColor *buttonColor;
+    NSDictionary *titleAttributes;
+    if (@available(iOS 26.0, *)) {
+        configuration = [UIButtonConfiguration prominentGlassButtonConfiguration];
+        buttonColor = [UVStyleSheet instance].navigationBarButtonColor;
+        titleAttributes = [UVStyleSheet instance].navigationBarAppearance.prominentButtonAppearance.normal.titleTextAttributes;
+    } else {
+        configuration = [UIButtonConfiguration filledButtonConfiguration];
+        configuration.cornerStyle = UIButtonConfigurationCornerStyleCapsule;
+    }
+    configuration.buttonSize = UIButtonConfigurationSizeLarge;
+    configuration.title = NSLocalizedStringFromTableInBundle(@"Close", @"UserVoice", [UserVoice bundle], nil);
+    configuration.contentInsets = NSDirectionalEdgeInsetsMake(14, 32, 14, 32);
+    configuration.titleTextAttributesTransformer = ^NSDictionary *(NSDictionary *attributes) {
+        NSMutableDictionary *result = [attributes mutableCopy];
+        UIFontDescriptor *descriptor = [UIFontDescriptor preferredFontDescriptorWithTextStyle:UIFontTextStyleBody];
+        descriptor = [descriptor fontDescriptorByAddingAttributes:@{UIFontDescriptorTraitsAttribute: @{UIFontWeightTrait: @(UIFontWeightSemibold)}}];
+        result[NSFontAttributeName] = [UIFont fontWithDescriptor:descriptor size:0];
+        [result addEntriesFromDictionary:titleAttributes];
+        return result;
+    };
+    UIButton *button = [UIButton buttonWithConfiguration:configuration primaryAction:nil];
+    button.tintColor = buttonColor;
     [button addTarget:self action:@selector(dismiss) forControlEvents:UIControlEventTouchUpInside];
-    [self configureView:self.view
-               subviews:NSDictionaryOfVariableBindings(title, text, button)
-            constraints:@[@"|-[title]-|", @"|-40-[text]-40-|", @"[button(>=90)]", @"V:|-(>=20)-[title]-16-[text]-40-[button(==28)]-(>=40)-|"]];
-    NSLayoutConstraint *constraint = [NSLayoutConstraint constraintWithItem:title attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTop multiplier:1.0 constant:160];
-    constraint.priority = UILayoutPriorityDefaultLow;
-    [self.view addConstraint:constraint];
-    [self.view addConstraint:[NSLayoutConstraint constraintWithItem:button attribute:NSLayoutAttributeCenterX relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeCenterX multiplier:1.0 constant:0]];
-}
-
-- (UIStatusBarStyle)preferredStatusBarStyle {
-    return UIStatusBarStyleLightContent;
+    UIStackView *stack = [[UIStackView alloc] initWithArrangedSubviews:@[icon, title, text, button]];
+    stack.axis = UILayoutConstraintAxisVertical;
+    stack.alignment = UIStackViewAlignmentCenter;
+    stack.spacing = 8;
+    [stack setCustomSpacing:20 afterView:icon];
+    [stack setCustomSpacing:32 afterView:text];
+    stack.translatesAutoresizingMaskIntoConstraints = NO;
+    [self.view addSubview:stack];
+    UILayoutGuide *guide = self.view.readableContentGuide;
+    [NSLayoutConstraint activateConstraints:@[
+        [stack.centerYAnchor constraintEqualToAnchor:self.view.safeAreaLayoutGuide.centerYAnchor],
+        [stack.leadingAnchor constraintEqualToAnchor:guide.leadingAnchor constant:16],
+        [stack.trailingAnchor constraintEqualToAnchor:guide.trailingAnchor constant:-16],
+        [stack.topAnchor constraintGreaterThanOrEqualToAnchor:self.view.safeAreaLayoutGuide.topAnchor constant:20],
+        [button.widthAnchor constraintGreaterThanOrEqualToConstant:140],
+    ]];
 }
 
 @end
