@@ -14,7 +14,6 @@
 #import "UVSession.h"
 #import "UVSuggestionListViewController.h"
 #import "UVNavigationController.h"
-#import "UVUtils.h"
 #import "UVBabayaga.h"
 
 @implementation UserVoice
@@ -49,7 +48,6 @@ static NSBundle *userVoiceBundle;
 + (UINavigationController *)getNavigationControllerForUserVoiceControllers:(NSArray *)viewControllers {
     [UVSession currentSession].isModal = YES;
     UINavigationController *navigationController = [UVNavigationController new];
-    [UVUtils applyStylesheetToNavigationController:navigationController];
     navigationController.viewControllers = viewControllers;
     return navigationController;
 }

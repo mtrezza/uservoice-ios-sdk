@@ -28,3 +28,17 @@ setup using a submodule to manage the SDK.
   * Add to your target
   * You may want to rename the group something like `UVResources`
 
+Example App
+-----------
+
+`Example/` contains a minimal host app for checking SDK screens in the simulator.
+It is not part of the published library. It presents the contact form on launch,
+without needing a UserVoice site.
+
+* Boot a simulator, then run `Example/run.sh` (or `Example/run.sh <simulator UDID>`)
+* Take a screenshot with `xcrun simctl io booted screenshot screenshot.png`
+* Switch to dark mode with `xcrun simctl ui booted appearance dark`
+
+Entering a message shows a network error alert, because the form then searches
+the site for related articles.
+

@@ -388,7 +388,6 @@
 
 - (void)presentModalViewController:(UIViewController *)viewController {
     UINavigationController *navigationController = [UINavigationController new];
-    [UVUtils applyStylesheetToNavigationController:navigationController];
     navigationController.viewControllers = @[viewController];
     if (FORMSHEET)
         navigationController.modalPresentationStyle = UIModalPresentationFormSheet;

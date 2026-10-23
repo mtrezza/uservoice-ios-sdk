@@ -15,14 +15,7 @@
 
 @property (nonatomic, retain) UIColor *tintColor;
 @property (nonatomic, retain) UIColor *tableViewBackgroundColor;
-@property (nonatomic, retain) UIColor *navigationBarBackgroundColor;
-@property (nonatomic, retain) UIColor *navigationBarTextColor;
-@property (nonatomic, retain) UIColor *navigationBarTextShadowColor;
-@property (nonatomic, retain) UIImage *navigationBarBackgroundImage;
-@property (nonatomic, retain) UIFont  *navigationBarFont;
-@property (nonatomic, retain) UIColor *navigationBarTintColor;
 @property (nonatomic, retain) UIColor *navigationBarActivityIndicatorColor;
-@property (nonatomic, assign) BOOL navigationBarTranslucency;
 @property (nonatomic, retain) UIColor *loadingViewBackgroundColor;
 @property (nonatomic, assign) UIStatusBarStyle preferredStatusBarStyle;
 

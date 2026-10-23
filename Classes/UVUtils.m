@@ -8,7 +8,6 @@
 
 #import "UVUtils.h"
 #import "UVDefines.h"
-#import "UVStyleSheet.h"
 #import "UserVoice.h"
 
 @implementation UVUtils
@@ -174,30 +173,6 @@ static const char encodingTable[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopq
 
 + (BOOL)isNotFoundError:(NSError *)error {
     return [error code] == 404;
-}
-
-+ (void)applyStylesheetToNavigationController:(UINavigationController *)navigationController {
-    UVStyleSheet *styles = [UVStyleSheet instance];
-    navigationController.navigationBar.tintColor = styles.navigationBarTintColor;
-    navigationController.navigationBar.barTintColor = styles.navigationBarTintColor;
-    navigationController.navigationBar.translucent = styles.navigationBarTranslucency;
-    navigationController.navigationBar.backgroundColor = styles.navigationBarBackgroundColor;
-    [navigationController.navigationBar setBackgroundImage:styles.navigationBarBackgroundImage forBarMetrics:UIBarMetricsDefault];
-    
-    NSMutableDictionary *navbarTitleTextAttributes = [[NSMutableDictionary alloc] initWithDictionary:navigationController.navigationBar.titleTextAttributes];
-    if (styles.navigationBarTextColor) {
-        [navbarTitleTextAttributes setObject:styles.navigationBarTextColor forKey:NSForegroundColorAttributeName];
-    }
-    if (styles.navigationBarTextShadowColor) {
-        NSShadow *shadow = [NSShadow new];
-        shadow.shadowColor = styles.navigationBarTextShadowColor;
-        shadow.shadowOffset = CGSizeMake(1, 0);
-        [navbarTitleTextAttributes setObject:shadow forKey:NSShadowAttributeName];
-    }
-    if (styles.navigationBarFont) {
-        [navbarTitleTextAttributes setObject:styles.navigationBarFont forKey:NSFontAttributeName];
-    }
-    [navigationController.navigationBar setTitleTextAttributes:navbarTitleTextAttributes];
 }
 
 + (NSString *)formatInteger:(NSInteger)number {
